@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+	<poi id="48_0" type="stop" color="181,209,209" layer="101" lane="98571454#1_0" pos="65.64647892510263"/>
+	<poi id="48_1" type="stop" color="181,209,209" layer="101" lane="99310509#2_0" pos="169.36269851462401"/>
+	<poi id="48_2" type="stop" color="181,209,209" layer="101" lane="99310509#2_0" pos="598.9350186376308"/>
+	<poi id="48_3" type="stop" color="181,209,209" layer="101" lane="99310494#3_0" pos="88.78"/>
+	<poi id="48_4" type="stop" color="181,209,209" layer="101" lane="98870835#1_0" pos="64.00646794478976"/>
+	<poi id="48_5" type="stop" color="181,209,209" layer="101" lane="98870864#2_0" pos="26.817042388879532"/>
+	<poi id="48_6" type="stop" color="181,209,209" layer="101" lane="99289461#4_0" pos="101.50515655145138"/>
+	<poi id="48_7" type="stop" color="181,209,209" layer="101" lane="99289461#5_0" pos="182.65196313800354"/>
+	<poi id="48_8" type="stop" color="181,209,209" layer="101" lane="-823825728#3_0" pos="165.76193701698517"/>
+	<poi id="48_9" type="stop" color="181,209,209" layer="101" lane="-823825728#2_0" pos="266.5515195943791"/>
+	<poi id="48_10" type="stop" color="181,209,209" layer="101" lane="503969442#0_0" pos="332.1133013254125"/>
+	<poi id="48_11" type="stop" color="181,209,209" layer="101" lane="503969442#6_0" pos="10.282902778838123"/>
+	<poi id="48_12" type="stop" color="181,209,209" layer="101" lane="1064429358#9_0" pos="159.81647621040113"/>
+	<poi id="48_13" type="stop" color="181,209,209" layer="101" lane="671094719#1_0" pos="160.3722646449068"/>
+	<poi id="48_14" type="stop" color="181,209,209" layer="101" lane="671094719#4_0" pos="61.690525251298915"/>
+	<poi id="48_15" type="stop" color="181,209,209" layer="101" lane="671094719#6_0" pos="208.60666517927308"/>
+	<poi id="48_16" type="stop" color="181,209,209" layer="101" lane="671094719#6_0" pos="633.6394360625432"/>
+	<poi id="48_17" type="stop" color="181,209,209" layer="101" lane="211701764#26_0" pos="33.97796109012195"/>
+	<poi id="48_18" type="stop" color="181,209,209" layer="101" lane="211701764#28_0" pos="206.5697189121712"/>
+	<poi id="48_19" type="stop" color="181,209,209" layer="101" lane="459589276#3_0" pos="134.90402783232324"/>
+	<poi id="48_20" type="stop" color="181,209,209" layer="101" lane="459589276#16_0" pos="34.74403887760965"/>
+	<poi id="48_21" type="stop" color="181,209,209" layer="101" lane="459589276#17_0" pos="242.69530965714094"/>
+	<poi id="48_22" type="stop" color="181,209,209" layer="101" lane="459589278#2_0" pos="97.22832517549959"/>
+	<poi id="48_23" type="stop" color="181,209,209" layer="101" lane="459589278#4_0" pos="328.42055200379286"/>
+	<poi id="48_24" type="stop" color="181,209,209" layer="101" lane="593486793#2_0" pos="185.5708871590268"/>
+	<poi id="48_25" type="stop" color="181,209,209" layer="101" lane="198510254#3_0" pos="155.29331333969859"/>
+	<poi id="48_26" type="stop" color="181,209,209" layer="101" lane="198510254#4_0" pos="80.40849025734293"/>
+	<poi id="48_27" type="stop" color="181,209,209" layer="101" lane="198510254#7_0" pos="33.01767889809444"/>
+</additional>

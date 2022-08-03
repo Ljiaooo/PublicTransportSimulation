@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<additional>
+	<busStop id="47_0" lane="593486825#3_1" startPos="149.33554119714086" endPos="169.33554119714086" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_1" lane="593486825#4_1" startPos="109.52189202761224" endPos="129.52189202761224" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_2" lane="593486825#5_1" startPos="107.35729121816614" endPos="127.35729121816614" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_3" lane="459589276#16_1" startPos="18.39410238175914" endPos="38.39410238175914" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_4" lane="459589276#17_1" startPos="228.9351378747671" endPos="248.9351378747671" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_5" lane="459589278#2_1" startPos="78.34858416841604" endPos="98.34858416841604" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_6" lane="459589278#4_1" startPos="314.5512415702264" endPos="334.5512415702264" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_7" lane="593486793#2_1" startPos="165.28846991276765" endPos="185.28846991276765" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_8" lane="198510254#3_1" startPos="138.0275969964738" endPos="158.0275969964738" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_9" lane="198510254#4_1" startPos="58.060537900446874" endPos="78.06053790044687" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_10" lane="198510254#7_1" startPos="17.50175343473317" endPos="37.501753434733175" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_11" lane="198510254#11_1" startPos="32.63956423607043" endPos="52.63956423607043" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_12" lane="220105614#12_1" startPos="160.87294443888715" endPos="180.87294443888715" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_13" lane="459589278#17_1" startPos="71.38689672307389" endPos="91.38689672307389" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_14" lane="459589278#20_1" startPos="53.22756769427093" endPos="73.22756769427093" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_15" lane="459589278#23_1" startPos="138.17189235846294" endPos="158.17189235846294" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_16" lane="749513185#0_1" startPos="90.92268347655481" endPos="110.92268347655481" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_17" lane="749513185#0_1" startPos="541.129654610695" endPos="561.129654610695" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_18" lane="749513185#0_1" startPos="1187.1610175488981" endPos="1207.1610175488981" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_19" lane="749513185#3_1" startPos="71.20930618498625" endPos="91.20930618498625" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_20" lane="749513185#3_1" startPos="625.8288580281" endPos="645.8288580281" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_21" lane="749513185#3_1" startPos="1199.296867748113" endPos="1219.296867748113" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_22" lane="671324053_1" startPos="9.336470219205854" endPos="29.336470219205854" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_23" lane="99322615#0_1" startPos="43.52011182973214" endPos="63.52011182973214" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_24" lane="99322615#3_1" startPos="78.96516607284005" endPos="98.96516607284005" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_25" lane="99322615#4_1" startPos="165.6627714413021" endPos="185.6627714413021" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_26" lane="99322615#5_1" startPos="276.14658630472695" endPos="296.14658630472695" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_27" lane="99322615#6_1" startPos="591.614230225202" endPos="611.614230225202" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_28" lane="99322618#1_1" startPos="87.89624743254763" endPos="107.89624743254763" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_29" lane="99322618#4_1" startPos="9.565373513327776" endPos="29.565373513327778" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_30" lane="542459851#0_1" startPos="177.7073370788372" endPos="197.7073370788372" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_31" lane="673190199_1" startPos="292.3835812437305" endPos="312.3835812437305" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_32" lane="669565569#2_1" startPos="39.169803538952955" endPos="59.169803538952955" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_33" lane="749396453#0_1" startPos="121.46358133979606" endPos="141.46358133979606" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_34" lane="99204577_1" startPos="41.03955807154503" endPos="61.03955807154503" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_35" lane="749524199_1" startPos="70.33161790907332" endPos="90.33161790907332" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_36" lane="823825835#0_1" startPos="10.19499767882164" endPos="30.19499767882164" friendlyPos="True" lines="47" personCapacity="50"/>
+</additional>

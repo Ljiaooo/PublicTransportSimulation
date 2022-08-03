@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<additional>
+	<busStop id="263_0" lane="719480770_1" startPos="1677.0880568050072" endPos="1697.0880568050072" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_1" lane="586646594#0_1" startPos="185.5447611999832" endPos="205.5447611999832" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_2" lane="586646594#1_1" startPos="736.6321100961115" endPos="756.6321100961115" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_3" lane="586646594#2_1" startPos="295.3547172356232" endPos="315.3547172356232" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_4" lane="586646594#3_1" startPos="300.067630127096" endPos="320.067630127096" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_5" lane="220105623#0_1" startPos="103.34160044139617" endPos="123.34160044139617" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_6" lane="220105623#2_1" startPos="145.19279350899686" endPos="165.19279350899686" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_7" lane="220105623#6_1" startPos="228.32548958077987" endPos="248.32548958077987" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_8" lane="220105623#6_1" startPos="830.6673891570038" endPos="850.6673891570038" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_9" lane="220105623#8_1" startPos="176.04739416920646" endPos="196.04739416920646" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_10" lane="220105623#8_1" startPos="671.3069112528773" endPos="691.3069112528773" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_11" lane="220105623#9_1" startPos="439.16317879179496" endPos="459.16317879179496" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_12" lane="220105623#12_1" startPos="148.20960231879093" endPos="168.20960231879093" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_13" lane="460330156#6_1" startPos="109.12207353099114" endPos="129.12207353099114" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_14" lane="-262115051#3_1" startPos="92.29979878889856" endPos="112.29979878889856" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_15" lane="673132672_1" startPos="263.01773942205034" endPos="283.01773942205034" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_16" lane="459589279#8_1" startPos="135.46042572218892" endPos="155.46042572218892" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_17" lane="459589275#4_1" startPos="19.25821781171635" endPos="39.25821781171635" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_18" lane="459589275#6_1" startPos="103.12781433279483" endPos="123.12781433279483" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_19" lane="459589275#11_1" startPos="129.6129363867751" endPos="149.6129363867751" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_20" lane="459589275#15_1" startPos="88.56610309840177" endPos="108.56610309840177" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_21" lane="352255223#9_1" startPos="473.88244090521744" endPos="493.88244090521744" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_22" lane="352255223#11_1" startPos="36.683038156045995" endPos="56.683038156045995" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_23" lane="352255223#15_1" startPos="654.3132541363806" endPos="674.3132541363806" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_24" lane="262115017#7_1" startPos="57.531078152038674" endPos="77.53107815203867" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_25" lane="822503745#13_1" startPos="201.79358543038794" endPos="221.79358543038794" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_26" lane="459862786#6_1" startPos="40.468887068973565" endPos="60.468887068973565" friendlyPos="True" lines="263" personCapacity="50"/>
+	<busStop id="263_27" lane="504659006#3_1" startPos="94.65" endPos="114.65" friendlyPos="True" lines="263" personCapacity="50"/>
+</additional>

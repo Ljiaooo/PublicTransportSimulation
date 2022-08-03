@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+	<poi id="263_0" type="stop" color="181,209,209" layer="101" lane="719480770_0" pos="1687.0880568050072"/>
+	<poi id="263_1" type="stop" color="181,209,209" layer="101" lane="586646594#0_0" pos="195.5447611999832"/>
+	<poi id="263_2" type="stop" color="181,209,209" layer="101" lane="586646594#1_0" pos="746.6321100961115"/>
+	<poi id="263_3" type="stop" color="181,209,209" layer="101" lane="586646594#2_0" pos="305.3547172356232"/>
+	<poi id="263_4" type="stop" color="181,209,209" layer="101" lane="586646594#3_0" pos="310.067630127096"/>
+	<poi id="263_5" type="stop" color="181,209,209" layer="101" lane="220105623#0_0" pos="113.34160044139617"/>
+	<poi id="263_6" type="stop" color="181,209,209" layer="101" lane="220105623#2_0" pos="155.19279350899686"/>
+	<poi id="263_7" type="stop" color="181,209,209" layer="101" lane="220105623#6_0" pos="238.32548958077987"/>
+	<poi id="263_8" type="stop" color="181,209,209" layer="101" lane="220105623#6_0" pos="840.6673891570038"/>
+	<poi id="263_9" type="stop" color="181,209,209" layer="101" lane="220105623#8_0" pos="186.04739416920646"/>
+	<poi id="263_10" type="stop" color="181,209,209" layer="101" lane="220105623#8_0" pos="681.3069112528773"/>
+	<poi id="263_11" type="stop" color="181,209,209" layer="101" lane="220105623#9_0" pos="449.16317879179496"/>
+	<poi id="263_12" type="stop" color="181,209,209" layer="101" lane="220105623#12_0" pos="158.20960231879093"/>
+	<poi id="263_13" type="stop" color="181,209,209" layer="101" lane="460330156#6_0" pos="119.12207353099114"/>
+	<poi id="263_14" type="stop" color="181,209,209" layer="101" lane="-262115051#3_0" pos="102.29979878889856"/>
+	<poi id="263_15" type="stop" color="181,209,209" layer="101" lane="673132672_0" pos="273.01773942205034"/>
+	<poi id="263_16" type="stop" color="181,209,209" layer="101" lane="459589279#8_0" pos="145.46042572218892"/>
+	<poi id="263_17" type="stop" color="181,209,209" layer="101" lane="459589275#4_0" pos="29.25821781171635"/>
+	<poi id="263_18" type="stop" color="181,209,209" layer="101" lane="459589275#6_0" pos="113.12781433279483"/>
+	<poi id="263_19" type="stop" color="181,209,209" layer="101" lane="459589275#11_0" pos="139.6129363867751"/>
+	<poi id="263_20" type="stop" color="181,209,209" layer="101" lane="459589275#15_0" pos="98.56610309840177"/>
+	<poi id="263_21" type="stop" color="181,209,209" layer="101" lane="352255223#9_0" pos="483.88244090521744"/>
+	<poi id="263_22" type="stop" color="181,209,209" layer="101" lane="352255223#11_0" pos="46.683038156045995"/>
+	<poi id="263_23" type="stop" color="181,209,209" layer="101" lane="352255223#15_0" pos="664.3132541363806"/>
+	<poi id="263_24" type="stop" color="181,209,209" layer="101" lane="262115017#7_0" pos="67.53107815203867"/>
+	<poi id="263_25" type="stop" color="181,209,209" layer="101" lane="822503745#13_0" pos="211.79358543038794"/>
+	<poi id="263_26" type="stop" color="181,209,209" layer="101" lane="459862786#6_0" pos="50.468887068973565"/>
+	<poi id="263_27" type="stop" color="181,209,209" layer="101" lane="504659006#3_0" pos="104.65"/>
+</additional>
