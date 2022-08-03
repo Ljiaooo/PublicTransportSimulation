@@ -1,6 +1,5 @@
 import re
 import math
-
 import traci
 import pandas as pd
 import random
@@ -159,3 +158,19 @@ class Controller():
     def removeStopPoi(self):
         for i in range(self.stopNumDict[self.route]):
             traci.polygon.remove("poi{}_{}".format(self.route, i))
+
+
+    #获取所有在车站乘客等待当前线路的等待时间以及等待当前线路的总人数
+    def getWaitingTimeAndPersonNum(self):
+        waitingTime = 0
+        waitingNum = 0
+        for i in range(self.stopNum-1):
+            stopID= "{}_{}".format(self.route,i)
+            allPersonWaiting=traci.busstop.getPersonIDs(stopID)
+            curLineWaitingPerson=[i for i in allPersonWaiting if i[:len(str(self.route))]== str(self.route)]
+            waitingNum+=len(curLineWaitingPerson)
+            for p in curLineWaitingPerson:
+                waitingTime+=traci.person.getWaitingTime(p)
+
+        return (waitingNum,waitingTime)
+

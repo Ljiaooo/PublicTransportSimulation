@@ -1,5 +1,6 @@
 import traci
 from PyQt5 import QtCore
+from PyQt5.QtWidgets import QTableWidgetItem
 from control_gui import *
 
 import globalVal
@@ -33,6 +34,10 @@ if __name__ == "__main__":
     sumo_thread = SumoThread(control_funcs,controllers)
     sumo_thread.start()
 
+    #table refresh thread
+    statistics_thread=DataRefreshThread()
+    statistics_thread.start()
+
 
 
     #slot functions 
@@ -48,9 +53,21 @@ if __name__ == "__main__":
         else:
             globalVal.onfocus=lines[idx]
 
-    def track_signal(window):
+    def track_signal():
         globalVal.change_track+=1
         globalVal.trackIndex=window.comboBox.currentIndex()
+
+    def refresh_table():
+        index=0
+        for i in range(2):
+            for j in range(3):
+                item=QTableWidgetItem(str(globalVal.data[index]))
+                window.tableWidget.setItem(i,j,item)
+                window.tableWidget.update()
+                index+=1
+    def changeStackedWidgetPage(index):
+        window.stackedWidget.setCurrentIndex(index)
+
 
 
     ########################
@@ -64,7 +81,10 @@ if __name__ == "__main__":
     #connect widget slot functions
     window.pushButton.clicked.connect(global_focus)
     window.comboBox.currentIndexChanged.connect(focus_line)
-    window.pushButton_2.clicked.connect(lambda:track_signal(window))
+    window.pushButton_2.clicked.connect(track_signal)
+    window.comboBox_2.currentIndexChanged.connect(changeStackedWidgetPage)
+    statistics_thread.signal.connect(refresh_table)
+    window.stackedWidget.setCurrentIndex(0)
 
     window.move(1300, 0)
     window.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)

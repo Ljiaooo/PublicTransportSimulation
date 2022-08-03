@@ -4,11 +4,13 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from controller import Controller
 import traci
 import random
+import time
 import sys
 from threading import Thread
+from PyQt5.QtCore import QThread,pyqtSignal
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5 import QtWidgets
-from mainwindow import Ui_MainWindow
+from mainwindow import Ui_SumoController
 import matplotlib
 matplotlib.use('Qt5Agg')
 
@@ -85,36 +87,48 @@ class ControlFunc():
         for controller in controllers:
             controller.changeBusColor()
 
+    #每一步统计信息到全局变量保存
+    def writeData(self,controllers):
+        waitingTime = []
+        waitingNum = []
+        for controller in controllers:
+            waitingNum.append(controller.getWaitingTimeAndPersonNum()[0])
+            waitingTime.append(controller.getWaitingTimeAndPersonNum()[1])
+
+        globalVal.data = waitingNum + waitingTime
+
+
+
+
+
 
 #######################
 #######################
 
-class Widget(QMainWindow, Ui_MainWindow):
+class Widget(QMainWindow, Ui_SumoController):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setupUi(self)
-        self.figure = plt.figure()
-        self.canvas = FigureCanvas(self.figure)
-        self.plot_()
+        #self.figure = plt.figure()
+        #self.canvas = FigureCanvas(self.figure)
+        #self.plot_()
 
         # onfocus now  whole <- 0
 
         # 设置布局
         hlayout = QtWidgets.QHBoxLayout(self.centralwidget)
-        slayout = QtWidgets.QStackedLayout()
         hlayout.addWidget(self.frame, 3)
-        slayout.addWidget(self.canvas)
-        hlayout.addLayout(slayout, 13)
+        hlayout.addWidget(self.stackedWidget, 13)
         self.centralwidget.setLayout(hlayout)
 
         # pushbotton
 
         # 连接的绘制的方法
 
-    def plot_(self):
-        ax = self.figure.add_axes([0.1, 0.1, 0.8, 0.8])
-        ax.plot([1, 2, 3, 4, 5])
-        self.canvas.draw()
+    #def plot_(self):
+    #    ax = self.figure.add_axes([0.1, 0.1, 0.8, 0.8])
+    #    ax.plot([1, 2, 3, 4, 5])
+    #    self.canvas.draw()
 
 
 class SumoThread(Thread):
@@ -127,43 +141,21 @@ class SumoThread(Thread):
     def run(self):
         step = 0
         while step < 86400:
-            # 每一步判断控制窗口传过来的全局变量
-            # if globalVal.onfocus != self.control_funcs.cur:
-            #    self.control_funcs.changeFocus(
-            #        self.controllers, globalVal.onfocus)
-            # if globalVal.change_track != self.control_funcs.track_status:
-            #    self.control_funcs.changeTrack(self.controllers)
-            #    self.control_funcs.track_status = globalVal.change_track
-
-            # 每5分钟发一辆车
-            # if step % 300 == 0:
-            #    for controller in self.controllers:
-            #        controller.addBus()
-
-            # 每个站每60s到来一名乘客(仅测试前20个站点)
-            # if step % 60 == 0:
-            #    for controller in self.controllers:
-            #        for i in range(20):
-            #            controller.addPassenger(
-            #                "{}_{}".format(controller.route, i))
-
-            # 每一个step更新一次sumo界面
-            # 1. 刷新每个站点poi颜色（随站点人数变化）
-            # if globalVal.onfocus == 0:
-            #    for controller in self.controllers:
-            #        controller.changePoiColorByPersonNum()
-            # else:
-            #    self.controllers[self.stopseq[globalVal.onfocus]
-            #                     ].changePoiColorByPersonNum()
-
-            # 2. 刷新车辆颜色（随便人数变化）
-            # for controller in self.controllers:
-            #    controller.changeBusColor()
 
             self.control_funcs.checkGlobalVal(self.controllers)
             self.control_funcs.generateBus(step, self.controllers)
             self.control_funcs.generatePassenger(step, self.controllers)
             self.control_funcs.refreshSumo(self.stopseq, self.controllers)
+            self.control_funcs.writeData(self.controllers)
 
             traci.simulation.step()
             step += 1
+
+
+class DataRefreshThread(QThread):
+    signal=pyqtSignal(list)
+
+    def run(self):
+        while True:
+            self.signal.emit(globalVal.data)
+            time.sleep(1)
