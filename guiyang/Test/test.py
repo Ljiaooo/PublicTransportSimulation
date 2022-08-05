@@ -25,7 +25,7 @@ while step < 1000:
         #the print result is 0 (where is the problem?)
         print(traci.busstop.getPersonCount('47_0'))
         print(traci.person.getWaitingTime('testPerson'))
-        traci.gui.track("")
+        traci.gui.toggleSelection("test_bus")
     
 
 

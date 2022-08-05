@@ -7,6 +7,7 @@ import random
 import time
 import sys
 from threading import Thread
+from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import QThread,pyqtSignal
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5 import QtWidgets
@@ -30,10 +31,12 @@ class ControlFunc():
             if (controller.route == cur and to != 0) or (cur == 0 and controller.route != to):
                 controller.removeStopPoi()
                 controller.removeHighlight()
+                controller.toggleBusSelection()
             if cur != 0 and (controller.route == to and to != 0 or to == 0 and controller.route != cur):
                 controller.focusRoute()
                 controller.highlightRoute()
                 controller.drawStopPoi(r=50)
+                controller.toggleBusSelection()
 
         # 切换为全局视角(没有定义全局视角单独controller)
         if to == 0:
@@ -116,6 +119,7 @@ class Widget(QMainWindow, Ui_SumoController):
         # onfocus now  whole <- 0
 
         # 设置布局
+        self.setWindowIcon(QIcon("./icon/icon.png"))
         hlayout = QtWidgets.QHBoxLayout(self.centralwidget)
         hlayout.addWidget(self.frame, 3)
         hlayout.addWidget(self.stackedWidget, 13)
@@ -149,6 +153,7 @@ class SumoThread(Thread):
             self.control_funcs.writeData(self.controllers)
 
             traci.simulation.step()
+
             step += 1
 
 

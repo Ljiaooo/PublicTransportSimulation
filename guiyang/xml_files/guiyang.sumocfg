@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="guiyang.net.xml"/>
-        <additional-files value="guiyang.poly.xml,stop_47.add.xml,stop_48.add.xml,stop_263.add.xml,vtype.add.xml,highlight47.poly.xml,highlight48.poly.xml,highlight263.poly.xml" />
+        <additional-files value="stop_47.add.xml,stop_48.add.xml,stop_263.add.xml,vtype.add.xml,highlight47.poly.xml,highlight48.poly.xml,highlight263.poly.xml" />
         <gui-settings-file value="settings.xml" />
     </input>
 

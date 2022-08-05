@@ -86,7 +86,7 @@ if __name__ == "__main__":
     statistics_thread.signal.connect(refresh_table)
     window.stackedWidget.setCurrentIndex(0)
 
-    window.move(1300, 0)
+    window.move(1240, -40)
     window.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
     window.show()
     sys.exit(app.exec())

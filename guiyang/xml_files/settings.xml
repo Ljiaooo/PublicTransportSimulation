@@ -304,20 +304,20 @@
                 <entry color="10.00" threshold="0.27"/>
             </scalingScheme>
             <scalingScheme name="by CO emissions" interpolated="1">
-                <entry color="0.00" threshold="0.00"/>
                 <entry color="10.00" threshold="0.00"/>
+                <entry color="0.00" threshold="0.00"/>
             </scalingScheme>
             <scalingScheme name="by PMx emissions" interpolated="1">
-                <entry color="0.00" threshold="0.00"/>
                 <entry color="10.00" threshold="0.00"/>
+                <entry color="0.00" threshold="0.00"/>
             </scalingScheme>
             <scalingScheme name="by NOx emissions" interpolated="1">
-                <entry color="0.00" threshold="0.00"/>
                 <entry color="10.00" threshold="0.00"/>
+                <entry color="0.00" threshold="0.00"/>
             </scalingScheme>
             <scalingScheme name="by HC emissions" interpolated="1">
-                <entry color="0.00" threshold="0.00"/>
                 <entry color="10.00" threshold="0.00"/>
+                <entry color="0.00" threshold="0.00"/>
             </scalingScheme>
             <scalingScheme name="by fuel consumption" interpolated="1">
                 <entry color="0.00" threshold="0.00"/>
@@ -506,7 +506,7 @@
                 <entry color="50.00" threshold="100.00"/>
             </scalingScheme>
         </edges>
-        <vehicles vehicleMode="0" vehicleScaleMode="0" vehicleQuality="0" vehicle_minSize="1.00" vehicle_exaggeration="0.80" vehicle_constantSize="1" vehicle_constantSizeSelected="0" showBlinker="1" drawMinGap="0" drawBrakeGap="0" showBTRange="0" showRouteIndex="0" scaleLength="1" showParkingInfo="0"
+        <vehicles vehicleMode="0" vehicleScaleMode="1" vehicleQuality="3" vehicle_minSize="1.00" vehicle_exaggeration="0.80" vehicle_constantSize="1" vehicle_constantSizeSelected="0" showBlinker="1" drawMinGap="0" drawBrakeGap="0" showBTRange="0" showRouteIndex="0" scaleLength="1" showParkingInfo="0"
                   vehicleName_show="0" vehicleName_size="60.00" vehicleName_color="204,153,0" vehicleName_bgColor="128,0,0,0" vehicleName_constantSize="1" vehicleName_onlySelected="0"
                   vehicleValue_show="0" vehicleValue_size="80.00" vehicleValue_color="cyan" vehicleValue_bgColor="128,0,0,0" vehicleValue_constantSize="1" vehicleValue_onlySelected="0"
                   vehicleScaleValue_show="0" vehicleScaleValue_size="80.00" vehicleScaleValue_color="grey" vehicleScaleValue_bgColor="128,0,0,0" vehicleScaleValue_constantSize="1" vehicleScaleValue_onlySelected="0"
@@ -738,8 +738,8 @@
                 <entry color="1.00"/>
             </scalingScheme>
             <scalingScheme name="by selection">
-                <entry color="1.00" name="unselected"/>
-                <entry color="5.00" name="selected"/>
+                <entry color="0.00" name="unselected"/>
+                <entry color="1.50" name="selected"/>
             </scalingScheme>
             <scalingScheme name="by speed" interpolated="1">
                 <entry color="0.50" threshold="-2.00"/>
@@ -1002,6 +1002,6 @@
         <view3D show3DTLSLinkMarkers="1" show3DTLSDomes="1" generate3DTLSModels="0"/>
         <legend showSizeLegend="1" showColorLegend="0" showVehicleColorLegend="0"/>
     </scheme>
-    <viewport zoom="1226.00" x="52343.00" y="45760.00" angle="59.00"/>
+    <viewport zoom="1030.55" x="52147.27" y="45571.89" angle="59.00"/>
     <delay value="200.00"/>
 </viewsettings>

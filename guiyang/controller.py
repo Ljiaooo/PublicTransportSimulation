@@ -1,8 +1,10 @@
 import re
 import math
+
 import traci
 import pandas as pd
 import random
+import globalVal
 from xml.dom import minidom
 
 
@@ -17,12 +19,13 @@ class Controller():
         self.lastBus = None
         self.perosonNum = 0
         self.busNum = 0
+        # 已经到达的公交idx
+        self.arrivedBus = 0
         self.busList = {}
         self.colors = [(0, 128, 255), (28, 113, 226), (56, 99, 198), (85, 85, 170), (113, 71, 141),
                        (141, 56, 113), (170, 42, 85), (198, 28, 56), (226, 14, 28), (255, 0, 0)]
 
-        self.busColors = [(102, 255, 102), (102, 255, 178), (102, 255, 255), (102, 178, 255), (
-            102, 102, 255), (78, 102, 255), (255, 102, 255), (255, 102, 178), (255, 51, 153), (255, 0, 127)]
+        self.busColors = [(89, 193, 115), (89, 175, 123), (89, 158, 132), (90, 141, 141), (90, 124, 149), (91, 106, 158), (91, 89, 167), (92, 72, 175), (92, 55, 184), (93, 38, 193)]
 
         # 初始化公交线路
         edges = list(pd.read_csv(
@@ -44,6 +47,8 @@ class Controller():
         busId = "bus{}_{}".format(self.route, self.busNum)
         traci.vehicle.add(busId, str(self.route), line=str(
             self.route), typeID="bus", depart="now", departPos="0.0")
+        if globalVal.onfocus==self.route or globalVal.onfocus==0:
+            traci.gui.toggleSelection(busId)
         for stop in self.stops:
             traci.vehicle.setBusStop(
                 busId, stop.getAttribute("id"), duration=40)
@@ -52,13 +57,23 @@ class Controller():
 
     # 车辆根据人数改变颜色
     def changeBusColor(self):
-        for i in range(self.busNum):
+        for i in range(self.arrivedBus, self.busNum):
             busID = "bus{}_{}".format(self.route, i)
+            # 排除已经到达车辆
+            if busID in traci.simulation.getArrivedIDList():
+                self.arrivedBus += 1
+                continue
             onboard = traci.vehicle.getPersonNumber(busID)
             index = math.floor(onboard/5)
             if index > 9:
                 index = 9
             traci.vehicle.setColor(busID, self.busColors[index])
+
+    # 设置车辆选择与取消
+    def toggleBusSelection(self):
+        for i in range(self.arrivedBus, self.busNum):
+            busID = "bus{}_{}".format(self.route, i)
+            traci.gui.toggleSelection(busID)
 
     # 添加乘客
     def addPassenger(self, busStop):
@@ -159,18 +174,18 @@ class Controller():
         for i in range(self.stopNumDict[self.route]):
             traci.polygon.remove("poi{}_{}".format(self.route, i))
 
+    # 获取所有在车站乘客等待当前线路的等待时间以及等待当前线路的总人数
 
-    #获取所有在车站乘客等待当前线路的等待时间以及等待当前线路的总人数
     def getWaitingTimeAndPersonNum(self):
         waitingTime = 0
         waitingNum = 0
         for i in range(self.stopNum-1):
-            stopID= "{}_{}".format(self.route,i)
-            allPersonWaiting=traci.busstop.getPersonIDs(stopID)
-            curLineWaitingPerson=[i for i in allPersonWaiting if i[:len(str(self.route))]== str(self.route)]
-            waitingNum+=len(curLineWaitingPerson)
+            stopID = "{}_{}".format(self.route, i)
+            allPersonWaiting = traci.busstop.getPersonIDs(stopID)
+            curLineWaitingPerson = [
+                i for i in allPersonWaiting if i[:len(str(self.route))] == str(self.route)]
+            waitingNum += len(curLineWaitingPerson)
             for p in curLineWaitingPerson:
-                waitingTime+=traci.person.getWaitingTime(p)
+                waitingTime += traci.person.getWaitingTime(p)
 
-        return (waitingNum,waitingTime)
-
+        return (waitingNum, waitingTime)
