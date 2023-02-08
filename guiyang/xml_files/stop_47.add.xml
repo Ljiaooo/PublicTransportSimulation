@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <additional>
-	<busStop id="47_0" lane="593486825#3_1" startPos="149.33554119714086" endPos="169.33554119714086" friendlyPos="True" lines="47" personCapacity="50"/>
+	<busStop id="47_0" name = 'testname' lane="593486825#3_1" startPos="149.33554119714086" endPos="169.33554119714086" friendlyPos="True" lines="47" personCapacity="50"/>
 	<busStop id="47_1" lane="593486825#4_1" startPos="109.52189202761224" endPos="129.52189202761224" friendlyPos="True" lines="47" personCapacity="50"/>
 	<busStop id="47_2" lane="593486825#5_1" startPos="107.35729121816614" endPos="127.35729121816614" friendlyPos="True" lines="47" personCapacity="50"/>
 	<busStop id="47_3" lane="459589276#16_1" startPos="18.39410238175914" endPos="38.39410238175914" friendlyPos="True" lines="47" personCapacity="50"/>

@@ -14,7 +14,7 @@ class Controller():
     #route <- int
     def __init__(self, route):
         self.route = route
-        self.viewport = pd.read_csv("csv_files/viewport.csv")[str(self.route)]
+        self.viewport = pd.read_csv("csv_files/viewport/viewport.csv")[str(self.route)]
         self.stopNumDict = {47: 37, 48: 28, 263: 28}
         self.lastBus = None
         self.perosonNum = 0
@@ -29,7 +29,7 @@ class Controller():
 
         # 初始化公交线路
         edges = list(pd.read_csv(
-            "csv_files/route{}.csv".format(self.route))["route{}".format(self.route)])
+            "csv_files/routes/route{}.csv".format(self.route))["route{}".format(self.route)])
         traci.route.add(str(self.route), edges)
 
         # 获取站点列表
@@ -120,7 +120,7 @@ class Controller():
                  for item in shapestring.split(" ")]
         layer = route.getAttribute("layer")
         traci.polygon.add("route{}".format(self.route),
-                          shape=shape, color=color, layer=layer, lineWidth=20.0)
+                          shape=shape, color=color, layer=layer) #change linewidth in poly.xml
 
     def removeHighlight(self):
         traci.polygon.remove("route{}".format(self.route))
@@ -139,6 +139,7 @@ class Controller():
                 y = Y+r*math.cos(i*angle)
                 shape.append((x, y))
 
+            # color define the stop point color
             traci.polygon.add("poi"+stop.getAttribute("id"), lineWidth=100,
                               shape=shape, color=(250, 8, 8), layer=102, fill=True)
 
