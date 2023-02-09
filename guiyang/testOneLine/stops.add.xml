@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="1_0" name="三星授权体验店(万达广场店)" lane="946491400#2_0" startPos="0.0" endPos="10.0" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_1" name="星艺佳贵阳北京西路商场" lane="-946491406#0_0" startPos="411" endPos="421" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_2" name="柏杨林家具店" lane="-351974469_0" startPos="560" endPos="570" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_3" name="贵州凯华达机电市场" lane="946491405_0" startPos="128" endPos="138" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_4" name="贵阳市第一幼儿园麓山分园" lane="352255223#36_0" startPos="255" endPos="265" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_5" name="龙坝巷" lane="542263930_0" startPos="230" endPos="240" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_6" name="乐贝尔生态幼儿园" lane="542263931#1_0" startPos="644" endPos="654" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_7" name="龙泉集体经济发展楼" lane="220105643#0_0" startPos="763" endPos="773" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_8" name="顺安饭店" lane="351974469_0" startPos="558" endPos="568" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_9" name="大台北茶饮(百花大道店)" lane="351974461#0_0" startPos="655" endPos="665" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_10" name="贵阳合江技术培训中心" lane="211701764#1_0" startPos="1285" endPos="1295" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_11" name="息烽阳郎辣子鸡" lane="949088204_0" startPos="354" endPos="364" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_12" name="百花大道地铁站C口" lane="-351974469_0" startPos="560" endPos="570" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_13" name="贵阳枫叶酒店" lane="946491405_0" startPos="128" endPos="138" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_14" name="申一幼儿园" lane="352255223#36_0" startPos="255" endPos="265" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_15" name="贵阳市龙港春晖学校家长学校" lane="542263930_0" startPos="230" endPos="240" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_16" name="贵阳市长城职业学校" lane="542263931#1_0" startPos="644" endPos="654" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_17" name="乐见艺术" lane="220105643#0_0" startPos="763" endPos="773" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_18" name="新城玺樾台" lane="351974469_0" startPos="558" endPos="568" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_19" name="蓝精灵快乐园" lane="351974461#0_0" startPos="655" endPos="665" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_20" name="未来e家软装馆(红星城市广场店)" lane="211701764#1_0" startPos="1285" endPos="1295" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_21" name="贵州学睿教育科技有限公司" lane="949088204_0" startPos="354" endPos="364" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_22" name="北京西路" lane="-351974469_0" startPos="560" endPos="570" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_23" name="马王街" lane="946491405_0" startPos="128" endPos="138" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_24" name="日月明饭庄(黎苏路)" lane="352255223#36_0" startPos="255" endPos="265" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_25" name="牛九爷嫩牛五方" lane="542263930_0" startPos="230" endPos="240" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_26" name="贵和老兵酒店" lane="542263931#1_0" startPos="644" endPos="654" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_27" name="金源街" lane="220105643#0_0" startPos="763" endPos="773" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_28" name="七色花幼儿园" lane="351974469_0" startPos="558" endPos="568" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_29" name="贵阳市云岩区艾贝幼儿园" lane="351974461#0_0" startPos="655" endPos="665" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_30" name="欧瑞博红星美凯龙店" lane="211701764#1_0" startPos="1285" endPos="1295" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_31" name="马王庙地铁站C口" lane="949088204_0" startPos="354" endPos="364" friendlyPos="True" lines="1" personCapacity="50"/>
+	<busStop id="1_32" name="百花大道(地铁站)" lane="-351974469_0" startPos="560" endPos="570" friendlyPos="True" lines="1" personCapacity="50"/>
+</addition>
