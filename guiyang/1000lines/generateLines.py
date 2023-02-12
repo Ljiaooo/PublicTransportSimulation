@@ -22,7 +22,7 @@ net = sumolib.net.readNet('./xml_files/guiyang.net.xml')
 
 
 
-def getRandomCoord(center=(53865.6, 41958.0), radius=8000):
+def getRandomCoord(center=(53865.6, 41958.0), radius=3000):
     randomR = random.random()*radius
     randomAngle = 2*math.pi*random.random()
     x = randomR*math.cos(randomAngle)
@@ -81,6 +81,9 @@ def getStopName(lon, lat, curStopNames):
     return fina_name
 
 
+def getRandomEndCoord(startPoint, radius):
+    return startPoint[0]+math.cos(2*math.pi*random.random())*radius, startPoint[1]+math.sin(2*math.pi*random.random())*radius
+
 
 def coordinatesTransform(laneID, pos):
     x, y = sumolib.geomhelper.positionAtShapeOffset(net.getLane(laneID).getShape(), pos)
@@ -94,20 +97,34 @@ def getStopNameAtLane(laneID, pos, curStopNames):
 
 
 #write all lines' stops in one file, better to save each line temporarily
-def generateStopsXml(stopNames, stopOnTheLane, stopStartPos, line):
+def generateStopsXml(stopNames, stopOnTheUpLane,stopOnTheDownLane, upStopStartPos,downStopStartPos, line):
     save_path = './testOneLine'
     dom = minidom.Document()
     addition_node = dom.createElement('addition')
     dom.appendChild(addition_node)
+    line = str(line).zfill(3)
+    #up
     for i in range(len(stopNames)):
         busStop_node = dom.createElement('busStop')
-        busStop_node.setAttribute('id','{}_{}'.format(line,i))
+        busStop_node.setAttribute('id','{}_0_{}'.format(line,str(i).zfill(2)))
         busStop_node.setAttribute('name',stopNames[i])
-        busStop_node.setAttribute('lane',str(stopOnTheLane[i]))
-        busStop_node.setAttribute('startPos',str(stopStartPos[i]))
-        busStop_node.setAttribute('endPos',str(stopStartPos[i]+10))
+        busStop_node.setAttribute('lane',str(stopOnTheUpLane[i]))
+        busStop_node.setAttribute('startPos',str(upStopStartPos[i]))
+        busStop_node.setAttribute('endPos',str(upStopStartPos[i]+10))
         busStop_node.setAttribute('friendlyPos','True')
-        busStop_node.setAttribute('lines', str(line))
+        busStop_node.setAttribute('lines', line)
+        busStop_node.setAttribute('personCapacity','50')
+        addition_node.appendChild(busStop_node)
+    #down
+    for i in range(len(stopNames)):
+        busStop_node = dom.createElement('busStop')
+        busStop_node.setAttribute('id','{}_1_{}'.format(line,str(i).zfill(2)))
+        busStop_node.setAttribute('name',stopNames[len(stopNames)-1-i])
+        busStop_node.setAttribute('lane',str(stopOnTheDownLane[i]))
+        busStop_node.setAttribute('startPos',str(downStopStartPos[i]))
+        busStop_node.setAttribute('endPos',str(downStopStartPos[i]+10))
+        busStop_node.setAttribute('friendlyPos','True')
+        busStop_node.setAttribute('lines', line)
         busStop_node.setAttribute('personCapacity','50')
         addition_node.appendChild(busStop_node)
 
@@ -115,11 +132,10 @@ def generateStopsXml(stopNames, stopOnTheLane, stopStartPos, line):
         dom.writexml(f,indent='',addindent='\t', newl='\n', encoding='UTF-8')
 
 
-def generateRouteCSV(lanes,line):
+def generateRouteCSV(edges,line, direction):
     save_path = './testOneLine'
-    edges = [lane[:-2] for lane in lanes]
-    data = pd.DataFrame({'route{}'.format(line):edges})
-    data.to_csv('{}/route{}.csv'.format(save_path, line),encoding='utf-8',index=False)
+    data = pd.DataFrame({'route{}_{}'.format(line, direction):edges})
+    data.to_csv('{}/route{}_{}.csv'.format(save_path, line,direction),encoding='utf-8',index=False)
 
 
 def generateStopsWithIDJson(stopNames, line):
@@ -133,28 +149,28 @@ def generateStopsWithIDJson(stopNames, line):
     for i in range(2*len(stopNames)):
         if i < len(stopNames):
             id2name['up'][str(i+1)]=stopNames[i]
-            name2id['up'][stopNames[i]] = str(i+1)
+            name2id['up'][stopNames[i]] = i+1
         else:
             id2name['down'][str(i+1)]=stopNames[2*len(stopNames)-i-1]
-            name2id['down'][stopNames[2*len(stopNames)-i-1]] = str(i+1)
-    id2name_filename = '{}/{}_id2name.json'.format(save_path, line)
-    name2id_filename = '{}/{}_name2id.json'.format(save_path, line)
+            name2id['down'][stopNames[2*len(stopNames)-i-1]] = i+1
+    id2name_filename = '{}/_{}_id2name.json'.format(save_path, line)
+    name2id_filename = '{}/_{}_name2id.json'.format(save_path, line)
     with open(id2name_filename,'w',encoding='utf-8') as f:
         json.dump(id2name,f,indent=2,ensure_ascii=False)
     with open(name2id_filename,'w',encoding='utf-8') as f:
         json.dump(name2id,f,indent=2, ensure_ascii=False)
 
 
-def generateStopNameWithDistanceJson(stopNames, distanceList, line):
+def generateStopNameWithDistanceJson(stopNames, upDistanceList,downDistanceList, line):
     save_path = './testOneLine'
     up = {}
     down={}
-    for i in range(len(distanceList)):
-        up[stopNames[i]] = distanceList[i]
-        down[stopNames[len(distanceList)-i]] = distanceList[len(distanceList)-i-1]
+    for i in range(len(stopNames)-1):
+        up[stopNames[i]] = upDistanceList[i]
+        down[stopNames[len(stopNames)-i-1]] = downDistanceList[i]
 
-    up_save_path = '{}/{}_up_distance.json'.format(save_path, line)
-    down_save_path = '{}/{}_down_distance.json'.format(save_path, line)
+    up_save_path = '{}/_{}_up_distance.json'.format(save_path, line)
+    down_save_path = '{}/_{}_down_distance.json'.format(save_path, line)
     with open(up_save_path,'w',encoding='utf-8') as f:
         json.dump(up, f, indent=2,ensure_ascii=False)
     with open(down_save_path,'w',encoding='utf-8') as f:
@@ -163,85 +179,135 @@ def generateStopNameWithDistanceJson(stopNames, distanceList, line):
 
 #25~35站点数量
 LINES_DEMAND = 1
-MIN_DISTANCE_BETWEEN_STOPS = 600
+MIN_DISTANCE_BETWEEN_STOPS = 350
 MIN_STOP_NUM = 25
 MAX_STOP_NUM = 35
+MIN_STOP_ON_THE_LANE_LENGTH = 30
+
+#x,y
+STRAIGHT_LINE_DISTANCE = 16000
 #the length of a stop
-STOPLENGTH = 10
+STOP_LENGTH = 10
 
 curLinesNum = 1
 
 #data to write: stop names, stop ID, route
 while curLinesNum <= LINES_DEMAND:
     stopNames = []
-    lanes = []
-    distanceBetweenStopsList = []
+    upEdges = []
+    downEdges= []
+    upDistanceBetweenStopsList = []
 
-    stopOnTheLane = []
-    stopStartPos = []
+    stopOnTheUpLane = []
+    stopOnTheDownLane = []
+    upStopStartPos = []
+    downStopStartPos = []
 
+    upRouteLength = 0
+    downRouteLength = 0
     randomStartPoint = getRandomCoord()
-    neighborLanes = net.getNeighboringLanes(randomStartPoint[0],randomStartPoint[1], 100)
-    while not neighborLanes:
+    randomEndPoint = getRandomEndCoord(randomStartPoint,STRAIGHT_LINE_DISTANCE)
+    startNeighborLanes = net.getNeighboringLanes(randomStartPoint[0],randomStartPoint[1], 100)
+    endNeighborLanes = net.getNeighboringLanes(randomEndPoint[0],randomEndPoint[1], 100)
+    while not startNeighborLanes or not endNeighborLanes:
         randomStartPoint = getRandomCoord()
-        neighborLanes = net.getNeighboringLanes(randomStartPoint[0],randomStartPoint[1], 100)
+        randomEndPoint = getRandomEndCoord(randomStartPoint,STRAIGHT_LINE_DISTANCE)
+        startNeighborLanes = net.getNeighboringLanes(randomStartPoint[0],randomStartPoint[1], 100)
+        endNeighborLanes = net.getNeighboringLanes(randomEndPoint[0],randomEndPoint[1], 100)
     
     #startLaneID 
-    startLaneID = neighborLanes[0][0].getID()
-    lanes.append(startLaneID)
-    stopName = getStopNameAtLane(startLaneID,0,stopNames)
-    if stopName==-1:
+    startLaneID = startNeighborLanes[0][0].getID()
+    endLaneID = endNeighborLanes[0][0].getID()
+    startEdgeID = startLaneID[:-2]
+    endEdgeID = endLaneID[:-2]
+
+    #find path from start edge to end edge
+    #make sure the edge at least has 0 and 1 lane
+    edges = list(traci.simulation.findRoute(fromEdge = startEdgeID, toEdge = endEdgeID).edges)
+    if not edges:
+        continue
+    stopNum = getRandomStopNum()
+    distanceBetweenStops = 0
+    stopOnTheUpLane.append(edges[0]+'_1')
+    upStopStartPos.append(0.0)
+    stopName=getStopNameAtLane(edges[0]+'_1',0.0,stopNames)
+    if stopName == -1:
         continue
     stopNames.append(stopName)
-    stopOnTheLane.append(startLaneID)
-    stopStartPos.append(0.)
-
-    #get random stops number
-    stopNum = getRandomStopNum()
-
-    curStopIndex = 0
-    curLane = startLaneID
+    curStopIndex=1
     satisfied = True
-    distanceBetweenStops = 0
-    while curStopIndex<stopNum:
-        nextLaneInfo = traci.lane.getLinks(curLane, False)
-        if not nextLaneInfo:
-            satisfied = False
+    for edge in edges:
+        if curStopIndex>=stopNum:
+            finalEndEdge = edge
             break
-        nextLaneID = nextLaneInfo[0][0]
-        nextLaneLength = traci.lane.getLength(nextLaneID)
-        curLane = nextLaneID
-        curLaneLength = int(nextLaneLength)
-        lanes.append(curLane)
-        distanceBetweenStops+=curLaneLength
-        if distanceBetweenStops>MIN_DISTANCE_BETWEEN_STOPS and curLaneLength>STOPLENGTH:
-            distanceBetweenStopsList.append(distanceBetweenStops)
-            stopName = getStopNameAtLane(curLane,curLaneLength-STOPLENGTH,stopNames)
-            if stopName==-1:
-                satisfied=False
+        upEdges.append(edge)
+        curLaneLength = traci.lane.getLength(edge+'_1')
+        distanceBetweenStops+= int(curLaneLength)
+        upRouteLength+= int(curLaneLength)
+        if distanceBetweenStops>MIN_DISTANCE_BETWEEN_STOPS and  curLaneLength>MIN_STOP_ON_THE_LANE_LENGTH:
+            upPos = curLaneLength-STOP_LENGTH
+            stopOnTheUpLane.append(edge+'_1')
+            upStopStartPos.append(upPos)
+            if curStopIndex>0:
+                upDistanceBetweenStopsList.append(distanceBetweenStops)
+            distanceBetweenStops = 0
+            stopName = getStopNameAtLane(edge+'_1',upPos,stopNames)
+            if stopName == -1:
+                satisfied = False
                 break
             stopNames.append(stopName)
-            stopOnTheLane.append(curLane)
-            stopStartPos.append(curLaneLength-STOPLENGTH)
-            distanceBetweenStops = 0
             curStopIndex+=1
 
-    #stop numbers < 25
-    if not satisfied:
+    if curStopIndex<stopNum or not satisfied:
+        print('Not enough stops')
         continue
 
+    #get down direction data
+    downEdges = list(traci.simulation.findRoute(finalEndEdge, startEdgeID).edges)
+    for edge in downEdges:
+        downRouteLength+=traci.lane.getLength(edge+'_1')
+    downDistanceBetweenStopsList = list(reversed([upDistanceBetweenStopsList[i]+int((downRouteLength-upRouteLength)/(stopNum-1)-20) for i in range(stopNum-1)]))
+    print('------------')
+    print(downDistanceBetweenStopsList)
+    print('------------')
+    curDistanceBetweenStops = 0
+    stopOnTheDownLane.append(downEdges[0]+'_1')
+    downStopStartPos.append(0.)
+    curStopIndex = 0
+    for i in range(1,len(downEdges)):
+        curLaneLength = traci.lane.getLength(downEdges[i]+'_1')
+        curDistanceBetweenStops+= int(curLaneLength)
+        if curDistanceBetweenStops>downDistanceBetweenStopsList[curStopIndex]:
+            stopOnTheDownLane.append(downEdges[i]+'_1')
+            curDistanceBetweenStops = curDistanceBetweenStops-downDistanceBetweenStopsList[curStopIndex]
+            temp=curLaneLength- curDistanceBetweenStops
+            if temp>0:
+                downStopStartPos.append(temp)
+            else:
+                downStopStartPos.append(0)
+            curStopIndex+=1
+            if curStopIndex>=len(downDistanceBetweenStopsList):
+                break
+        
+    if curStopIndex<len(downDistanceBetweenStopsList):
+        print(curStopIndex,stopNum)
+        continue
+
+        
+
     #write data to file
-    generateRouteCSV(lanes,curLinesNum)
-    generateStopNameWithDistanceJson(stopNames,distanceBetweenStopsList,curLinesNum)
+    generateRouteCSV(upEdges,curLinesNum,'up')
+    generateRouteCSV(downEdges,curLinesNum,'down')
+    generateStopNameWithDistanceJson(stopNames,upDistanceBetweenStopsList,downDistanceBetweenStopsList,curLinesNum)
     generateStopsWithIDJson(stopNames, curLinesNum)
-    generateStopsXml(stopNames,stopOnTheLane, stopStartPos, curLinesNum)
+    generateStopsXml(stopNames,stopOnTheUpLane,stopOnTheDownLane, upStopStartPos,downStopStartPos, curLinesNum)
+
+
+    #finished one line
     curLinesNum+=1
 
-    edges = [lane[:-2] for lane in lanes]
-    traci.route.add('route1',edges)
-    #for edge in edges:
-    #    traci.gui.toggleSelection(edge,objType='edge')
+
+    for edge in upEdges:
+        traci.gui.toggleSelection(edge,objType='edge')
     print('done!')
-    with open('./testOneLine/visRoute.txt','w') as f:
-        f.write(' '.join(edges))
 traci.simulation.step()
