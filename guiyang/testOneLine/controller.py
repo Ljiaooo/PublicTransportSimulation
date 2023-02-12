@@ -20,7 +20,7 @@ class Controller():
         self.upBusNum = 0
         self.downBusNum = 0
         # 已经到达的公交idx
-        self.arrivedBus = 0
+        self.arrivedBuses = []
         self.busList = {}
         self.colors = [(0, 128, 255), (28, 113, 226), (56, 99, 198), (85, 85, 170), (113, 71, 141),
                        (141, 56, 113), (170, 42, 85), (198, 28, 56), (226, 14, 28), (255, 0, 0)]
@@ -63,12 +63,21 @@ class Controller():
             self.downBusNum +=1
 
 
+    # 将到达的车辆id加入列表
+    def getArrivedBuses(self):
+        arrivedBuses = traci.simulation.getArrivedIDList()
+        if arrivedBuses:
+            self.arrivedBuses+=list(arrivedBuses)
+        if self.arrivedBuses:
+            print(self.arrivedBuses)
+
+
     # 车辆根据人数改变颜色
     def changeBusColor(self):
         for i in range(self.upBusNum):
             busID = "bus{}_0_{}".format(self.route, str(i).zfill(2))
             # 排除已经到达车辆
-            if busID in traci.simulation.getArrivedIDList():
+            if busID in self.arrivedBuses:
                 continue
             onboard = traci.vehicle.getPersonNumber(busID)
             index = math.floor(onboard/5)
@@ -78,7 +87,7 @@ class Controller():
         for i in range(self.downBusNum):
             busID = "bus{}_1_{}".format(self.route, str(i).zfill(2))
             # 排除已经到达车辆
-            if busID in traci.simulation.getArrivedIDList():
+            if busID in self.arrivedBuses:
                 continue
             onboard = traci.vehicle.getPersonNumber(busID)
             index = math.floor(onboard/5)
@@ -100,7 +109,7 @@ class Controller():
         # 添加乘客乘坐线路以及下车地点(最后一个站点无乘客，下车地点暂设随机)
         onBoardStop = int(busStop[-2:])
         dropOffStop = "{}_{}_{}".format(self.route,busStop[4], str(int(
-            random.random()*(self.stopNum-onBoardStop))+onBoardStop).zfill(2))
+            random.random()*(self.stopNum-onBoardStop-1))+onBoardStop+1).zfill(2))
         dropEdge = self.busList[dropOffStop][0][:-2]
         traci.person.appendWalkingStage(personID, self.busList[busStop][0][:-2], personPos, stopID=busStop)
         traci.person.appendDrivingStage(personID, toEdge=dropEdge, lines=self.route, stopID=dropOffStop)
@@ -196,6 +205,7 @@ if __name__ == '__main__':
     traci.simulation.step()
     controller.drawStopPoi()
     while(step<10000):
+        controller.getArrivedBuses()
         if step ==0:
             controller.selectRoute(0)
             controller.selectRoute(1)
