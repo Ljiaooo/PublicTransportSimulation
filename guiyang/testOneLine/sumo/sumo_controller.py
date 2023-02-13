@@ -94,7 +94,7 @@ class SumoController():
             if busID in self.arrivedBuses:
                 continue
             onboard = traci.vehicle.getPersonNumber(busID)
-            index = math.floor(onboard/5)
+            index = math.floor(onboard/8)
             if index > 9:
                 index = 9
             traci.vehicle.setColor(busID, self.busColors[index])
@@ -105,7 +105,7 @@ class SumoController():
             if busID in self.arrivedBuses:
                 continue
             onboard = traci.vehicle.getPersonNumber(busID)
-            index = math.floor(onboard/5)
+            index = math.floor(onboard/8)
             if index > 9:
                 index = 9
             traci.vehicle.setColor(busID, self.busColors[index])

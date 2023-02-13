@@ -17,10 +17,10 @@ if __name__ == '__main__':
     sumo_controller = SumoController(route)
     upPassengerflow = PassengerFlow(start_time_stamp, "_"+str(route), "up","0000", sumo_controller)
     upBusController = BusController(start_time_stamp, "_"+str(route), "up","0000", sumo_controller)
-    #downPassengerflow = PassengerFlow(start_time_stamp, "_"+str(route), "down","0000", sumo_controller)
-    #downBusController = BusController(start_time_stamp, "_"+str(route), "down","0000", sumo_controller)
+    downPassengerflow = PassengerFlow(start_time_stamp, "_"+str(route), "down","0000", sumo_controller)
+    downBusController = BusController(start_time_stamp, "_"+str(route), "down","0000", sumo_controller)
     upBusController.set_passengerflow(upPassengerflow)
-    #downBusController.set_passengerflow(downPassengerflow)
+    downBusController.set_passengerflow(downPassengerflow)
 
 
 
@@ -28,11 +28,13 @@ if __name__ == '__main__':
     sumo_controller.selectRoute(0)
     sumo_controller.selectRoute(1)
     while(step<100000):
+        if step==500:
+            print(traci.vehicle.getStops('bus001_1_00'))
         sumo_controller.updataBusLists()
         upPassengerflow.sumo_update()
-        #downPassengerflow.sumo_update()
+        downPassengerflow.sumo_update()
         upBusController.sumo_update()
-        #downBusController.sumo_update()
+        downBusController.sumo_update()
 
         sumo_controller.changeBusColor()
         sumo_controller.changePoiColorByPersonNum()

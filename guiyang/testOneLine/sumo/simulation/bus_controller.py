@@ -75,9 +75,10 @@ class BusController:
         self._t += 1
 
         arrived = list(traci.simulation.getArrivedIDList())
+        arrived = [bus for bus in arrived if bus[7]==str(self.direction)]
         #busOnTheRoad = self.sumo_controller.busOnTheUpRoad if self.direction == 0 else self.sumo_controller.busOnTheDownRoad
         busOnTheRoad = self.sumo_controller.busOnTheRoad
-        busOnTheRoad = [bus for bus in self.busOnTheRoad if bus[4]==str(self.direction)]
+        busOnTheRoad = [bus for bus in busOnTheRoad if bus[7]==str(self.direction)]
         for i,bus in enumerate(arrived+busOnTheRoad):
 
             if i==0 and arrived:

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <additional>
-	<vType id="bus" accel="100" decel="100" sigma="0" length="10" maxSpeed="10" color="250,8,8" bordingDuration="0" personCapacity="50"/>
+	<vType id="bus" accel="100" decel="100" sigma="0" length="10" maxSpeed="10" color="250,8,8" bordingDuration="10" personCapacity="80"/>
 </additional>
