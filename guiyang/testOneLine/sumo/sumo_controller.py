@@ -6,10 +6,11 @@ import math
 import traci
 import pandas as pd
 import random
+import json
 from xml.dom import minidom
 
 
-class Controller():
+class SumoController():
 
     # 添加公交线路
     #route <- int
@@ -20,7 +21,12 @@ class Controller():
         self.upBusNum = 0
         self.downBusNum = 0
         # 已经到达的公交idx
+        #self.upArrivedBuses = []
+        #self.downArrivedBuses = []
+        #self.busOnTheUpRoad = []
+        #self.busOnTheDownRoad = []
         self.arrivedBuses = []
+        self.busOnTheRoad = []
         self.busList = {}
         self.colors = [(0, 128, 255), (28, 113, 226), (56, 99, 198), (85, 85, 170), (113, 71, 141),
                        (141, 56, 113), (170, 42, 85), (198, 28, 56), (226, 14, 28), (255, 0, 0)]
@@ -29,34 +35,33 @@ class Controller():
 
         # 初始化公交线路
         self.upEdges = list(pd.read_csv(
-            "./testOneLine/route{}_up.csv".format(route))["route{}_up".format(route)])
+            "./route{}_up.csv".format(route))["route{}_up".format(route)])
         self.downEdges = list(pd.read_csv(
-            "./testOneLine/route{}_down.csv".format(route))["route{}_down".format(route)])
+            "./route{}_down.csv".format(route))["route{}_down".format(route)])
         #0表示up，1表示down
         traci.route.add(self.route+'_0', self.upEdges)
         traci.route.add(self.route+'_1', self.downEdges)
 
         # 获取站点列表
-        doc = minidom.parse("./testOneLine/stops.add.xml".format(self.route))
+        doc = minidom.parse("./stops.add.xml".format(self.route))
         self.stops = doc.getElementsByTagName("busStop")
         self.stopNum = int(len(self.stops)/2)
 
         for stop in self.stops:
             self.busList[stop.getAttribute("id")] = (stop.getAttribute(
                 "lane"), stop.getAttribute("startPos"), stop.getAttribute("endPos"))
-
+        
 
     # 添加公交车，注意默认载客量50,默认最大速度10m/s, 默认车站停车时间10s
     #公交车ID:aaabc+  前三位为线路，第四位为方向(0:up, 1:down),第五,六位表示车辆数量
-    def addBus(self,  direction, depart_time='now'):
+    def addBus(self, direction, depart_time='now'):
         busNum = self.upBusNum if direction == 0 else self.downBusNum
         busId = "bus{}_{}_{}".format(self.route, direction,str(busNum).zfill(2))
         traci.vehicle.add(busId, "{}_{}".format(self.route,direction), line=self.route, typeID="bus", depart=depart_time, departPos="0.0")
-        for stop in self.stops:
+        for stop in self.stops: 
             stopID = stop.getAttribute('id')
             if stopID[4] == str(direction):
-                traci.vehicle.setBusStop(
-                    busId, stopID, duration=10)
+                traci.vehicle.setBusStop(busId, stopID, duration=10)
         if direction== 0:
             self.upBusNum += 1
         elif direction== 1:
@@ -64,12 +69,20 @@ class Controller():
 
 
     # 将到达的车辆id加入列表
-    def getArrivedBuses(self):
-        arrivedBuses = traci.simulation.getArrivedIDList()
+    def updataBusLists(self):
+        arrivedBuses = list(traci.simulation.getArrivedIDList())
+        departedBuses = list(traci.simulation.getDepartedIDList())
         if arrivedBuses:
-            self.arrivedBuses+=list(arrivedBuses)
-        if self.arrivedBuses:
-            print(self.arrivedBuses)
+            self.arrivedBuses+=arrivedBuses
+            self.busOnTheRoad = [bus for bus in self.busOnTheRoad if bus not in self.arrivedBuses]
+            #self.upArrivedBuses+=[bus for bus in arrivedBuses if bus[4]=='0']
+            #self.downArrivedBuses+=[bus for bus in arrivedBuses if bus[4]=='1']
+            #self.busOnTheUpRoad = [bus for bus in self.busOnTheUpRoad if bus not in self.upArrivedBuses]
+            #self.busOnTheDownRoad = [bus for bus in self.busOnTheDownRoad if bus not in self.downArrivedBuses]
+        if departedBuses:
+            self.busOnTheRoad+=departedBuses
+            #self.busOnTheUpRoad += departedBuses
+            #self.busOnTheDownRoad += departedBuses
 
 
     # 车辆根据人数改变颜色
@@ -77,6 +90,7 @@ class Controller():
         for i in range(self.upBusNum):
             busID = "bus{}_0_{}".format(self.route, str(i).zfill(2))
             # 排除已经到达车辆
+            #if busID in self.upArrivedBuses:
             if busID in self.arrivedBuses:
                 continue
             onboard = traci.vehicle.getPersonNumber(busID)
@@ -87,6 +101,7 @@ class Controller():
         for i in range(self.downBusNum):
             busID = "bus{}_1_{}".format(self.route, str(i).zfill(2))
             # 排除已经到达车辆
+            #if busID in self.downArrivedBuses:
             if busID in self.arrivedBuses:
                 continue
             onboard = traci.vehicle.getPersonNumber(busID)
@@ -107,12 +122,9 @@ class Controller():
         traci.person.add(personID, self.busList[busStop][0][:-2], personPos)
 
         # 添加乘客乘坐线路以及下车地点(最后一个站点无乘客，下车地点暂设随机)
-        onBoardStop = int(busStop[-2:])
-        dropOffStop = "{}_{}_{}".format(self.route,busStop[4], str(int(
-            random.random()*(self.stopNum-onBoardStop-1))+onBoardStop+1).zfill(2))
-        dropEdge = self.busList[dropOffStop][0][:-2]
+        dropEdge = self.busList["{}_{}_{}".format(self.route,busStop[4],self.stopNum-1)][0][:-2]
         traci.person.appendWalkingStage(personID, self.busList[busStop][0][:-2], personPos, stopID=busStop)
-        traci.person.appendDrivingStage(personID, toEdge=dropEdge, lines=self.route, stopID=dropOffStop)
+        traci.person.appendDrivingStage(personID, toEdge=dropEdge, lines=self.route, stopID ="{}_{}_{}".format(self.route,busStop[4],self.stopNum-1))
         self.perosonNum += 1
 
 
@@ -193,37 +205,3 @@ class Controller():
 
 
 
-
-if __name__ == '__main__':
-    sumoBinary = "sumo-gui"
-    sumoConfig = [sumoBinary, '-c', "./testOneLine/guiyang.sumocfg"]
-    traci.start(sumoConfig)
-
-    route = 1
-    controller = Controller(route)
-    step = 0
-    traci.simulation.step()
-    controller.drawStopPoi()
-    while(step<10000):
-        controller.getArrivedBuses()
-        if step ==0:
-            controller.selectRoute(0)
-            controller.selectRoute(1)
-
-        if step%100==0:
-            controller.addBus(0)
-            controller.addBus(1)
-        if step%10 ==0:
-            for i in range(controller.stopNum-1):
-                controller.addPassenger(busStop='{}_0_{}'.format(str(route).zfill(3),str(i).zfill(2)))
-                controller.addPassenger(busStop='{}_1_{}'.format(str(route).zfill(3),str(i).zfill(2)))
-        controller.changeBusColor()
-        controller.changePoiColorByPersonNum()
-
-        traci.simulation.step()
-        step+=1
-
-    traci.simulation.step()
-    traci.simulation.step()
-    traci.simulation.step()
-    pass
