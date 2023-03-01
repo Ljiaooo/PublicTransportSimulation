@@ -1,4 +1,4 @@
-#TODO: 乘客下车站点如何设定
+#TODO: 上下行停车时间不一致
 
 import re
 import math
@@ -20,11 +20,14 @@ class SumoController():
         self.perosonNum = 0
         self.upBusNum = 0
         self.downBusNum = 0
+        self.waitingNum = []
+        self.waitingTime = []
         # 已经到达的公交idx
         #self.upArrivedBuses = []
         #self.downArrivedBuses = []
         #self.busOnTheUpRoad = []
         #self.busOnTheDownRoad = []
+        self.lastBus = None
         self.arrivedBuses = []
         self.busOnTheRoad = []
         self.busList = {}
@@ -35,17 +38,18 @@ class SumoController():
 
         # 初始化公交线路
         self.upEdges = list(pd.read_csv(
-            "./route{}_up.csv".format(route))["route{}_up".format(route)])
+            "./routes/route{}_up.csv".format(route))["route{}_up".format(route)])
         self.downEdges = list(pd.read_csv(
-            "./route{}_down.csv".format(route))["route{}_down".format(route)])
+            "./routes/route{}_down.csv".format(route))["route{}_down".format(route)])
         #0表示up，1表示down
         traci.route.add(self.route+'_0', self.upEdges)
         traci.route.add(self.route+'_1', self.downEdges)
 
         # 获取站点列表
-        doc = minidom.parse("./stops.add.xml".format(self.route))
+        doc = minidom.parse("./stops/stops_{}.add.xml".format(str(self.route).zfill(3)))
         self.stops = doc.getElementsByTagName("busStop")
-        self.stopNum = int(len(self.stops)/2)
+        self.upStopNum = len([stop for stop in self.stops if stop.getAttribute('id')[4]=='0'])
+        self.downStopNum = len([stop for stop in self.stops if stop.getAttribute('id')[4]=='1'])
 
         for stop in self.stops:
             self.busList[stop.getAttribute("id")] = (stop.getAttribute(
@@ -53,15 +57,16 @@ class SumoController():
         
 
     # 添加公交车，注意默认载客量50,默认最大速度10m/s, 默认车站停车时间10s
-    #公交车ID:aaabc+  前三位为线路，第四位为方向(0:up, 1:down),第五,六位表示车辆数量
+    #公交车ID: 前三位为线路，第四位为方向(0:up, 1:down),第五,六位表示车辆数量
     def addBus(self, direction, depart_time='now'):
         busNum = self.upBusNum if direction == 0 else self.downBusNum
         busId = "bus{}_{}_{}".format(self.route, direction,str(busNum).zfill(2))
+        self.lastBus = busId
         traci.vehicle.add(busId, "{}_{}".format(self.route,direction), line=self.route, typeID="bus", depart=depart_time, departPos="0.0")
         for stop in self.stops: 
             stopID = stop.getAttribute('id')
             if stopID[4] == str(direction):
-                traci.vehicle.setBusStop(busId, stopID, duration=10)
+                traci.vehicle.setBusStop(busId, stopID, duration=2)  #change 10 to 2 
         if direction== 0:
             self.upBusNum += 1
         elif direction== 1:
@@ -69,7 +74,7 @@ class SumoController():
 
 
     # 将到达的车辆id加入列表
-    def updataBusLists(self):
+    def updateBusLists(self):
         arrivedBuses = list(traci.simulation.getArrivedIDList())
         departedBuses = list(traci.simulation.getDepartedIDList())
         if arrivedBuses:
@@ -112,19 +117,20 @@ class SumoController():
 
 
     # 添加乘客
-    def addPassenger(self, busStop):
+    def addPassenger(self, busStop, direction):
         # personPos = random.uniform(
         #    float(self.busList[busStop][1]), float(self.busList[busStop][2]))
 
+        stopNum = self.upStopNum if direction==0 else self.downStopNum
         personID = "person{}_{}".format(busStop, self.perosonNum)
         personPos = float(self.busList[busStop][1])+0.1
         #personPos = 0
         traci.person.add(personID, self.busList[busStop][0][:-2], personPos)
 
         # 添加乘客乘坐线路以及下车地点(最后一个站点无乘客，下车地点暂设随机)
-        dropEdge = self.busList["{}_{}_{}".format(self.route,busStop[4],self.stopNum-1)][0][:-2]
+        dropEdge = self.busList["{}_{}_{}".format(self.route,busStop[4],stopNum -1)][0][:-2]
         traci.person.appendWalkingStage(personID, self.busList[busStop][0][:-2], personPos, stopID=busStop)
-        traci.person.appendDrivingStage(personID, toEdge=dropEdge, lines=self.route, stopID ="{}_{}_{}".format(self.route,busStop[4],self.stopNum-1))
+        traci.person.appendDrivingStage(personID, toEdge=dropEdge, lines=self.route, stopID ="{}_{}_{}".format(self.route,busStop[4],stopNum-1))
         self.perosonNum += 1
 
 
@@ -150,22 +156,28 @@ class SumoController():
 
     # 根据站点人数设置站点颜色变化,超过30人均显示红色
     def changePoiColorByPersonNum(self):
-        for i in range(self.stopNum):
+        self.waitingNum = []
+        self.waitingTime = []
+        for i in range(self.upStopNum):
             allWaitingPerson = traci.busstop.getPersonIDs(
                 "{}_0_{}".format(self.route, str(i).zfill(2)))
             currentLineWaitingPerson = len(
                 [person for person in allWaitingPerson if person[:11] == "person{}_0".format(self.route)])
+            self.waitingTime.append(sum([traci.person.getWaitingTime(person) for person in allWaitingPerson if person[:11] == "person{}_0".format(self.route)]))
+            self.waitingNum.append(currentLineWaitingPerson)
             index = math.floor(currentLineWaitingPerson/2)
             if index > 9:
                 index = 9
             traci.polygon.setColor("{}_0_{}".format(
                 self.route,str(i).zfill(2)), self.colors[index])
 
-        for i in range(self.stopNum):
+        for i in range(self.downStopNum):
             allWaitingPerson = traci.busstop.getPersonIDs(
                 "{}_1_{}".format(self.route, str(i).zfill(2)))
             currentLineWaitingPerson = len(
                 [person for person in allWaitingPerson if person[:11] == "person{}_1".format(self.route)])
+            self.waitingTime.append(sum([traci.person.getWaitingTime(person) for person in allWaitingPerson if person[:11] == "person{}_0".format(self.route)]))
+            self.waitingNum.append(currentLineWaitingPerson)
             index = math.floor(currentLineWaitingPerson/2)
             if index > 9:
                 index = 9
@@ -198,8 +210,10 @@ class SumoController():
 
 
     # 选择polygon， 显示或者隐藏
-    def seletcPolygon(self):
+    def selectPolygon(self, direction):
         pass
+
+        
 
 
 

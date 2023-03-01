@@ -32,7 +32,7 @@ class PassengerFlow:
 
         self._max_onboard = 80
         self.direction = 0 if direction == "up" else 1
-        self.line = line
+        self.line = line[1:] if line[0] == '_' else line
 
         self.sumo_controller = sumoController
 
@@ -58,8 +58,8 @@ class PassengerFlow:
             board_timestamp = self._fine_grained_data[station]['board']
             alight_timestamp = self._fine_grained_data[station]['alight']
             if len(board_timestamp) > 0 and self._t == board_timestamp[-1]:
-                busID = "{}_{}_{}".format(self.line[1:].zfill(3), self.direction, str(i).zfill(2))
-                self.sumo_controller.addPassenger(busID)
+                busID = "{}_{}_{}".format(self.line.zfill(3), self.direction, str(i).zfill(2))
+                self.sumo_controller.addPassenger(busID, self.direction)
                 self.total_waiting_number += 1
                 # self.board_passenger[station] += 1
                 self._arrive_time[station].append(self._t)

@@ -10,7 +10,8 @@ if __name__ == '__main__':
     sumoConfig = [sumoBinary, '-c', "./guiyang.sumocfg"]
     traci.start(sumoConfig)
 
-    route = 1
+    route = 0
+    #route = 48 
     step = 0
     base_time = '06:29:50'
     start_time_stamp = str2seconds(base_time)
@@ -19,6 +20,10 @@ if __name__ == '__main__':
     upBusController = BusController(start_time_stamp, "_"+str(route), "up","0000", sumo_controller)
     downPassengerflow = PassengerFlow(start_time_stamp, "_"+str(route), "down","0000", sumo_controller)
     downBusController = BusController(start_time_stamp, "_"+str(route), "down","0000", sumo_controller)
+    #upPassengerflow = PassengerFlow(start_time_stamp, str(route), "up","0826", sumo_controller)
+    #upBusController = BusController(start_time_stamp, str(route), "up","0826", sumo_controller)
+    #downPassengerflow = PassengerFlow(start_time_stamp,str(route), "down","0826", sumo_controller)
+    #downBusController = BusController(start_time_stamp,str(route), "down","0826", sumo_controller)
     upBusController.set_passengerflow(upPassengerflow)
     downBusController.set_passengerflow(downPassengerflow)
 
@@ -28,9 +33,7 @@ if __name__ == '__main__':
     sumo_controller.selectRoute(0)
     sumo_controller.selectRoute(1)
     while(step<100000):
-        if step==500:
-            print(traci.vehicle.getStops('bus001_1_00'))
-        sumo_controller.updataBusLists()
+        sumo_controller.updateBusLists()
         upPassengerflow.sumo_update()
         downPassengerflow.sumo_update()
         upBusController.sumo_update()

@@ -65,7 +65,7 @@ class BusController:
         with open(filename, 'r',encoding='utf-8') as f:
             self._distance_data = json.load(f)
 
-        with open("sumo/data/{}/timetable/0000_{}_timetable.json".format(line, direction),'r',encoding='utf-8') as f:
+        with open("sumo/data/{}/timetable/{}_{}_timetable.json".format(line,date, direction),'r',encoding='utf-8') as f:
             self.timetable = json.load(f)
 
     def sumo_update(self):

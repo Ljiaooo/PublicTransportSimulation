@@ -1,6 +1,6 @@
 import traci
 from PyQt5 import QtCore
-from PyQt5.QtWidgets import QTableWidgetItem
+from PyQt5.QtWidgets import QTableWidgetItem, QApplication
 from control_gui import *
 
 import globalVal
@@ -88,5 +88,6 @@ if __name__ == "__main__":
 
     window.move(1240, -40)
     window.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
+    print('done')
     window.show()
     sys.exit(app.exec())

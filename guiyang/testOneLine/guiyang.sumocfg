@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="guiyang.net.xml"/>
-        <additional-files value="stops.add.xml, vtype.add.xml" />
+        <additional-files value="./stops/stops_048.add.xml, vtype.add.xml" />
         <gui-settings-file value="settings.xml" />
     </input>
 
