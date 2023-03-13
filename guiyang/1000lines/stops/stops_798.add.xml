@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="798_0_00" name="弘湘缘" lane="100463946_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_01" name="蒸蛮记(亚太中心店)" lane="315753900#2_1" startPos="473.66" endPos="483.66" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_02" name="贵阳国际贸易中心" lane="609509179_1" startPos="228.2" endPos="238.2" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_03" name="Top space街舞工作室" lane="99204573#0_1" startPos="53.86" endPos="63.86" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_04" name="喜茶(贵阳花果园购物中心店)" lane="99204573#4_1" startPos="147.29" endPos="157.29" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_05" name="湘雅社区卫生服务中心新冠疫苗接种点" lane="99204591#0_1" startPos="134.59" endPos="144.59" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_06" name="筒子骨串串香烫菜" lane="98571469#3_1" startPos="362.82" endPos="372.82" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_07" name="麦当劳(鲜花广场餐厅)" lane="98408355_1" startPos="1210.95" endPos="1220.95" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_08" name="省府路小学(二分校)" lane="98870825_1" startPos="443.08" endPos="453.08" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_09" name="贵州省中医药研究院" lane="99286393#5_1" startPos="423.96" endPos="433.96" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_10" name="蟠桃宫居委会服务站" lane="99310499#0_1" startPos="338.49" endPos="348.49" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_11" name="贵阳市水口寺小学" lane="99310499#1_1" startPos="697.35" endPos="707.35" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_12" name="贵阳臻园山庄" lane="-749270099#2_1" startPos="1791.98" endPos="1801.98" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_13" name="中天甜蜜小镇8组团" lane="-749270099#0_1" startPos="2323.78" endPos="2333.78" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_14" name="中天甜蜜小镇3组团" lane="504334091#2_1" startPos="210.21" endPos="220.21" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_15" name="中天甜蜜小镇7组团10栋" lane="504334093_1" startPos="170.83" endPos="180.83" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_16" name="云岩区第一中学" lane="504334095#2_1" startPos="175.81" endPos="185.81" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_17" name="贵阳乌当众康中医院" lane="459628575#0_1" startPos="105.64" endPos="115.64" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_18" name="纱帽山" lane="459628575#2_1" startPos="407.96" endPos="417.96" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_19" name="阿栗杨梅园山庄地面停车场" lane="609518385_1" startPos="419.17" endPos="429.17" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_20" name="情人谷路口(公交站)" lane="609518388#0_1" startPos="117.28" endPos="127.28" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_21" name="情人谷特大桥" lane="609518388#1_1" startPos="445.2" endPos="455.2" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_22" name="爱心(水岸酒店)公寓" lane="749185080_1" startPos="822.31" endPos="832.31" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_23" name="大院" lane="749185085_1" startPos="1360.63" endPos="1370.63" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_24" name="湖语御景" lane="749185089#2_1" startPos="1014.28" endPos="1024.28" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_25" name="东风镇头堡幼儿园" lane="460023993#0_1" startPos="115.14" endPos="125.14" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_26" name="食面食缘周三姐早餐店" lane="460023993#1_1" startPos="517.33" endPos="527.33" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_27" name="铭鑫装饰建材" lane="504333399_1" startPos="511.41999999999996" endPos="521.42" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_28" name="麦穰村" lane="749185102_1" startPos="107.65" endPos="117.65" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_0_29" name="渔洞峡停车场" lane="-417179134_1" startPos="956.63" endPos="966.63" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_00" name="渔洞峡停车场" lane="-79850042#1_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_01" name="麦穰村" lane="670032059#1_1" startPos="227.38" endPos="237.38" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_02" name="铭鑫装饰建材" lane="670032058_1" startPos="24.36" endPos="34.36" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_03" name="食面食缘周三姐早餐店" lane="417179139#3_1" startPos="100.64999999999998" endPos="110.64999999999998" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_04" name="东风镇头堡幼儿园" lane="417179139#5_1" startPos="313.1" endPos="323.1" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_05" name="湖语御景" lane="504333410#0_1" startPos="47.05000000000001" endPos="57.05000000000001" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_06" name="大院" lane="460024022#1_1" startPos="9.080000000000041" endPos="19.08000000000004" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_07" name="爱心(水岸酒店)公寓" lane="460024022#3_1" startPos="16.110000000000014" endPos="26.110000000000014" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_08" name="情人谷特大桥" lane="460024022#5_1" startPos="426.26" endPos="436.26" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_09" name="情人谷路口(公交站)" lane="332700170#5_1" startPos="140.24" endPos="150.24" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_10" name="阿栗杨梅园山庄地面停车场" lane="332700170#8_1" startPos="76.91" endPos="86.91" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_11" name="纱帽山" lane="332700170#10_1" startPos="144.39" endPos="154.39" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_12" name="贵阳乌当众康中医院" lane="332700170#12_1" startPos="98.84" endPos="108.84" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_13" name="云岩区第一中学" lane="1058249922#1_1" startPos="74.15999999999997" endPos="84.15999999999997" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_14" name="中天甜蜜小镇7组团10栋" lane="1058249922#2_1" startPos="0" endPos="10" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_15" name="中天甜蜜小镇3组团" lane="1058249922#3_1" startPos="258.30999999999995" endPos="268.30999999999995" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_16" name="中天甜蜜小镇8组团" lane="1058249922#5_1" startPos="132.23000000000002" endPos="142.23000000000002" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_17" name="贵阳臻园山庄" lane="609465740#8_1" startPos="168.31" endPos="178.31" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_18" name="贵阳市水口寺小学" lane="99289480#4_1" startPos="24.990000000000002" endPos="34.99" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_19" name="蟠桃宫居委会服务站" lane="99286373#1_1" startPos="140.79" endPos="150.79" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_20" name="贵州省中医药研究院" lane="99289474#2_1" startPos="148.36" endPos="158.36" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_21" name="省府路小学(二分校)" lane="99289476#2_1" startPos="13.650000000000006" endPos="23.650000000000006" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_22" name="麦当劳(鲜花广场餐厅)" lane="99290834_1" startPos="194.91000000000003" endPos="204.91000000000003" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_23" name="筒子骨串串香烫菜" lane="542459867#1_1" startPos="18.39" endPos="28.39" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_24" name="湘雅社区卫生服务中心新冠疫苗接种点" lane="749396453#0_1" startPos="562.4" endPos="572.4" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_25" name="喜茶(贵阳花果园购物中心店)" lane="749396453#2_1" startPos="229.0" endPos="239.0" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_26" name="Top space街舞工作室" lane="542459862#0_1" startPos="141.57" endPos="151.57" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_27" name="贵阳国际贸易中心" lane="542459852_1" startPos="309.76" endPos="319.76" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_28" name="蒸蛮记(亚太中心店)" lane="696117652#2_1" startPos="70.21" endPos="80.21" friendlyPos="True" lines="798" personCapacity="50"/>
+	<busStop id="798_1_29" name="弘湘缘" lane="315753900#0_1" startPos="118.19" endPos="128.19" friendlyPos="True" lines="798" personCapacity="50"/>
+</addition>

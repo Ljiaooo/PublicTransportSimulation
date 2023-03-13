@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="969_0_00" name="浦发银行(金鼎支行)" lane="-459593020_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_01" name="PLAY HOUSE(文创店)" lane="-459593020_1" startPos="486.37" endPos="496.37" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_02" name="天府棒棒鸡(瑞花巷店)" lane="823825774_1" startPos="145.42" endPos="155.42" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_03" name="南明区花果园办税服务厅" lane="823825780_1" startPos="82.95" endPos="92.95" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_04" name="贵阳公安局南明分局遵义路派出所驻市四医警务室" lane="823825789#0_1" startPos="328.56" endPos="338.56" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_05" name="王老五烤鸭(艺景春天店)" lane="823825792_1" startPos="147.18" endPos="157.18" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_06" name="贵阳市第三人民医院联体医院" lane="823825826_1" startPos="270.91" endPos="280.91" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_07" name="丫恋锅鸭爪爪(水岸广场店)" lane="824103373_1" startPos="782.55" endPos="792.55" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_08" name="中国铁建·国际城水岸南区" lane="823825834_1" startPos="503.40999999999997" endPos="513.41" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_09" name="贵阳市南明实验幼儿园(国际城分院)" lane="823825833_1" startPos="415.57" endPos="425.57" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_10" name="贵州典正遵义羊肉粉培训学校" lane="671337205#0_1" startPos="474.63" endPos="484.63" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_11" name="贵阳市南明区后巢工业基地" lane="671337200#0_1" startPos="220.53" endPos="230.53" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_12" name="中曹司街道办事处爱国卫生运动委员会办公室" lane="671337200#3_1" startPos="276.12" endPos="286.12" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_13" name="中坝公租房幸福小区" lane="671337200#5_1" startPos="167.29" endPos="177.29" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_14" name="兰姨妈素粉" lane="823825840#1_1" startPos="111.6" endPos="121.6" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_15" name="贵州O2O电子商务产业基地示范体验中心" lane="348332820#1_1" startPos="377.42" endPos="387.42" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_16" name="淇凝酒店家具" lane="-348332819#0_1" startPos="442.48" endPos="452.48" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_17" name="富巨工业园" lane="101726061_1" startPos="650.39" endPos="660.39" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_18" name="中国石化贵阳花溪金竹加油站" lane="101726037_1" startPos="1176.05" endPos="1186.05" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_19" name="甲秀黔程茶博园山庄" lane="540239987#0_1" startPos="125.32" endPos="135.32" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_20" name="东风驾校" lane="690890028#1_1" startPos="1061.14" endPos="1071.14" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_21" name="康熙防水" lane="503417588_1" startPos="2217.42" endPos="2227.42" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_22" name="花溪区石板镇羊龙小学" lane="593434689_1" startPos="846.17" endPos="856.17" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_23" name="羊龙村" lane="593434788_1" startPos="746.82" endPos="756.82" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_24" name="西部花园小区" lane="593434809#0_1" startPos="956.45" endPos="966.45" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_25" name="石板农贸市场" lane="593434723_1" startPos="217.83" endPos="227.83" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_26" name="向阳蛋糕坊(老街)" lane="593434724#1_1" startPos="1145.27" endPos="1155.27" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_27" name="人民大道" lane="593434724#3_1" startPos="820.7" endPos="830.7" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_28" name="顶帝门窗贵阳分厂" lane="609720247_1" startPos="422.09" endPos="432.09" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_0_29" name="贵阳喜天城·雅筑酒店大堂" lane="609720926#0_1" startPos="464.97" endPos="474.97" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_00" name="贵阳喜天城·雅筑酒店大堂" lane="540240005_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_01" name="顶帝门窗贵阳分厂" lane="540240009_1" startPos="84.24000000000001" endPos="94.24000000000001" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_02" name="人民大道" lane="609720937#2_1" startPos="94.0" endPos="104.0" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_03" name="向阳蛋糕坊(老街)" lane="609720924_1" startPos="67.18" endPos="77.18" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_04" name="石板农贸市场" lane="609720245#0_1" startPos="651.62" endPos="661.62" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_05" name="西部花园小区" lane="609720245#2_1" startPos="430.51" endPos="440.51" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_06" name="羊龙村" lane="593434693_1" startPos="53.69999999999999" endPos="63.69999999999999" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_07" name="花溪区石板镇羊龙小学" lane="593434823#1_1" startPos="437.74" endPos="447.74" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_08" name="康熙防水" lane="593434747_1" startPos="513.06" endPos="523.06" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_09" name="东风驾校" lane="593434837_1" startPos="1040.5900000000001" endPos="1050.5900000000001" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_10" name="甲秀黔程茶博园山庄" lane="540239986#0_1" startPos="272.80999999999995" endPos="282.80999999999995" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_11" name="中国石化贵阳花溪金竹加油站" lane="475686338_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_12" name="富巨工业园" lane="588160577_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_13" name="淇凝酒店家具" lane="824309276#1_1" startPos="283.74" endPos="293.74" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_14" name="贵州O2O电子商务产业基地示范体验中心" lane="824309276#2_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_15" name="兰姨妈素粉" lane="749300753_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_16" name="中坝公租房幸福小区" lane="824309283_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_17" name="中曹司街道办事处爱国卫生运动委员会办公室" lane="749300746_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_18" name="贵阳市南明区后巢工业基地" lane="749300758_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_19" name="贵州典正遵义羊肉粉培训学校" lane="200886898_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_20" name="贵阳市南明实验幼儿园(国际城分院)" lane="200886886_1" startPos="0" endPos="10" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_21" name="中国铁建·国际城水岸南区" lane="200886887_1" startPos="41.620000000000005" endPos="51.620000000000005" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_22" name="丫恋锅鸭爪爪(水岸广场店)" lane="200886894#0_1" startPos="76.77999999999997" endPos="86.77999999999997" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_23" name="贵阳市第三人民医院联体医院" lane="542459846_1" startPos="158.57" endPos="168.57" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_24" name="王老五烤鸭(艺景春天店)" lane="315753900#2_1" startPos="116.66000000000003" endPos="126.66000000000003" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_25" name="贵阳公安局南明分局遵义路派出所驻市四医警务室" lane="609509180#1_1" startPos="37.26999999999998" endPos="47.26999999999998" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_26" name="南明区花果园办税服务厅" lane="99204572_1" startPos="50.55" endPos="60.55" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_27" name="天府棒棒鸡(瑞花巷店)" lane="99204573#3_1" startPos="150.08" endPos="160.08" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_28" name="PLAY HOUSE(文创店)" lane="625321695_1" startPos="154.2" endPos="164.2" friendlyPos="True" lines="969" personCapacity="50"/>
+	<busStop id="969_1_29" name="浦发银行(金鼎支行)" lane="98571469#3_1" startPos="60.81999999999999" endPos="70.82" friendlyPos="True" lines="969" personCapacity="50"/>
+</addition>

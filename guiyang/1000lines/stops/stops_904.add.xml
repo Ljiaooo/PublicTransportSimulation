@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="904_0_00" name="贵州理工学院" lane="315753901#2_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_01" name="星泰招待所" lane="315753901#2_1" startPos="1008.78" endPos="1018.78" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_02" name="自然源彝家祖传罗氏理疗城" lane="100463941#1_1" startPos="376.59" endPos="386.59" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_03" name="福娃双语幼儿园" lane="100463941#4_1" startPos="753.07" endPos="763.07" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_04" name="中国电信股份有限公司贵阳金阳新区分公司" lane="99322618#1_1" startPos="170.88" endPos="180.88" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_05" name="中共三桥路街道工作委员会" lane="99322618#3_1" startPos="353.69" endPos="363.69" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_06" name="缘梦烤肉.忘情烙锅" lane="99322618#5_1" startPos="241.32" endPos="251.32" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_07" name="黔春路" lane="99322675#0_1" startPos="438.5" endPos="448.5" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_08" name="百灵小区" lane="282124204_1" startPos="197.65" endPos="207.65" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_09" name="北京华联小区" lane="99291536_1" startPos="375.53" endPos="385.53" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_10" name="渔香岛美蛙鱼头火锅(威清路店)" lane="99291534#1_1" startPos="166.91" endPos="176.91" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_11" name="贵阳皮肤病专科医院" lane="99289468#2_1" startPos="131.86" endPos="141.86" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_12" name="KAIJŌ开酒•墨西哥餐酒馆(普陀路店)" lane="99289479#4_1" startPos="297.35" endPos="307.35" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_13" name="贵州医科大学科技楼" lane="542268213#2_1" startPos="586.92" endPos="596.92" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_14" name="码铃薯机器人编程" lane="459628604_1" startPos="179.59" endPos="189.59" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_15" name="天津灌汤小笼包(百花山店)" lane="459628603_1" startPos="730.56" endPos="740.56" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_16" name="百花住宅小区" lane="609518390_1" startPos="399.21" endPos="409.21" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_17" name="曙光小学" lane="459628598_1" startPos="1117.56" endPos="1127.56" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_18" name="程庆东方驾校科目二考场(云岩校区)" lane="459628589_1" startPos="214.25" endPos="224.25" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_19" name="中天未来方舟F2组团" lane="749270111#0_1" startPos="118.97" endPos="128.97" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_20" name="贵阳铂丽丝酒店" lane="749270111#2_1" startPos="425.8" endPos="435.8" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_21" name="雅斯特国际酒店(贵阳未来方舟店)" lane="816550001#0_1" startPos="326.01" endPos="336.01" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_22" name="中天pluss" lane="459628578_1" startPos="1406.13" endPos="1416.13" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_23" name="北京东路" lane="504334095#1_1" startPos="223.91" endPos="233.91" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_24" name="北龙立交" lane="609518380_1" startPos="25.380000000000003" endPos="35.38" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_25" name="纱帽山" lane="609518381#2_1" startPos="73.61" endPos="83.61" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_26" name="阿栗杨梅园山庄(一店)" lane="-504334084#2_1" startPos="1700.24" endPos="1710.24" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_27" name="arrow coffee" lane="670003217#0_1" startPos="1896.87" endPos="1906.87" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_28" name="明进李子园" lane="670005192#0_1" startPos="634.03" endPos="644.03" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_29" name="曜阳路" lane="670005192#1_1" startPos="497.08" endPos="507.08" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_0_30" name="兄弟汽修" lane="-670005188_1" startPos="1164.63" endPos="1174.63" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_00" name="兄弟汽修" lane="-670005192#1_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_01" name="曜阳路" lane="-670003217#0_1" startPos="96.90000000000009" endPos="106.90000000000009" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_02" name="明进李子园" lane="670003008_1" startPos="0" endPos="10" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_03" name="arrow coffee" lane="504334084#0_1" startPos="0" endPos="10" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_04" name="阿栗杨梅园山庄(一店)" lane="504334084#2_1" startPos="1175.42" endPos="1185.42" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_05" name="纱帽山" lane="459628583#1_1" startPos="195.87" endPos="205.87" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_06" name="北龙立交" lane="459628583#2_1" startPos="295.39" endPos="305.39" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_07" name="北京东路" lane="504334096_1" startPos="157.80999999999995" endPos="167.80999999999995" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_08" name="中天pluss" lane="459620280#0_1" startPos="0" endPos="10" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_09" name="雅斯特国际酒店(贵阳未来方舟店)" lane="609468138#6_1" startPos="80.44" endPos="90.44" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_10" name="贵阳铂丽丝酒店" lane="609468138#9_1" startPos="99.60000000000002" endPos="109.60000000000002" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_11" name="中天未来方舟F2组团" lane="609468138#10_1" startPos="94.30000000000001" endPos="104.30000000000001" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_12" name="程庆东方驾校科目二考场(云岩校区)" lane="609468147#0_1" startPos="8.299999999999997" endPos="18.299999999999997" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_13" name="曙光小学" lane="609468147#3_1" startPos="102.80000000000001" endPos="112.80000000000001" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_14" name="百花住宅小区" lane="85846309#3_1" startPos="3.3400000000000034" endPos="13.340000000000003" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_15" name="天津灌汤小笼包(百花山店)" lane="85846309#5_1" startPos="12.430000000000007" endPos="22.430000000000007" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_16" name="码铃薯机器人编程" lane="85846309#6_1" startPos="503.47" endPos="513.47" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_17" name="贵州医科大学科技楼" lane="488407622#1_1" startPos="190.94" endPos="200.94" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_18" name="KAIJŌ开酒•墨西哥餐酒馆(普陀路店)" lane="99286386#3_1" startPos="6.560000000000002" endPos="16.560000000000002" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_19" name="贵阳皮肤病专科医院" lane="98870879#1_1" startPos="17.61" endPos="27.61" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_20" name="渔香岛美蛙鱼头火锅(威清路店)" lane="-98408355_1" startPos="119.0" endPos="129.0" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_21" name="北京华联小区" lane="98408349_1" startPos="0" endPos="10" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_22" name="百灵小区" lane="98571446#0_1" startPos="0" endPos="10" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_23" name="黔春路" lane="98571446#1_1" startPos="1.2199999999999989" endPos="11.219999999999999" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_24" name="缘梦烤肉.忘情烙锅" lane="99204578#3_1" startPos="10.730000000000004" endPos="20.730000000000004" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_25" name="中共三桥路街道工作委员会" lane="625321697#0_1" startPos="126.24000000000001" endPos="136.24" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_26" name="中国电信股份有限公司贵阳金阳新区分公司" lane="625321697#1_1" startPos="0" endPos="10" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_27" name="福娃双语幼儿园" lane="66443945#1_1" startPos="23.61" endPos="33.61" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_28" name="自然源彝家祖传罗氏理疗城" lane="609509182#0_1" startPos="139.63" endPos="149.63" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_29" name="星泰招待所" lane="609509182#2_1" startPos="119.61000000000001" endPos="129.61" friendlyPos="True" lines="904" personCapacity="50"/>
+	<busStop id="904_1_30" name="贵州理工学院" lane="315753901#1_1" startPos="309.52" endPos="319.52" friendlyPos="True" lines="904" personCapacity="50"/>
+</addition>

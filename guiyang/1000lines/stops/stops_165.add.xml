@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="165_0_00" name="云岩吾悦广场(建设中)" lane="705369307#1_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_01" name="贵阳市第十七中学-优柏思教育" lane="823825740_1" startPos="189.15" endPos="199.15" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_02" name="中共云岩区环北办事处业余党校" lane="823825748#0_1" startPos="366.63" endPos="376.63" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_03" name="贵阳市第三实验幼儿园" lane="99322666#4_1" startPos="84.8" endPos="94.8" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_04" name="贵州医科大学附属肿瘤医院发热门诊" lane="99322624#3_1" startPos="276.71" endPos="286.71" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_05" name="头桥社区海马冲47号院落" lane="99322586#0_1" startPos="438.12" endPos="448.12" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_06" name="社区警务室" lane="824662330_1" startPos="137.72" endPos="147.72" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_07" name="二桥" lane="505047025_1" startPos="375.26" endPos="385.26" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_08" name="五柳街二十九号院" lane="505047026#2_1" startPos="144.17" endPos="154.17" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_09" name="安顺李记牛肉(云阳佳苑店)" lane="609509213_1" startPos="212.91" endPos="222.91" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_10" name="后冲路" lane="609509207_1" startPos="101.38" endPos="111.38" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_11" name="姚大叔烤鱼(花果园U区南区店)" lane="609509197_1" startPos="94.92" endPos="104.92" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_12" name="煎饼王(小车河路店)" lane="542459847_1" startPos="279.59" endPos="289.59" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_13" name="梦幻雪(下寨路店)" lane="315753867#1_1" startPos="250.29000000000002" endPos="260.29" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_14" name="栖凤路" lane="315753867#4_1" startPos="358.75" endPos="368.75" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_15" name="龙云雕刻石材有限公司贵州办事处" lane="200886891_1" startPos="610.4" endPos="620.4" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_16" name="云上小座 (屋顶花园烧烤)" lane="200886892_1" startPos="229.45" endPos="239.45" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_17" name="芰荷深处" lane="200886893_1" startPos="503.09000000000003" endPos="513.09" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_18" name="中坝卫生服务中心新冠疫苗接种点" lane="200886889#0_1" startPos="2109.46" endPos="2119.46" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_19" name="贵州省农业科学院" lane="200886889#2_1" startPos="1187.28" endPos="1197.28" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_20" name="贵州省土壤肥料研究所" lane="824309278#0_1" startPos="100.92" endPos="110.92" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_21" name="甲秀南路" lane="588160561#2_1" startPos="1512.86" endPos="1522.86" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_22" name="龙湖景粼天著望川区" lane="460189431#0_1" startPos="197.08" endPos="207.08" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_23" name="横贯咖啡TRANSLATE COFFEE" lane="460189431#1_1" startPos="854.28" endPos="864.28" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_24" name="大职路立交(公交站)" lane="460189431#3_1" startPos="422.5" endPos="432.5" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_25" name="贵阳胜荣铝业有限公司" lane="281528786#0_1" startPos="597.67" endPos="607.67" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_26" name="红向装饰(贵州大学扩建二期安置房店)" lane="720182334#0_1" startPos="264.86" endPos="274.86" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_27" name="贵州大学西校区动物科学学院" lane="664255623#0_1" startPos="75.49" endPos="85.49" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_28" name="春风东路" lane="664255588#38_1" startPos="134.59" endPos="144.59" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_0_29" name="贵州大学西校区机械工程学院" lane="664255589#1_1" startPos="648.97" endPos="658.97" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_00" name="贵州大学西校区机械工程学院" lane="664255588#1_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_01" name="春风东路" lane="593434824#7_1" startPos="36.079999999999984" endPos="46.079999999999984" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_02" name="贵州大学西校区动物科学学院" lane="593434824#9_1" startPos="217.32" endPos="227.32" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_03" name="红向装饰(贵州大学扩建二期安置房店)" lane="593434743#2_1" startPos="140.5" endPos="150.5" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_04" name="贵阳胜荣铝业有限公司" lane="720182335#2_1" startPos="105.16999999999999" endPos="115.16999999999999" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_05" name="大职路立交(公交站)" lane="720182332#2_1" startPos="268.2" endPos="278.2" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_06" name="横贯咖啡TRANSLATE COFFEE" lane="281528792#0_1" startPos="376.96" endPos="386.96" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_07" name="龙湖景粼天著望川区" lane="281528792#2_1" startPos="368.34000000000003" endPos="378.34000000000003" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_08" name="甲秀南路" lane="460189425_1" startPos="116.52000000000001" endPos="126.52000000000001" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_09" name="贵州省土壤肥料研究所" lane="460189432#2_1" startPos="104.19999999999999" endPos="114.19999999999999" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_10" name="贵州省农业科学院" lane="588160564#2_1" startPos="59.489999999999995" endPos="69.49" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_11" name="中坝卫生服务中心新冠疫苗接种点" lane="824309276#1_1" startPos="922.74" endPos="932.74" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_12" name="芰荷深处" lane="824309276#2_1" startPos="1367.16" endPos="1377.16" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_13" name="云上小座 (屋顶花园烧烤)" lane="749300753_1" startPos="185.57000000000005" endPos="195.57000000000005" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_14" name="龙云雕刻石材有限公司贵州办事处" lane="749300746_1" startPos="165.56" endPos="175.56" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_15" name="栖凤路" lane="200886886_1" startPos="241.39999999999998" endPos="251.39999999999998" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_16" name="梦幻雪(下寨路店)" lane="200886887_1" startPos="486.62" endPos="496.62" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_17" name="煎饼王(小车河路店)" lane="200886894#1_1" startPos="158.97" endPos="168.97" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_18" name="姚大叔烤鱼(花果园U区南区店)" lane="749270084#4_1" startPos="150.12" endPos="160.12" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_19" name="后冲路" lane="749270084#6_1" startPos="25.289999999999992" endPos="35.28999999999999" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_20" name="安顺李记牛肉(云阳佳苑店)" lane="696117651#1_1" startPos="219.77999999999997" endPos="229.77999999999997" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_21" name="五柳街二十九号院" lane="505047027#1_1" startPos="358.53999999999996" endPos="368.53999999999996" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_22" name="二桥" lane="505047027#2_1" startPos="0" endPos="10" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_23" name="社区警务室" lane="505047027#3_1" startPos="123.06" endPos="133.06" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_24" name="头桥社区海马冲47号院落" lane="505047027#6_1" startPos="178.43" endPos="188.43" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_25" name="贵州医科大学附属肿瘤医院发热门诊" lane="99322675#2_1" startPos="151.9" endPos="161.9" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_26" name="贵阳市第三实验幼儿园" lane="99289467_1" startPos="190.83" endPos="200.83" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_27" name="中共云岩区环北办事处业余党校" lane="99290830_1" startPos="106.91" endPos="116.91" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_28" name="贵阳市第十七中学-优柏思教育" lane="609518394#3_1" startPos="20.269999999999982" endPos="30.269999999999982" friendlyPos="True" lines="165" personCapacity="50"/>
+	<busStop id="165_1_29" name="云岩吾悦广场(建设中)" lane="749544701_1" startPos="104.96000000000001" endPos="114.96000000000001" friendlyPos="True" lines="165" personCapacity="50"/>
+</addition>

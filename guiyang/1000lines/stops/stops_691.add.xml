@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="691_0_00" name="贵阳吉鑫源宾馆" lane="315753901#4_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_01" name="贵黄高速出口(东南向)" lane="315753901#4_1" startPos="1261.94" endPos="1271.94" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_02" name="华盛西饼店" lane="-351974455#1_1" startPos="409.76" endPos="419.76" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_03" name="贵阳鼎益玻璃铝型材不锈钢专业市场" lane="99322615#4_1" startPos="175.04" endPos="185.04" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_04" name="贵阳市林泉小学" lane="99322615#6_1" startPos="792.81" endPos="802.81" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_05" name="龙福花园南区" lane="99322618#0_1" startPos="206.79" endPos="216.79" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_06" name="护甲益生手足甲康护中心" lane="99322618#3_1" startPos="353.69" endPos="363.69" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_07" name="顾美家贵州总经销" lane="99322618#5_1" startPos="241.32" endPos="251.32" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_08" name="三桥南路" lane="99322675#0_1" startPos="438.5" endPos="448.5" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_09" name="贵安新区·金街" lane="282124204_1" startPos="197.65" endPos="207.65" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_10" name="北京华联小区" lane="99291536_1" startPos="375.53" endPos="385.53" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_11" name="但家香酥鸭(威清路店)" lane="99291534#1_1" startPos="166.91" endPos="176.91" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_12" name="嘉华酒店" lane="98870878#1_1" startPos="416.49" endPos="426.49" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_13" name="启航英语市西路校区" lane="98870880#2_1" startPos="33.28" endPos="43.28" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_14" name="汉堡王(国恒百货店)" lane="98870846#3_1" startPos="175.95" endPos="185.95" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_15" name="丫恋锅鸭爪爪(THE ONE购物中心店)" lane="98571457#1_1" startPos="121.47999999999999" endPos="131.48" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_16" name="锦江之星(贵阳文昌阁甲秀楼省医地铁站店)" lane="98870825_1" startPos="443.08" endPos="453.08" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_17" name="金·卡道精品酒店" lane="85846217#0_1" startPos="647.34" endPos="657.34" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_18" name="拓知轩教育" lane="85846217#1_1" startPos="624.89" endPos="634.89" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_19" name="奶茶初体验炸鸡汉堡" lane="73539802#0_1" startPos="902.01" endPos="912.01" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_20" name="中天·世纪新城三组团(南门)" lane="73539802#2_1" startPos="147.1" endPos="157.1" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_21" name="千禧幼儿园" lane="73539802#3_1" startPos="420.43" endPos="430.43" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_22" name="贵州盛阳嘉合汽车服务有限公司" lane="73539802#4_1" startPos="542.33" endPos="552.33" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_23" name="服务区" lane="98874620#1_1" startPos="601.42" endPos="611.42" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_24" name="G6002贵阳绕城高速" lane="459806142_1" startPos="202.74" endPos="212.74" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_25" name="宏源印象酒店(贵阳龙洞堡机场店)" lane="459613037#0_1" startPos="829.86" endPos="839.86" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_26" name="落宝寨" lane="-800113768_1" startPos="272.99" endPos="282.99" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_27" name="贵阳医学院神奇民族医药学院图书馆" lane="-539920400#0_1" startPos="428.27" endPos="438.27" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_28" name="贵州味特食品有限公司" lane="539920399_1" startPos="440.47" endPos="450.47" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_29" name="跳墩河" lane="-539920401#2_1" startPos="535.56" endPos="545.56" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_0_30" name="吉源星河境" lane="719023118#1_1" startPos="165.63" endPos="175.63" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_00" name="吉源星河境" lane="719023102#2_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_01" name="跳墩河" lane="99172504#0_1" startPos="5.019999999999982" endPos="15.019999999999982" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_02" name="贵州味特食品有限公司" lane="99172504#2_1" startPos="172.95000000000005" endPos="182.95000000000005" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_03" name="贵阳医学院神奇民族医药学院图书馆" lane="99172504#3_1" startPos="135.99" endPos="145.99" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_04" name="落宝寨" lane="203850575#0_1" startPos="234.79000000000002" endPos="244.79000000000002" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_05" name="宏源印象酒店(贵阳龙洞堡机场店)" lane="203850575#1_1" startPos="499.21000000000004" endPos="509.21000000000004" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_06" name="G6002贵阳绕城高速" lane="98874623#0_1" startPos="596.07" endPos="606.07" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_07" name="服务区" lane="98874623#2_1" startPos="121.17" endPos="131.17000000000002" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_08" name="贵州盛阳嘉合汽车服务有限公司" lane="98874629#0_1" startPos="137.58999999999992" endPos="147.58999999999992" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_09" name="千禧幼儿园" lane="98874629#1_1" startPos="0" endPos="10" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_10" name="中天·世纪新城三组团(南门)" lane="85846294#0_1" startPos="0" endPos="10" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_11" name="奶茶初体验炸鸡汉堡" lane="85846294#1_1" startPos="0" endPos="10" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_12" name="拓知轩教育" lane="98571449_1" startPos="0" endPos="10" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_13" name="金·卡道精品酒店" lane="98870879#0_1" startPos="0" endPos="10" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_14" name="锦江之星(贵阳文昌阁甲秀楼省医地铁站店)" lane="98571471#0_1" startPos="73.94999999999999" endPos="83.94999999999999" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_15" name="丫恋锅鸭爪爪(THE ONE购物中心店)" lane="98571471#5_1" startPos="174.6" endPos="184.6" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_16" name="汉堡王(国恒百货店)" lane="98870859#2_1" startPos="2.930000000000007" endPos="12.930000000000007" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_17" name="启航英语市西路校区" lane="99289476#1_1" startPos="81.72000000000003" endPos="91.72000000000003" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_18" name="嘉华酒店" lane="99291526_1" startPos="134.32999999999998" endPos="144.32999999999998" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_19" name="但家香酥鸭(威清路店)" lane="99322608_1" startPos="33.7" endPos="43.7" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_20" name="北京华联小区" lane="99322643#2_1" startPos="132.14999999999998" endPos="142.14999999999998" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_21" name="贵安新区·金街" lane="99322592#0_1" startPos="314.78999999999996" endPos="324.78999999999996" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_22" name="三桥南路" lane="99322592#1_1" startPos="145.69" endPos="155.69" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_23" name="顾美家贵州总经销" lane="99322592#4_1" startPos="62.400000000000006" endPos="72.4" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_24" name="护甲益生手足甲康护中心" lane="99322604#4_1" startPos="429.19000000000005" endPos="439.19000000000005" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_25" name="龙福花园南区" lane="99322604#5_1" startPos="443.12" endPos="453.12" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_26" name="贵阳市林泉小学" lane="99322604#7_1" startPos="285.65" endPos="295.65" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_27" name="贵阳鼎益玻璃铝型材不锈钢专业市场" lane="351974456#2_1" startPos="477.80999999999995" endPos="487.80999999999995" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_28" name="华盛西饼店" lane="351974459#1_1" startPos="68.44999999999999" endPos="78.44999999999999" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_29" name="贵黄高速出口(东南向)" lane="351974459#3_1" startPos="224.54000000000002" endPos="234.54000000000002" friendlyPos="True" lines="691" personCapacity="50"/>
+	<busStop id="691_1_30" name="贵阳吉鑫源宾馆" lane="99821268#0_1" startPos="1005.2" endPos="1015.2" friendlyPos="True" lines="691" personCapacity="50"/>
+</addition>

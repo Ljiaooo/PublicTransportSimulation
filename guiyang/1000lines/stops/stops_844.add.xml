@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="844_0_00" name="金鼎居委会" lane="-459593018_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_01" name="宝贝驿站午托班" lane="459593018_1" startPos="350.63" endPos="360.63" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_02" name="GY stay摩天1号艺术影音观景酒店(花果园购物中心白宫双子塔店)" lane="625321696#1_1" startPos="197.48" endPos="207.48" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_03" name="采蝶轩(花果园购物中心店)" lane="625321697#0_1" startPos="434.24" endPos="444.24" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_04" name="贵州龙(贵阳国际中心店)" lane="99204590#0_1" startPos="149.22" endPos="159.22" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_05" name="鱼虾争霸司马烤鱼(花果园M区店)" lane="99204575#0_1" startPos="138.67" endPos="148.67" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_06" name="富群烤肉(太慈桥青山小区店)" lane="749524202#4_1" startPos="255.17000000000002" endPos="265.17" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_07" name="中国铁建·国际城H4组团" lane="749524199_1" startPos="610.18" endPos="620.18" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_08" name="小车河路" lane="823825834_1" startPos="503.40999999999997" endPos="513.41" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_09" name="中国铁建·国际城山锦苑" lane="823825833_1" startPos="415.57" endPos="425.57" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_10" name="轻钢别墅全屋定制" lane="671337205#0_1" startPos="474.63" endPos="484.63" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_11" name="小朱全牛品(甘荫塘总店)" lane="671337200#0_1" startPos="220.53" endPos="230.53" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_12" name="四方河村金融服务点" lane="671337200#3_1" startPos="276.12" endPos="286.12" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_13" name="诚景·尚城销售中心" lane="671337200#5_1" startPos="167.29" endPos="177.29" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_14" name="安记卫城辣子鸡(上坝巷店)" lane="823825840#1_1" startPos="111.6" endPos="121.6" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_15" name="南明区上坝路体育运动公园" lane="348332820#1_1" startPos="377.42" endPos="387.42" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_16" name="垄岩路居委会" lane="-348332819#0_1" startPos="442.48" endPos="452.48" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_17" name="富巨工业园" lane="101726061_1" startPos="650.39" endPos="660.39" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_18" name="龙里辣子鸡" lane="101726037_1" startPos="1176.05" endPos="1186.05" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_19" name="家居广场" lane="540239987#0_1" startPos="125.32" endPos="135.32" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_20" name="金竹派出所三合学校执勤点" lane="690890028#1_1" startPos="1061.14" endPos="1071.14" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_21" name="广福门窗·铝材" lane="503417588_1" startPos="2217.42" endPos="2227.42" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_22" name="夜猫台球俱乐部" lane="593434689_1" startPos="846.17" endPos="856.17" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_23" name="誉将安全门" lane="593434788_1" startPos="746.82" endPos="756.82" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_24" name="金石供电" lane="593434809#0_1" startPos="956.45" endPos="966.45" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_25" name="石板二村" lane="593434723_1" startPos="217.83" endPos="227.83" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_26" name="贵安大道辅路" lane="593434724#1_1" startPos="1145.27" endPos="1155.27" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_27" name="永盛汽车美容店" lane="593434724#3_1" startPos="820.7" endPos="830.7" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_28" name="梵隐(天河潭店)" lane="609720247_1" startPos="422.09" endPos="432.09" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_29" name="国询建设投资咨询有限公司天河潭景区提升项目审计项目部" lane="609720926#0_1" startPos="464.97" endPos="474.97" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_30" name="001县道" lane="540240006#3_1" startPos="176.53" endPos="186.53" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_0_31" name="湖磊南路" lane="609720932#0_1" startPos="1366.94" endPos="1376.94" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_00" name="湖磊南路" lane="609720946_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_01" name="001县道" lane="540240014#1_1" startPos="1134.88" endPos="1144.88" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_02" name="国询建设投资咨询有限公司天河潭景区提升项目审计项目部" lane="609720937#1_1" startPos="110.83000000000001" endPos="120.83000000000001" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_03" name="梵隐(天河潭店)" lane="609720945#1_1" startPos="146.16999999999996" endPos="156.16999999999996" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_04" name="永盛汽车美容店" lane="609720925_1" startPos="122.17000000000002" endPos="132.17000000000002" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_05" name="贵安大道辅路" lane="609720245#0_1" startPos="376.62" endPos="386.62" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_06" name="石板二村" lane="609720245#2_1" startPos="964.51" endPos="974.51" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_07" name="金石供电" lane="609720245#3_1" startPos="93.71" endPos="103.71" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_08" name="誉将安全门" lane="593434823#1_1" startPos="561.74" endPos="571.74" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_09" name="夜猫台球俱乐部" lane="593434747_1" startPos="391.05999999999995" endPos="401.05999999999995" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_10" name="广福门窗·铝材" lane="593434744_1" startPos="620.06" endPos="630.06" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_11" name="金竹派出所三合学校执勤点" lane="593434837_1" startPos="1876.5900000000001" endPos="1886.5900000000001" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_12" name="家居广场" lane="475686338_1" startPos="31.089999999999918" endPos="41.08999999999992" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_13" name="龙里辣子鸡" lane="588160577_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_14" name="富巨工业园" lane="824309276#1_1" startPos="56.74000000000001" endPos="66.74000000000001" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_15" name="垄岩路居委会" lane="824309276#2_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_16" name="南明区上坝路体育运动公园" lane="749300753_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_17" name="安记卫城辣子鸡(上坝巷店)" lane="824309283_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_18" name="诚景·尚城销售中心" lane="749300746_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_19" name="四方河村金融服务点" lane="749300758_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_20" name="小朱全牛品(甘荫塘总店)" lane="200886898_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_21" name="轻钢别墅全屋定制" lane="200886886_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_22" name="中国铁建·国际城山锦苑" lane="200886887_1" startPos="62.620000000000005" endPos="72.62" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_23" name="小车河路" lane="200886894#0_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_24" name="中国铁建·国际城H4组团" lane="200886894#1_1" startPos="109.97" endPos="119.97" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_25" name="富群烤肉(太慈桥青山小区店)" lane="542459853_1" startPos="92.41999999999996" endPos="102.41999999999996" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_26" name="鱼虾争霸司马烤鱼(花果园M区店)" lane="824103384_1" startPos="104.97999999999999" endPos="114.97999999999999" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_27" name="贵州龙(贵阳国际中心店)" lane="542459865#0_1" startPos="286.32" endPos="296.32" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_28" name="采蝶轩(花果园购物中心店)" lane="542459865#4_1" startPos="151.66999999999996" endPos="161.66999999999996" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_29" name="GY stay摩天1号艺术影音观景酒店(花果园购物中心白宫双子塔店)" lane="749396436#0_1" startPos="0" endPos="10" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_30" name="宝贝驿站午托班" lane="749396436#2_1" startPos="163.43" endPos="173.43" friendlyPos="True" lines="844" personCapacity="50"/>
+	<busStop id="844_1_31" name="金鼎居委会" lane="749535998#2_1" startPos="66.91" endPos="76.91" friendlyPos="True" lines="844" personCapacity="50"/>
+</addition>

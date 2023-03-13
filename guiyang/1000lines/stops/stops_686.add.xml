@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="686_0_00" name="怪兽充电(黔灵湖山庄)" lane="-385774298#2_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_01" name="中环路西段入口(北向)" lane="-385774298#2_1" startPos="396.46" endPos="406.46" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_02" name="富力华庭" lane="-385774298#1_1" startPos="487.52" endPos="497.52" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_03" name="北京华联超市(二桥黔春路店)" lane="385774335_1" startPos="249.72000000000003" endPos="259.72" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_04" name="贵阳珺怡大酒店" lane="99322592#0_1" startPos="732.79" endPos="742.79" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_05" name="滋味园食府(碧玉园店)" lane="99322618#4_1" startPos="331.68" endPos="341.68" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_06" name="福建千里香馄饨(三桥南路店)" lane="99322675#0_1" startPos="438.5" endPos="448.5" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_07" name="云岩区头桥社区居民议事委员会" lane="282124204_1" startPos="197.65" endPos="207.65" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_08" name="CITY PARK 西派国樾" lane="99291536_1" startPos="375.53" endPos="385.53" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_09" name="贵州龙(威清店)" lane="99291534#1_1" startPos="166.91" endPos="176.91" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_10" name="徐鼎聚北京烤鸭" lane="99289468#2_1" startPos="131.86" endPos="141.86" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_11" name="陕西路127号院" lane="99289479#4_1" startPos="297.35" endPos="307.35" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_12" name="贵州医科大学-花溪校区管委会" lane="542268213#2_1" startPos="586.92" endPos="596.92" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_13" name="大自然棕床垫(贵开路店)" lane="459628604_1" startPos="179.59" endPos="189.59" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_14" name="医联体" lane="459628603_1" startPos="730.56" endPos="740.56" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_15" name="金健康营养自助工程" lane="609518390_1" startPos="399.21" endPos="409.21" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_16" name="真爱幼幼全日制早教云岩中心" lane="459628598_1" startPos="1117.56" endPos="1127.56" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_17" name="村上一品精致日料(未来方舟店)" lane="459628589_1" startPos="214.25" endPos="224.25" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_18" name="贵阳老素粉(中环路东段店)" lane="749270111#0_1" startPos="118.97" endPos="128.97" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_19" name="云岩区人民政府政务服务大厅" lane="749270111#2_1" startPos="425.8" endPos="435.8" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_20" name="贵美医学美容" lane="816550001#0_1" startPos="326.01" endPos="336.01" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_21" name="中天甜蜜小镇" lane="459628578_1" startPos="1406.13" endPos="1416.13" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_22" name="贵州华策若云文化传媒有限公司" lane="504334095#1_1" startPos="223.91" endPos="233.91" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_23" name="128县道" lane="504334095#4_1" startPos="251.73000000000002" endPos="261.73" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_24" name="北龙立交" lane="459628575#2_1" startPos="407.96" endPos="417.96" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_25" name="高枧1号大桥" lane="609518385_1" startPos="419.17" endPos="429.17" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_26" name="情人谷路" lane="609518388#0_1" startPos="117.28" endPos="127.28" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_27" name="情人谷路口(公交站)" lane="609518388#1_1" startPos="445.2" endPos="455.2" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_28" name="贵阳市曜阳养老服务中心" lane="749185080_1" startPos="822.31" endPos="832.31" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_0_29" name="后所" lane="749185085_1" startPos="1360.63" endPos="1370.63" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_00" name="后所" lane="749185086_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_01" name="贵阳市曜阳养老服务中心" lane="749185087_1" startPos="1295.65" endPos="1305.65" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_02" name="情人谷路口(公交站)" lane="749185084_1" startPos="804.58" endPos="814.58" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_03" name="情人谷路" lane="749185081#1_1" startPos="247.45999999999998" endPos="257.46" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_04" name="高枧1号大桥" lane="609518387_1" startPos="16.72" endPos="26.72" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_05" name="北龙立交" lane="609518383_1" startPos="45.18000000000001" endPos="55.18000000000001" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_06" name="128县道" lane="609518384#0_1" startPos="103.76999999999998" endPos="113.76999999999998" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_07" name="贵州华策若云文化传媒有限公司" lane="609518384#1_1" startPos="342.13" endPos="352.13" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_08" name="中天甜蜜小镇" lane="459628583#0_1" startPos="71.46000000000001" endPos="81.46000000000001" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_09" name="贵美医学美容" lane="504334096_1" startPos="710.81" endPos="720.81" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_10" name="云岩区人民政府政务服务大厅" lane="459620280#0_1" startPos="0" endPos="10" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_11" name="贵阳老素粉(中环路东段店)" lane="459620280#3_1" startPos="222.47000000000003" endPos="232.47000000000003" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_12" name="村上一品精致日料(未来方舟店)" lane="816550002#0_1" startPos="27.879999999999995" endPos="37.879999999999995" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_13" name="真爱幼幼全日制早教云岩中心" lane="816550002#1_1" startPos="297.05" endPos="307.05" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_14" name="金健康营养自助工程" lane="459628599_1" startPos="299.23" endPos="309.23" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_15" name="医联体" lane="459628600#0_1" startPos="0" endPos="10" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_16" name="大自然棕床垫(贵开路店)" lane="459628600#1_1" startPos="131.96" endPos="141.96" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_17" name="贵州医科大学-花溪校区管委会" lane="609518391_1" startPos="6.559999999999945" endPos="16.559999999999945" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_18" name="陕西路127号院" lane="459628605#1_1" startPos="11.700000000000003" endPos="21.700000000000003" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_19" name="徐鼎聚北京烤鸭" lane="99289480#3_1" startPos="3.5" endPos="13.5" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_20" name="贵州龙(威清店)" lane="99289480#5_1" startPos="301.23" endPos="311.23" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_21" name="CITY PARK 西派国樾" lane="99286373#1_1" startPos="141.79" endPos="151.79" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_22" name="云岩区头桥社区居民议事委员会" lane="99289474#4_1" startPos="23.29" endPos="33.29" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_23" name="福建千里香馄饨(三桥南路店)" lane="99289474#8_1" startPos="0.1499999999999999" endPos="10.15" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_24" name="滋味园食府(碧玉园店)" lane="99291526_1" startPos="258.33" endPos="268.33" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_25" name="贵阳珺怡大酒店" lane="824662330_1" startPos="28.72" endPos="38.72" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_26" name="北京华联超市(二桥黔春路店)" lane="99322643#2_1" startPos="486.15" endPos="496.15" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_27" name="富力华庭" lane="385774298#0_1" startPos="49.829999999999984" endPos="59.829999999999984" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_28" name="中环路西段入口(北向)" lane="385774298#1_1" startPos="168.18" endPos="178.18" friendlyPos="True" lines="686" personCapacity="50"/>
+	<busStop id="686_1_29" name="怪兽充电(黔灵湖山庄)" lane="385774298#2_1" startPos="11.199999999999989" endPos="21.19999999999999" friendlyPos="True" lines="686" personCapacity="50"/>
+</addition>

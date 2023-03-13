@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="636_0_00" name="索菲亚(居然之家店)" lane="-1064429420#0_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_01" name="忠科口腔门诊部" lane="1064429421_1" startPos="27.020000000000003" endPos="37.02" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_02" name="招商银行(金阳支行)" lane="823903429#4_1" startPos="343.49" endPos="353.49" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_03" name="Dace Cream网红生日蛋糕(观山湖店)" lane="167994417#1_1" startPos="393.37" endPos="403.37" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_04" name="湾河禅院" lane="167994492_1" startPos="297.18" endPos="307.18" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_05" name="云悦电竞商务酒店" lane="167994424#0_1" startPos="425.12" endPos="435.12" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_06" name="甘记罐罐鸡(数博万达店)" lane="167994424#3_1" startPos="548.01" endPos="558.01" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_07" name="家苑幼儿园" lane="167994424#4_1" startPos="647.52" endPos="657.52" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_08" name="贵阳市云岩区雅典娜幼儿园" lane="167994398_1" startPos="473.23" endPos="483.23" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_09" name="云岩区第二人民医院圣泉分院" lane="167994500#1_1" startPos="52.79" endPos="62.79" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_10" name="富力华庭" lane="167994522_1" startPos="448.69" endPos="458.69" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_11" name="弘福寺-五观堂" lane="167994519_1" startPos="409.81" endPos="419.81" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_12" name="贵州医科大学附属肿瘤医院放疗楼" lane="167994425_1" startPos="415.38" endPos="425.38" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_13" name="观世音菩萨佛堂" lane="99289488_1" startPos="239.02" endPos="249.02" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_14" name="贵阳柏泰酒店" lane="705369312_1" startPos="66.11" endPos="76.11" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_15" name="北京路社区党群服务中心" lane="749544687#2_1" startPos="136.01" endPos="146.01" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_16" name="贵顺成(市北路店)" lane="99289473#0_1" startPos="149.51" endPos="159.51" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_17" name="中共贵州医科大学成人继续教育学院委员会" lane="99289473#1_1" startPos="539.01" endPos="549.01" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_18" name="贵阳开磷总医院百花分院" lane="459628603_1" startPos="730.56" endPos="740.56" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_19" name="苗药康复理疗店" lane="609518390_1" startPos="399.21" endPos="409.21" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_20" name="茶百道(未来方舟H组团店)" lane="459628598_1" startPos="1117.56" endPos="1127.56" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_21" name="贵阳市云岩区泡泡秀第三幼儿园" lane="459628589_1" startPos="214.25" endPos="224.25" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_22" name="羊小子水城羊肉粉(未来方舟店)" lane="749270111#0_1" startPos="118.97" endPos="128.97" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_23" name="贵阳燕赵乡情公寓酒店" lane="749270111#2_1" startPos="425.8" endPos="435.8" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_24" name="粥皇餐厅" lane="816550001#0_1" startPos="326.01" endPos="336.01" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_25" name="中天pluss" lane="459628578_1" startPos="1406.13" endPos="1416.13" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_26" name="贵阳甜蜜小镇牙科" lane="504334095#1_1" startPos="223.91" endPos="233.91" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_27" name="长坡岭" lane="504334095#4_1" startPos="251.73000000000002" endPos="261.73" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_28" name="情人谷路" lane="459628575#2_1" startPos="407.96" endPos="417.96" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_0_29" name="高枧2号大桥" lane="609518385_1" startPos="419.17" endPos="429.17" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_00" name="高枧2号大桥" lane="749185078_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_01" name="情人谷路" lane="609518383_1" startPos="408.18" endPos="418.18" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_02" name="长坡岭" lane="609518384#1_1" startPos="257.13" endPos="267.13" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_03" name="贵阳甜蜜小镇牙科" lane="609518384#2_1" startPos="381.14" endPos="391.14" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_04" name="中天pluss" lane="459628583#2_1" startPos="225.39" endPos="235.39" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_05" name="粥皇餐厅" lane="504334096_1" startPos="1289.81" endPos="1299.81" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_06" name="贵阳燕赵乡情公寓酒店" lane="816550000_1" startPos="131.29000000000002" endPos="141.29000000000002" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_07" name="羊小子水城羊肉粉(未来方舟店)" lane="816550002#1_1" startPos="218.05" endPos="228.05" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_08" name="贵阳市云岩区泡泡秀第三幼儿园" lane="749270142#0_1" startPos="84.26" endPos="94.26" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_09" name="茶百道(未来方舟H组团店)" lane="459628592_1" startPos="185.17" endPos="195.17" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_10" name="苗药康复理疗店" lane="459628600#0_1" startPos="25.439999999999998" endPos="35.44" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_11" name="贵阳开磷总医院百花分院" lane="459628602_1" startPos="193.26999999999998" endPos="203.26999999999998" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_12" name="中共贵州医科大学成人继续教育学院委员会" lane="609518391_1" startPos="669.56" endPos="679.56" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_13" name="贵顺成(市北路店)" lane="823899321#1_1" startPos="261.16999999999996" endPos="271.16999999999996" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_14" name="北京路社区党群服务中心" lane="823899319#2_1" startPos="136.56" endPos="146.56" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_15" name="贵阳柏泰酒店" lane="99289471#3_1" startPos="28.239999999999995" endPos="38.239999999999995" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_16" name="观世音菩萨佛堂" lane="705369311_1" startPos="37.06999999999999" endPos="47.06999999999999" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_17" name="贵州医科大学附属肿瘤医院放疗楼" lane="749535995_1" startPos="182.74" endPos="192.74" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_18" name="弘福寺-五观堂" lane="167994416_1" startPos="123.98000000000002" endPos="133.98000000000002" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_19" name="富力华庭" lane="167994477#0_1" startPos="19.19999999999999" endPos="29.19999999999999" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_20" name="云岩区第二人民医院圣泉分院" lane="167994524_1" startPos="317.69" endPos="327.69" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_21" name="贵阳市云岩区雅典娜幼儿园" lane="167994472#1_1" startPos="29.36" endPos="39.36" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_22" name="家苑幼儿园" lane="167994399_1" startPos="442.45" endPos="452.45" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_23" name="甘记罐罐鸡(数博万达店)" lane="167994415_1" startPos="307.67999999999995" endPos="317.67999999999995" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_24" name="云悦电竞商务酒店" lane="167994455#0_1" startPos="95.17000000000002" endPos="105.17000000000002" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_25" name="湾河禅院" lane="167994455#3_1" startPos="14.029999999999973" endPos="24.029999999999973" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_26" name="Dace Cream网红生日蛋糕(观山湖店)" lane="167994491_1" startPos="0" endPos="10" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_27" name="招商银行(金阳支行)" lane="167994411#1_1" startPos="12.280000000000001" endPos="22.28" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_28" name="忠科口腔门诊部" lane="167994459#0_1" startPos="123.25" endPos="133.25" friendlyPos="True" lines="636" personCapacity="50"/>
+	<busStop id="636_1_29" name="索菲亚(居然之家店)" lane="-1064429420#0_1" startPos="176.64" endPos="186.64" friendlyPos="True" lines="636" personCapacity="50"/>
+</addition>

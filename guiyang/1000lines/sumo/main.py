@@ -10,33 +10,41 @@ if __name__ == '__main__':
     sumoConfig = [sumoBinary, '-c', "./guiyang.sumocfg"]
     traci.start(sumoConfig)
 
-
-    route = 17
+#27
+    route = 27
     #route = 480
     step = 0
-    sumo_controller = SumoController(route)
+    controllers = []
+    for i in range(1000):
+        sumo_controller = SumoController(route)
+        sumo_controller.drawStopPoi()
+        sumo_controller.selectRoute(0)
+        sumo_controller.selectRoute(1)
+        controllers.append(sumo_controller)
 
 
 
-    sumo_controller.drawStopPoi()
-    sumo_controller.selectRoute(0)
-    sumo_controller.selectRoute(1)
+    print(traci.lane.getLinks('475686362#1_1'))
     while(step<100000):
-        sumo_controller.updateBusLists()
+        for i in range(1000):
+            controllers[i].updateBusLists()
         #add persons
         if step%60==0:
-            for i in range(sumo_controller.upStopNum):
-                sumo_controller.addPassenger('{}_0_{}'.format(str(route).zfill(3), str(i).zfill(2)),0)
-                sumo_controller.addPassenger('{}_1_{}'.format(str(route).zfill(3), str(i).zfill(2)),1)
+            for k in range(1000):
+                for i in range(controllers[k].upStopNum):
+                    controllers[k].addPassenger('{}_0_{}'.format(str(route).zfill(3), str(i).zfill(2)),0)
+                    controllers[k].addPassenger('{}_1_{}'.format(str(route).zfill(3), str(i).zfill(2)),1)
 
         if step%600==0:
-            sumo_controller.addBus(0)
-            sumo_controller.addBus(1)
+            for i in range(1000):
+                controllers[i].addBus(0)
+                controllers[i].addBus(1)
 
 
 
-        sumo_controller.changeBusColor()
-        sumo_controller.changePoiColorByPersonNum()
+        for i in range(1000):
+            controllers[i].changeBusColor()
+            controllers[i].changePoiColorByPersonNum()
         traci.simulation.step()
         step+=1
 

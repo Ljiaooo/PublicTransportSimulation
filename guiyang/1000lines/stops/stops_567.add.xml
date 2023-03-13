@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="567_0_00" name="贵州正祥法医物证司法鉴定所" lane="-262115016#2_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_01" name="燕子烧烤(阳关小区店)" lane="-262115016#2_1" startPos="429.09" endPos="439.09" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_02" name="融创数据小镇" lane="262115017#7_1" startPos="400.0" endPos="410.0" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_03" name="黔味食筑·盘州牛肉(麒龙商务港A座店)" lane="822503745#15_1" startPos="75.69" endPos="85.69" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_04" name="通号·云璟台" lane="822503745#16_1" startPos="659.25" endPos="669.25" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_05" name="贵阳毛十八交通工程有限公司" lane="609517173#1_1" startPos="510.03999999999996" endPos="520.04" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_06" name="黔航小区" lane="609517173#4_1" startPos="175.35" endPos="185.35" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_07" name="松岭路" lane="609517173#6_1" startPos="448.65" endPos="458.65" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_08" name="诚意养生服务馆" lane="609517173#12_1" startPos="202.4" endPos="212.4" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_09" name="北京西路" lane="609517173#14_1" startPos="494.05" endPos="504.05" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_10" name="黔城美景" lane="99322661#2_1" startPos="142.59" endPos="152.59" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_11" name="龙福花园" lane="99322642_1" startPos="120.41999999999999" endPos="130.42" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_12" name="萌之蓝幼儿园" lane="505047013#2_1" startPos="153.16" endPos="163.16" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_13" name="花果园U区南区" lane="505047009_1" startPos="1311.78" endPos="1321.78" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_14" name="蔡关路" lane="315753867#2_1" startPos="109.77" endPos="119.77" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_15" name="豆豆实验室" lane="315753867#4_1" startPos="358.75" endPos="368.75" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_16" name="凯诚驾校(南明店)" lane="200886891_1" startPos="610.4" endPos="620.4" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_17" name="云上小座 (屋顶花园烧烤)" lane="200886892_1" startPos="229.45" endPos="239.45" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_18" name="贵阳阿哈湖国家湿地公园-花谷" lane="200886893_1" startPos="503.09000000000003" endPos="513.09" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_19" name="竹林村农家书屋" lane="200886889#0_1" startPos="2109.46" endPos="2119.46" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_20" name="上坝" lane="-671337191#0_1" startPos="307.85" endPos="317.85" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_21" name="勤奋学校" lane="-671337193#0_1" startPos="1367.22" endPos="1377.22" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_22" name="贵阳银行(中曹支行)" lane="749300751#1_1" startPos="529.75" endPos="539.75" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_23" name="川味食族家常菜馆(花溪大道店)" lane="749300751#2_1" startPos="439.68" endPos="449.68" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_24" name="贵阳西站" lane="823832221#1_1" startPos="1398.44" endPos="1408.44" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_25" name="贵州多元素文化传媒有限公司" lane="503421284#1_1" startPos="218.66" endPos="228.66" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_26" name="董家堰居委会(花溪大道南段)" lane="823832230#1_1" startPos="1119.93" endPos="1129.93" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_27" name="贵州民族大学音乐舞蹈学院" lane="823832230#3_1" startPos="196.52" endPos="206.52" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_28" name="贵阳宏翼宾馆" lane="823832230#4_1" startPos="528.41" endPos="538.41" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_29" name="中共贵州民族大学委员会党校预科教育学院分校" lane="823832243#2_1" startPos="731.91" endPos="741.91" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_30" name="纯野菜砂锅酸辣汤" lane="823832243#4_1" startPos="127.56" endPos="137.56" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_0_31" name="竹林转运站" lane="823832243#5_1" startPos="961.49" endPos="971.49" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_00" name="竹林转运站" lane="823832230#0_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_01" name="纯野菜砂锅酸辣汤" lane="823832230#1_1" startPos="931.9300000000001" endPos="941.9300000000001" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_02" name="中共贵州民族大学委员会党校预科教育学院分校" lane="823832230#2_1" startPos="203.32" endPos="213.32" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_03" name="贵阳宏翼宾馆" lane="593434710#0_1" startPos="399.98" endPos="409.98" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_04" name="贵州民族大学音乐舞蹈学院" lane="-625316009_1" startPos="163.64" endPos="173.64" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_05" name="董家堰居委会(花溪大道南段)" lane="-541372474#2_1" startPos="0" endPos="10" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_06" name="贵州多元素文化传媒有限公司" lane="281528792#2_1" startPos="144.34000000000003" endPos="154.34000000000003" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_07" name="贵阳西站" lane="281528792#3_1" startPos="0" endPos="10" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_08" name="川味食族家常菜馆(花溪大道店)" lane="460189432#1_1" startPos="1094.17" endPos="1104.17" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_09" name="贵阳银行(中曹支行)" lane="460189432#2_1" startPos="0" endPos="10" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_10" name="勤奋学校" lane="824309276#0_1" startPos="325.77" endPos="335.77" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_11" name="上坝" lane="824309276#1_1" startPos="1270.74" endPos="1280.74" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_12" name="竹林村农家书屋" lane="824309276#2_1" startPos="124.16000000000008" endPos="134.16000000000008" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_13" name="贵阳阿哈湖国家湿地公园-花谷" lane="749300753_1" startPos="303.57000000000005" endPos="313.57000000000005" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_14" name="云上小座 (屋顶花园烧烤)" lane="200886886_1" startPos="23.399999999999977" endPos="33.39999999999998" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_15" name="凯诚驾校(南明店)" lane="200886887_1" startPos="227.62" endPos="237.62" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_16" name="豆豆实验室" lane="200886894#0_1" startPos="181.77999999999997" endPos="191.77999999999997" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_17" name="蔡关路" lane="200886894#3_1" startPos="36.25" endPos="46.25" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_18" name="花果园U区南区" lane="315753870_1" startPos="222.27999999999997" endPos="232.27999999999997" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_19" name="萌之蓝幼儿园" lane="505047007#1_1" startPos="374.87" endPos="384.87" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_20" name="龙福花园" lane="505047007#2_1" startPos="263.64" endPos="273.64" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_21" name="黔城美景" lane="505047007#3_1" startPos="363.65" endPos="373.65" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_22" name="北京西路" lane="505047007#4_1" startPos="0" endPos="10" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_23" name="诚意养生服务馆" lane="513377073#0_1" startPos="3.6200000000000045" endPos="13.620000000000005" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_24" name="松岭路" lane="504937624#0_1" startPos="367.47" endPos="377.47" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_25" name="黔航小区" lane="504937624#1_1" startPos="33.839999999999975" endPos="43.839999999999975" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_26" name="贵阳毛十八交通工程有限公司" lane="504937624#3_1" startPos="37.10000000000002" endPos="47.10000000000002" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_27" name="通号·云璟台" lane="459862785#0_1" startPos="22.38" endPos="32.379999999999995" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_28" name="黔味食筑·盘州牛肉(麒龙商务港A座店)" lane="504659006#7_1" startPos="42.879999999999995" endPos="52.879999999999995" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_29" name="融创数据小镇" lane="504659006#9_1" startPos="23.08" endPos="33.08" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_30" name="燕子烧烤(阳关小区店)" lane="529550822_1" startPos="272.18" endPos="282.18" friendlyPos="True" lines="567" personCapacity="50"/>
+	<busStop id="567_1_31" name="贵州正祥法医物证司法鉴定所" lane="609517169#2_1" startPos="3.0800000000000125" endPos="13.080000000000013" friendlyPos="True" lines="567" personCapacity="50"/>
+</addition>

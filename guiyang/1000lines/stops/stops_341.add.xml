@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="341_0_00" name="白云幼儿园(北京西路)" lane="-593486797_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_01" name="贵阳铁路工程学校&amp;贵阳铁路高级技工学校实习工厂" lane="-593486797_1" startPos="416.26" endPos="426.26" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_02" name="贵阳市女子职业学校" lane="593486797_1" startPos="409.16" endPos="419.16" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_03" name="黔城美景" lane="504939367#0_1" startPos="301.94" endPos="311.94" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_04" name="夜市烧烤" lane="609521466#1_1" startPos="355.92" endPos="365.92" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_05" name="改茶社区退役军人服务站" lane="609521466#2_1" startPos="511.20000000000005" endPos="521.2" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_06" name="治安岗亭" lane="505047009_1" startPos="1311.78" endPos="1321.78" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_07" name="梦幻雪(下寨路店)" lane="315753867#2_1" startPos="109.77" endPos="119.77" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_08" name="留一手特色烤鱼(蔡家关店)" lane="315753867#4_1" startPos="358.75" endPos="368.75" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_09" name="小车河路" lane="200886891_1" startPos="610.4" endPos="620.4" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_10" name="霞霞家烧烤" lane="200886892_1" startPos="229.45" endPos="239.45" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_11" name="水磨时光" lane="200886893_1" startPos="503.09000000000003" endPos="513.09" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_12" name="甲秀南路" lane="200886889#0_1" startPos="2109.46" endPos="2119.46" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_13" name="松林坡" lane="200886889#2_1" startPos="1187.28" endPos="1197.28" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_14" name="农科公寓" lane="824309278#0_1" startPos="100.92" endPos="110.92" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_15" name="慕木家居" lane="588160561#2_1" startPos="1512.86" endPos="1522.86" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_16" name="景粼时光(建设中)" lane="460189431#0_1" startPos="197.08" endPos="207.08" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_17" name="大职路" lane="460189431#1_1" startPos="854.28" endPos="864.28" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_18" name="贵州护理职业技术学院(花溪校区)" lane="460189431#3_1" startPos="422.5" endPos="432.5" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_19" name="布依村土菜馆" lane="281528786#0_1" startPos="597.67" endPos="607.67" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_20" name="贵州宇阳电器有限公司" lane="593434733#1_1" startPos="852.12" endPos="862.12" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_21" name="玖e充电动汽车充电站(花溪互通管理中心站)" lane="593434733#2_1" startPos="1060.79" endPos="1070.79" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_22" name="丰鼎源不锈钢板材" lane="664255582_1" startPos="101.97" endPos="111.97" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_23" name="合朋时代中心" lane="281528837#2_1" startPos="558.01" endPos="568.01" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_24" name="柏曼酒店(贵阳花溪合朋店)" lane="281528849_1" startPos="232.74" endPos="242.74" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_25" name="花溪农商银行合朋支行" lane="281528850_1" startPos="29.229999999999997" endPos="39.23" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_26" name="贵阳 胡哥 精品 车行" lane="281528883_1" startPos="605.9" endPos="615.9" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_27" name="贵州花溪农商银行(摆勺村便民服务支行)" lane="281528881_1" startPos="619.8" endPos="629.8" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_28" name="新雪公路" lane="281528860_1" startPos="3647.78" endPos="3657.78" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_29" name="久安高效茶叶示范园区" lane="1064429412_1" startPos="262.9" endPos="272.9" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_30" name="012乡道" lane="178857349_1" startPos="2196.75" endPos="2206.75" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_0_31" name="下半岩" lane="183172247_1" startPos="680.34" endPos="690.34" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_00" name="下半岩" lane="670787015_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_01" name="012乡道" lane="673662795#11_1" startPos="336.86" endPos="346.86" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_02" name="久安高效茶叶示范园区" lane="673662795#12_1" startPos="2067.81" endPos="2077.81" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_03" name="新雪公路" lane="540240015#6_1" startPos="237.38" endPos="247.38" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_04" name="贵州花溪农商银行(摆勺村便民服务支行)" lane="609720945#1_1" startPos="323.16999999999996" endPos="333.16999999999996" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_05" name="贵阳 胡哥 精品 车行" lane="609720925_1" startPos="282.17" endPos="292.17" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_06" name="花溪农商银行合朋支行" lane="609720245#0_1" startPos="267.62" endPos="277.62" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_07" name="柏曼酒店(贵阳花溪合朋店)" lane="609720245#1_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_08" name="合朋时代中心" lane="609720245#2_1" startPos="457.51" endPos="467.51" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_09" name="丰鼎源不锈钢板材" lane="609720245#3_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_10" name="玖e充电动汽车充电站(花溪互通管理中心站)" lane="593434823#0_1" startPos="50.91" endPos="60.91" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_11" name="贵州宇阳电器有限公司" lane="593434823#1_1" startPos="870.74" endPos="880.74" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_12" name="布依村土菜馆" lane="593434744_1" startPos="170.05999999999995" endPos="180.05999999999995" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_13" name="贵州护理职业技术学院(花溪校区)" lane="593434766_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_14" name="大职路" lane="593434837_1" startPos="316.59000000000015" endPos="326.59000000000015" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_15" name="景粼时光(建设中)" lane="540239986#0_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_16" name="慕木家居" lane="475686338_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_17" name="农科公寓" lane="588160577_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_18" name="松林坡" lane="824309276#1_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_19" name="甲秀南路" lane="824309276#2_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_20" name="水磨时光" lane="749300753_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_21" name="霞霞家烧烤" lane="824309283_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_22" name="小车河路" lane="749300746_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_23" name="留一手特色烤鱼(蔡家关店)" lane="200886898_1" startPos="69.19" endPos="79.19" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_24" name="梦幻雪(下寨路店)" lane="200886886_1" startPos="279.4" endPos="289.4" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_25" name="治安岗亭" lane="200886887_1" startPos="442.62" endPos="452.62" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_26" name="改茶社区退役军人服务站" lane="315753870_1" startPos="406.28" endPos="416.28" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_27" name="夜市烧烤" lane="505047010_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_28" name="黔城美景" lane="505047007#0_1" startPos="0" endPos="10" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_29" name="贵阳市女子职业学校" lane="505047007#1_1" startPos="354.87" endPos="364.87" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_30" name="贵阳铁路工程学校&amp;贵阳铁路高级技工学校实习工厂" lane="505047007#2_1" startPos="177.64" endPos="187.64" friendlyPos="True" lines="341" personCapacity="50"/>
+	<busStop id="341_1_31" name="白云幼儿园(北京西路)" lane="504939368#3_1" startPos="19.589999999999975" endPos="29.589999999999975" friendlyPos="True" lines="341" personCapacity="50"/>
+</addition>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="100_0_00" name="水电九局小区" lane="-351974454#2_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_01" name="文丰幼教二分园" lane="351974454#1_1" startPos="198.71" endPos="208.71" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_02" name="星篮幼儿园" lane="609517173#12_1" startPos="202.4" endPos="212.4" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_03" name="北京西路" lane="167994398_1" startPos="473.23" endPos="483.23" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_04" name="万达宝通轮胎(中坝路店)" lane="167994500#1_1" startPos="52.79" endPos="62.79" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_05" name="无限极中草药保健美容" lane="167994522_1" startPos="448.69" endPos="458.69" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_06" name="贵州省质量技术监督局稽查局" lane="167994519_1" startPos="409.81" endPos="419.81" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_07" name="贵州医科大学附属肿瘤医院急诊室" lane="167994425_1" startPos="415.38" endPos="425.38" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_08" name="但家香酥鸭(黔灵公园店)" lane="99289488_1" startPos="239.02" endPos="249.02" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_09" name="365精英教育集团" lane="705369312_1" startPos="66.11" endPos="76.11" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_10" name="八鸽岩(地铁站)" lane="749544687#2_1" startPos="136.01" endPos="146.01" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_11" name="黔为天(市北店)" lane="99289473#0_1" startPos="149.51" endPos="159.51" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_12" name="贵州医科大学临床技能实验中心3-4教室" lane="99289473#1_1" startPos="539.01" endPos="549.01" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_13" name="吉祥巷" lane="823899322#2_1" startPos="116.64" endPos="126.64" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_14" name="黄南武阳朗辣子鸡(形象店)" lane="81944501#1_1" startPos="181.29" endPos="191.29" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_15" name="樱花路" lane="81944501#5_1" startPos="459.16" endPos="469.16" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_16" name="中天花园森林广场" lane="81944501#7_1" startPos="640.89" endPos="650.89" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_17" name="VOID cafe" lane="81944501#13_1" startPos="210.55" endPos="220.55" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_18" name="大上海" lane="1058249924#1_1" startPos="463.26" endPos="473.26" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_19" name="四光路" lane="1058249924#3_1" startPos="72.17" endPos="82.17" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_20" name="丁莽子地摊火锅" lane="1058249924#5_1" startPos="542.94" endPos="552.94" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_21" name="艾眼吧" lane="1058249924#7_1" startPos="711.51" endPos="721.51" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_22" name="贵阳市乌当区观溪路街道办事处" lane="609465735#1_1" startPos="341.62" endPos="351.62" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_23" name="北衙路" lane="609465735#5_1" startPos="335.12" endPos="345.12" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_24" name="北龙路" lane="609465735#8_1" startPos="357.83" endPos="367.83" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_25" name="乌当区环境卫生管理站车队" lane="609465735#10_1" startPos="792.7" endPos="802.7" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_26" name="周四馒头(汤泉HOUSE店)" lane="609465735#12_1" startPos="101.53" endPos="111.53" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_27" name="幸福里3期" lane="-851910682#2_1" startPos="134.42" endPos="144.42" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_28" name="云锦庄小学" lane="-851910682#1_1" startPos="1057.53" endPos="1067.53" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_29" name="中共良种场社区支部委员会" lane="851910709#0_1" startPos="234.37" endPos="244.37" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_0_30" name="爱康牙科" lane="-609749615#7_1" startPos="1722.7" endPos="1732.7" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_00" name="爱康牙科" lane="-609749596#0_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_01" name="中共良种场社区支部委员会" lane="851910707#1_1" startPos="39.41" endPos="49.41" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_02" name="云锦庄小学" lane="851910682#1_1" startPos="86.68000000000006" endPos="96.68000000000006" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_03" name="幸福里3期" lane="851910682#2_1" startPos="120.41999999999999" endPos="130.42" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_04" name="周四馒头(汤泉HOUSE店)" lane="332700170#3_1" startPos="27.439999999999998" endPos="37.44" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_05" name="乌当区环境卫生管理站车队" lane="332700170#4_1" startPos="159.55999999999995" endPos="169.55999999999995" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_06" name="北龙路" lane="332700170#5_1" startPos="190.24" endPos="200.24" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_07" name="北衙路" lane="332700170#9_1" startPos="242.43" endPos="252.43" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_08" name="贵阳市乌当区观溪路街道办事处" lane="332700170#13_1" startPos="72.25" endPos="82.25" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_09" name="艾眼吧" lane="1058249922#1_1" startPos="260.15999999999997" endPos="270.15999999999997" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_10" name="丁莽子地摊火锅" lane="1058249922#3_1" startPos="294.30999999999995" endPos="304.30999999999995" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_11" name="四光路" lane="1058249922#5_1" startPos="237.23000000000002" endPos="247.23000000000002" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_12" name="大上海" lane="1058249922#6_1" startPos="342.42" endPos="352.42" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_13" name="VOID cafe" lane="609465740#2_1" startPos="161.43" endPos="171.43" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_14" name="中天花园森林广场" lane="609465740#4_1" startPos="452.13" endPos="462.13" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_15" name="樱花路" lane="609465740#9_1" startPos="34.349999999999994" endPos="44.349999999999994" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_16" name="黄南武阳朗辣子鸡(形象店)" lane="99317149#0_1" startPos="482.72" endPos="492.72" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_17" name="吉祥巷" lane="99317149#1_1" startPos="626.8900000000001" endPos="636.8900000000001" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_18" name="贵州医科大学临床技能实验中心3-4教室" lane="99289480#3_1" startPos="51.5" endPos="61.5" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_19" name="黔为天(市北店)" lane="99289480#5_1" startPos="531.23" endPos="541.23" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_20" name="八鸽岩(地铁站)" lane="99286373#3_1" startPos="19.460000000000008" endPos="29.460000000000008" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_21" name="365精英教育集团" lane="99289474#6_1" startPos="44.47000000000003" endPos="54.47000000000003" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_22" name="但家香酥鸭(黔灵公园店)" lane="99289476#1_1" startPos="202.72000000000003" endPos="212.72000000000003" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_23" name="贵州医科大学附属肿瘤医院急诊室" lane="99291526_1" startPos="289.33" endPos="299.33" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_24" name="贵州省质量技术监督局稽查局" lane="99322643#1_1" startPos="0.7700000000000031" endPos="10.770000000000003" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_25" name="无限极中草药保健美容" lane="99322592#0_1" startPos="109.78999999999996" endPos="119.78999999999996" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_26" name="万达宝通轮胎(中坝路店)" lane="99322592#1_1" startPos="5.689999999999998" endPos="15.689999999999998" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_27" name="北京西路" lane="99322592#3_1" startPos="45.329999999999984" endPos="55.329999999999984" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_28" name="星篮幼儿园" lane="504937614#1_1" startPos="134.82" endPos="144.82" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_29" name="文丰幼教二分园" lane="-609517173#14_1" startPos="457.48" endPos="467.48" friendlyPos="True" lines="100" personCapacity="50"/>
+	<busStop id="100_1_30" name="水电九局小区" lane="-609517173#8_1" startPos="5.6299999999999955" endPos="15.629999999999995" friendlyPos="True" lines="100" personCapacity="50"/>
+</addition>

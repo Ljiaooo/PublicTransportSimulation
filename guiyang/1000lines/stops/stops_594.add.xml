@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="594_0_00" name="印象二期(建设中)" lane="609510634_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_01" name="七冲站(快速公交站)" lane="609510634_1" startPos="722.35" endPos="732.35" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_02" name="黔春路消防救援站" lane="-385774298#1_1" startPos="487.52" endPos="497.52" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_03" name="熊二烧烤(圣泉路店)" lane="609510641#0_1" startPos="462.58" endPos="472.58" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_04" name="合达博艺恒大帝景艺术培训中心" lane="609510646_1" startPos="391.5" endPos="401.5" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_05" name="中环路西段" lane="529545587_1" startPos="387.79" endPos="397.79" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_06" name="尝再来小菜馆北站店" lane="529549134_1" startPos="68.44" endPos="78.44" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_07" name="阳关城市花园" lane="504345250_1" startPos="300.36" endPos="310.36" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_08" name="盐沙大道" lane="529542928_1" startPos="576.19" endPos="586.19" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_09" name="小关立交" lane="529542938_1" startPos="1042.59" endPos="1052.59" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_10" name="安顺屯堡烤小肠(天誉城店)" lane="529542955#1_1" startPos="431.99" endPos="441.99" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_11" name="贵州永吉印务股份有限公司" lane="609515594_1" startPos="20.78" endPos="30.78" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_12" name="宅吉派出所驻实验二中警务室" lane="542268203_1" startPos="381.34" endPos="391.34" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_13" name="化工立交" lane="542268200_1" startPos="399.43" endPos="409.43" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_14" name="杨柳井站(快速公交站)" lane="529554436_1" startPos="1139.23" endPos="1149.23" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_15" name="杨柳井立交" lane="609465712_1" startPos="193.43" endPos="203.43" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_16" name="贵龙驾校" lane="609465718#1_1" startPos="391.64" endPos="401.64" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_17" name="VOID cafe" lane="609465729_1" startPos="131.86" endPos="141.86" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_18" name="新添生态园(快速公交站)" lane="1058249924#1_1" startPos="463.26" endPos="473.26" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_19" name="兴义清真牛肉馆(恒大雅苑店)" lane="1058249924#3_1" startPos="72.17" endPos="82.17" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_20" name="观云" lane="1058249924#5_1" startPos="542.94" endPos="552.94" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_21" name="篷山路" lane="1058249924#7_1" startPos="711.51" endPos="721.51" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_22" name="千禧苑A区" lane="609465735#1_1" startPos="341.62" endPos="351.62" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_23" name="贵阳康德润生综合医院" lane="609465735#5_1" startPos="335.12" endPos="345.12" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_24" name="银泰花园社区公园" lane="609465735#8_1" startPos="357.83" endPos="367.83" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_25" name="惠诚滋知(新添四店)" lane="79850039#1_1" startPos="725.17" endPos="735.17" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_26" name="肆个鸭脑壳(乌当区李月江卤味店)" lane="79850039#3_1" startPos="292.06" endPos="302.06" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_27" name="贵州省高校党建理论研究基地" lane="79850039#4_1" startPos="498.42" endPos="508.42" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_28" name="贵阳汇融国际大酒店" lane="460024025#2_1" startPos="362.47" endPos="372.47" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_0_29" name="贵阳飞达酒店" lane="460024023#0_1" startPos="1215.24" endPos="1225.24" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_00" name="贵阳飞达酒店" lane="-586505045#0_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_01" name="贵阳汇融国际大酒店" lane="460024024#2_1" startPos="1224.76" endPos="1234.76" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_02" name="贵州省高校党建理论研究基地" lane="586505061#1_1" startPos="109.07" endPos="119.07" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_03" name="肆个鸭脑壳(乌当区李月江卤味店)" lane="460024022#2_1" startPos="304.56" endPos="314.56" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_04" name="惠诚滋知(新添四店)" lane="460024022#3_1" startPos="267.11" endPos="277.11" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_05" name="银泰花园社区公园" lane="460024022#5_1" startPos="407.26" endPos="417.26" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_06" name="贵阳康德润生综合医院" lane="332700170#5_1" startPos="231.24" endPos="241.24" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_07" name="千禧苑A区" lane="332700170#10_1" startPos="41.389999999999986" endPos="51.389999999999986" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_08" name="篷山路" lane="332700170#11_1" startPos="259.44" endPos="269.44" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_09" name="观云" lane="1058249922#1_1" startPos="105.15999999999997" endPos="115.15999999999997" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_10" name="兴义清真牛肉馆(恒大雅苑店)" lane="1058249922#2_1" startPos="0" endPos="10" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_11" name="新添生态园(快速公交站)" lane="1058249922#3_1" startPos="252.30999999999995" endPos="262.30999999999995" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_12" name="VOID cafe" lane="1058249922#5_1" startPos="146.23000000000002" endPos="156.23000000000002" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_13" name="贵龙驾校" lane="1058249922#6_1" startPos="239.42000000000002" endPos="249.42000000000002" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_14" name="杨柳井立交" lane="1058249922#7_1" startPos="100.48" endPos="110.48" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_15" name="杨柳井站(快速公交站)" lane="609465740#2_1" startPos="117.43" endPos="127.43" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_16" name="化工立交" lane="609465740#9_1" startPos="155.35" endPos="165.35" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_17" name="宅吉派出所驻实验二中警务室" lane="749544699#3_1" startPos="84.74" endPos="94.74" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_18" name="贵州永吉印务股份有限公司" lane="609743341#1_1" startPos="386.01" endPos="396.01" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_19" name="安顺屯堡烤小肠(天誉城店)" lane="99289462_1" startPos="138.32" endPos="148.32" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_20" name="小关立交" lane="99295421#0_1" startPos="89.06" endPos="99.06" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_21" name="盐沙大道" lane="609515597#1_1" startPos="150.1" endPos="160.1" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_22" name="阳关城市花园" lane="609515587_1" startPos="387.51" endPos="397.51" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_23" name="尝再来小菜馆北站店" lane="529542947_1" startPos="269.56999999999994" endPos="279.56999999999994" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_24" name="中环路西段" lane="529542943_1" startPos="0" endPos="10" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_25" name="合达博艺恒大帝景艺术培训中心" lane="529542934_1" startPos="0" endPos="10" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_26" name="熊二烧烤(圣泉路店)" lane="504345249#0_1" startPos="0" endPos="10" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_27" name="黔春路消防救援站" lane="504345249#2_1" startPos="195.63" endPos="205.63" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_28" name="七冲站(快速公交站)" lane="529549137#0_1" startPos="213.61" endPos="223.61" friendlyPos="True" lines="594" personCapacity="50"/>
+	<busStop id="594_1_29" name="印象二期(建设中)" lane="609510615_1" startPos="169.1" endPos="179.1" friendlyPos="True" lines="594" personCapacity="50"/>
+</addition>

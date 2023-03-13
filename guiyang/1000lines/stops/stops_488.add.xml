@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="488_0_00" name="贵阳市野鸭中学" lane="-542263931#1_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_01" name="小湾" lane="-542263931#1_1" startPos="643.48" endPos="653.48" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_02" name="优资茶(百花大道店)" lane="352255223#37_1" startPos="1012.4" endPos="1022.4" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_03" name="贤合庄(万达数博广场店)" lane="211701764#1_1" startPos="1286.69" endPos="1296.69" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_04" name="松岭路" lane="211701764#3_1" startPos="658.69" endPos="668.69" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_05" name="博林益智童趣幼儿园" lane="211701764#5_1" startPos="390.66" endPos="400.66" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_06" name="滇西情·菌王府" lane="211701764#7_1" startPos="256.15" endPos="266.15" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_07" name="品舍民俗酒店(贵阳北站店)" lane="211701764#12_1" startPos="425.71" endPos="435.71" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_08" name="黔小厨(天一国际店)" lane="211701764#16_1" startPos="325.8" endPos="335.8" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_09" name="惠民小厨" lane="211701764#18_1" startPos="419.05" endPos="429.05" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_10" name="中天会展城A5组团" lane="211701764#21_1" startPos="1039.95" endPos="1049.95" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_11" name="Smile Garden思迈花园咖啡(会展SOHO店)" lane="211701764#25_1" startPos="119.30000000000001" endPos="129.3" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_12" name="通元街" lane="211701764#28_1" startPos="472.3" endPos="482.3" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_13" name="贵州星海艺术教育集团" lane="211701764#32_1" startPos="112.83" endPos="122.83" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_14" name="恒大中央公园D区" lane="211701764#36_1" startPos="352.96" endPos="362.96" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_15" name="恒大中央公园" lane="211701764#39_1" startPos="187.35" endPos="197.35" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_16" name="好蒸道包子(园林居店)" lane="211701764#41_1" startPos="786.28" endPos="796.28" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_17" name="白云南路" lane="352255221_1" startPos="280.77" endPos="290.77" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_18" name="贵阳品馨精品酒店" lane="352255224#2_1" startPos="321.46" endPos="331.46" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_19" name="贵州铝厂综合图书馆" lane="352255224#4_1" startPos="314.53" endPos="324.53" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_20" name="塔山北街" lane="540233080#0_1" startPos="591.83" endPos="601.83" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_21" name="G6002贵阳绕城高速入口(乌当方向)" lane="540233080#3_1" startPos="357.67" endPos="367.67" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_22" name="贵阳曼迪嘉酒店" lane="540233080#7_1" startPos="65.35" endPos="75.35" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_23" name="荣都酒店(贵阳绿地新都会店)" lane="556575112_1" startPos="106.04" endPos="116.04" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_24" name="南八" lane="593486779#3_1" startPos="897.2" endPos="907.2" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_25" name="国家新型墙体材料质量监督检验中心(贵州)" lane="540233123#4_1" startPos="432.63" endPos="442.63" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_26" name="美乐苑小区" lane="540233123#6_1" startPos="500.2" endPos="510.2" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_27" name="太阳阁" lane="540233123#7_1" startPos="407.28" endPos="417.28" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_28" name="贵州雅光电子科技股份有限公司" lane="-540233084#3_1" startPos="344.24" endPos="354.24" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_0_29" name="班城寨" lane="-556575040#0_1" startPos="548.97" endPos="558.97" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_00" name="班城寨" lane="459819861#4_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_01" name="贵州雅光电子科技股份有限公司" lane="503905863#0_1" startPos="187.95" endPos="197.95" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_02" name="太阳阁" lane="459855176#2_1" startPos="128.93" endPos="138.93" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_03" name="美乐苑小区" lane="459855176#5_1" startPos="8.17999999999995" endPos="18.17999999999995" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_04" name="国家新型墙体材料质量监督检验中心(贵州)" lane="459855176#6_1" startPos="0" endPos="10" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_05" name="南八" lane="822503765_1" startPos="65.08000000000004" endPos="75.08000000000004" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_06" name="荣都酒店(贵阳绿地新都会店)" lane="822503767#1_1" startPos="388.33000000000004" endPos="398.33000000000004" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_07" name="贵阳曼迪嘉酒店" lane="822503767#2_1" startPos="247.66000000000003" endPos="257.66" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_08" name="G6002贵阳绕城高速入口(乌当方向)" lane="822503767#3_1" startPos="285.77" endPos="295.77" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_09" name="塔山北街" lane="719480731#0_1" startPos="291.98" endPos="301.98" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_10" name="贵州铝厂综合图书馆" lane="719950994#0_1" startPos="75.53" endPos="85.53" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_11" name="贵阳品馨精品酒店" lane="719950994#1_1" startPos="522.3900000000001" endPos="532.3900000000001" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_12" name="白云南路" lane="719950994#2_1" startPos="0" endPos="10" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_13" name="好蒸道包子(园林居店)" lane="719950989_1" startPos="0" endPos="10" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_14" name="恒大中央公园" lane="719950987#0_1" startPos="0" endPos="10" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_15" name="恒大中央公园D区" lane="719950987#1_1" startPos="160.83" endPos="170.83" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_16" name="贵州星海艺术教育集团" lane="540233059#4_1" startPos="268.69" endPos="278.69" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_17" name="通元街" lane="822503745#0_1" startPos="209.86" endPos="219.86" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_18" name="Smile Garden思迈花园咖啡(会展SOHO店)" lane="460330154#9_1" startPos="280.95000000000005" endPos="290.95000000000005" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_19" name="中天会展城A5组团" lane="352255223#9_1" startPos="102.08000000000004" endPos="112.08000000000004" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_20" name="惠民小厨" lane="352255223#15_1" startPos="155.45000000000005" endPos="165.45000000000005" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_21" name="黔小厨(天一国际店)" lane="352255223#16_1" startPos="0" endPos="10" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_22" name="品舍民俗酒店(贵阳北站店)" lane="352255223#17_1" startPos="0" endPos="10" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_23" name="滇西情·菌王府" lane="352255223#18_1" startPos="329.14" endPos="339.14" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_24" name="博林益智童趣幼儿园" lane="352255223#20_1" startPos="295.28" endPos="305.28" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_25" name="松岭路" lane="352255223#24_1" startPos="89.57999999999998" endPos="99.57999999999998" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_26" name="贤合庄(万达数博广场店)" lane="352255223#29_1" startPos="78.78999999999999" endPos="88.78999999999999" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_27" name="优资茶(百花大道店)" lane="352255223#34_1" startPos="542.96" endPos="552.96" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_28" name="小湾" lane="352255223#37_1" startPos="764.4" endPos="774.4" friendlyPos="True" lines="488" personCapacity="50"/>
+	<busStop id="488_1_29" name="贵阳市野鸭中学" lane="99322604#11_1" startPos="21.27000000000001" endPos="31.27000000000001" friendlyPos="True" lines="488" personCapacity="50"/>
+</addition>

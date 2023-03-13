@@ -34,8 +34,8 @@ START_POINT_RADIUS = 4000
 STOP_LENGTH = 10
 
 
-LINES_DEMAND = 20
-curLinesNum = 13
+LINES_DEMAND = 1000
+curLinesNum = 987
 
 
 def getRandomCoord(center=(53865.6, 41958.0), radius=START_POINT_RADIUS):
@@ -52,7 +52,7 @@ def getRandomStopNum(minNum = MIN_STOP_NUM, maxNum =  MAX_STOP_NUM):
 
 def request_url_get(url):
     try:
-        r = requests.get(url=url, timeout=30)
+        r = requests.get(url=url, timeout=30,proxies={"http":None,"https":None})
         if r.status_code == 200:
             return r.text
         return None
@@ -62,7 +62,10 @@ def request_url_get(url):
 
 
 def getStopName(lon, lat, curStopNames):
-    key = 'a501f49646a8dbf082d7cc79b6fe845c'
+    #key = 'a501f49646a8dbf082d7cc79b6fe845c'
+    #key = 'd28dfffcf278e1efc784ea2f0b546ea5'
+    #key = 'effd51bd513fcbf2fc0733107d5a0978'
+    key = '8f0946d4ae7c87b84a7ab74d6f146516'
     lon = round(lon, 6)
     lat = round(lat, 6)
     url = 'https://restapi.amap.com/v3/geocode/regeo?output=json&location={},{}&key={}&radius=1000&extensions=all&batch=false&roadlevel=0'.format(lon,lat,key)
@@ -206,6 +209,7 @@ def generateStopNameWithDistanceJson(stopNames, upDistanceList,downDistanceList,
 while curLinesNum < LINES_DEMAND:
     print('--------------------generating line {} -------------------------'.format(curLinesNum))
     if curLinesNum == 48:
+        curLinesNum =49
         continue
     stopNames = []
     upEdges = []
@@ -246,6 +250,7 @@ while curLinesNum < LINES_DEMAND:
     upStopStartPos.append(0.0)
     stopName=getStopNameAtLane(edges[0]+'_1',0.0,stopNames)
     if stopName == -1:
+        print("Stop Name Not Found")
         continue
     stopNames.append(stopName)
     curStopIndex=1
@@ -263,17 +268,24 @@ while curLinesNum < LINES_DEMAND:
                 upDistanceBetweenStopsList.append(distanceBetweenStops)
             distanceBetweenStops = 0
             stopName = getStopNameAtLane(edge+'_1',upPos,stopNames)
-            if stopName == -1 and edge == edges[-1]:
+            #if stopName == -1 and edge == edges[-1]:
+            if stopName == -1:
                 satisfied = False
                 break
             stopNames.append(stopName)
             curStopIndex+=1
-        if curStopIndex>=stopNum:
+        if curStopIndex>=stopNum or curStopIndex>=MIN_STOP_NUM and edge == edges[-1]:
+            stopNum = curStopIndex
             finalEndEdge = edge
             break
+        elif edge == edges[-1]:
+            print('Not Enough Stops')
+            satisfied = False
+            break
 
-    if curStopIndex<stopNum or not satisfied:
-        print('Not enough stops')
+    #if curStopIndex<stopNum or not satisfied:
+    if not satisfied:
+        print('Not satisfied')
         continue
 
     #get down direction data
@@ -288,6 +300,8 @@ while curLinesNum < LINES_DEMAND:
         end_links = traci.lane.getLinks(startEdgeID+'_1',False)
         start_links = [lane[0][:-2] for lane in start_links]
         end_links = [lane[0][:-2] for lane in end_links]
+        flag1 = False
+        flag2 = False
         for dist, edge in downStartNeighbors:
             edge = edge.getID()
             if edge!=finalEndEdge and edge not in start_links:
@@ -295,6 +309,7 @@ while curLinesNum < LINES_DEMAND:
                 links = [lane[0][:-2] for lane in links]
                 if finalEndEdge not in links:
                     downStartEdge = edge
+                    flag1 = True
                     break
         for dist, edge in downEndNeighbors:
             edge = edge.getID()
@@ -303,7 +318,10 @@ while curLinesNum < LINES_DEMAND:
                 links = [lane[0][:-2] for lane in links]
                 if startEdgeID not in links:
                     downEndEdge = edge
+                    flag2 = True
                     break
+        if not (flag1 and flag2):
+            continue
     else:
         continue
 
@@ -311,9 +329,6 @@ while curLinesNum < LINES_DEMAND:
     for edge in downEdges:
         downRouteLength+=traci.lane.getLength(edge+'_1')
     downDistanceBetweenStopsList = list(reversed([upDistanceBetweenStopsList[i]+int((downRouteLength-upRouteLength)/(stopNum-1)-20) for i in range(stopNum-1)]))
-    print('------------')
-    print(downDistanceBetweenStopsList)
-    print('------------')
     curDistanceBetweenStops = 0
     stopOnTheDownLane.append(downEdges[0]+'_1')
     downStopStartPos.append(0.)
@@ -334,7 +349,6 @@ while curLinesNum < LINES_DEMAND:
                 break
         
     if curStopIndex<len(downDistanceBetweenStopsList):
-        print(curStopIndex,stopNum)
         continue
 
         

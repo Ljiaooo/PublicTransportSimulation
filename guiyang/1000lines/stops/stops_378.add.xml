@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="378_0_00" name="双湖玉园" lane="529542938_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_01" name="贵州省财政干部培训中心" lane="529542938_1" startPos="1042.59" endPos="1052.59" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_02" name="中心环线" lane="529542955#1_1" startPos="431.99" endPos="441.99" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_03" name="鹿冲关森林公园文澜院" lane="504344547_1" startPos="75.39" endPos="85.39" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_04" name="咏聴亭" lane="824797894_1" startPos="530.82" endPos="540.82" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_05" name="阳关大道" lane="99295460_1" startPos="1021.78" endPos="1031.78" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_06" name="杨永权毛肚火锅(观山东路店)" lane="513377361#2_1" startPos="198.04" endPos="208.04" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_07" name="六角冲" lane="99295423_1" startPos="708.54" endPos="718.54" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_08" name="贵阳市社会保险收付管理中心" lane="99295442#2_1" startPos="213.89" endPos="223.89" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_09" name="中共阳关村支部委员会" lane="99295442#4_1" startPos="353.55" endPos="363.55" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_10" name="金阳餐厅(G210国道店)" lane="99295446#1_1" startPos="74.69" endPos="84.69" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_11" name="蓉荟印象花园餐厅(观山湖店)" lane="99301392#2_1" startPos="230.6" endPos="240.6" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_12" name="会展SOHO G座" lane="99303173#3_1" startPos="67.43" endPos="77.43" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_13" name="会展九号" lane="99303173#8_1" startPos="78.29" endPos="88.29" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_14" name="集翠亭" lane="99303173#9_1" startPos="507.36" endPos="517.36" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_15" name="一碗面小菜馆" lane="593486807_1" startPos="701.32" endPos="711.32" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_16" name="梁记遵义虾子羊肉粉(金阳·红街店)" lane="593486793#0_1" startPos="457.46" endPos="467.46" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_17" name="创媄化妆培训学校" lane="459589277#21_1" startPos="230.48" endPos="240.48" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_18" name="观山湖区富力中心A3座" lane="459589277#25_1" startPos="99.5" endPos="109.5" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_19" name="龙滩坝路" lane="262115014#1_1" startPos="261.74" endPos="271.74" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_20" name="中国航发贵阳发动机研究所" lane="262115014#5_1" startPos="388.35" endPos="398.35" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_21" name="观山湖区劳动保障综合行政执法大队" lane="220105622#19_1" startPos="459.32" endPos="469.32" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_22" name="观山湖区第四十四幼儿园" lane="220105609#7_1" startPos="1143.52" endPos="1153.52" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_23" name="启点辅导班" lane="220105609#9_1" startPos="1122.22" endPos="1132.22" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_24" name="兴田" lane="220105609#10_1" startPos="625.07" endPos="635.07" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_25" name="庆源山庄" lane="-241939327#0_1" startPos="2267.46" endPos="2277.46" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_26" name="乌当区农村信用联社" lane="-183196923#0_1" startPos="4433.52" endPos="4443.52" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_27" name="观山湖区百花湖镇人力资源和社会保障服务中心" lane="-56301908#1_1" startPos="3313.93" endPos="3323.93" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_28" name="梁子上" lane="589463495#1_1" startPos="860.94" endPos="870.94" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_0_29" name="百花湖村" lane="-589463495#1_1" startPos="847.68" endPos="857.68" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_00" name="百花湖村" lane="-589463493_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_01" name="梁子上" lane="56301908#1_1" startPos="626.6799999999998" endPos="636.6799999999998" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_02" name="观山湖区百花湖镇人力资源和社会保障服务中心" lane="183196926_1" startPos="0" endPos="10" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_03" name="乌当区农村信用联社" lane="183196923#0_1" startPos="1475.4300000000003" endPos="1485.4300000000003" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_04" name="庆源山庄" lane="241939327#0_1" startPos="1397.12" endPos="1407.12" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_05" name="兴田" lane="460330156#1_1" startPos="1313.98" endPos="1323.98" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_06" name="启点辅导班" lane="460330156#3_1" startPos="99.87" endPos="109.87" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_07" name="观山湖区第四十四幼儿园" lane="220105623#16_1" startPos="3.430000000000007" endPos="13.430000000000007" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_08" name="观山湖区劳动保障综合行政执法大队" lane="220105623#20_1" startPos="206.83999999999997" endPos="216.83999999999997" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_09" name="中国航发贵阳发动机研究所" lane="220105623#22_1" startPos="175.14" endPos="185.14" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_10" name="龙滩坝路" lane="220105623#26_1" startPos="313.25" endPos="323.25" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_11" name="观山湖区富力中心A3座" lane="220105623#27_1" startPos="0" endPos="10" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_12" name="创媄化妆培训学校" lane="220105614#9_1" startPos="157.10000000000002" endPos="167.10000000000002" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_13" name="梁记遵义虾子羊肉粉(金阳·红街店)" lane="220105614#10_1" startPos="314.15" endPos="324.15" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_14" name="一碗面小菜馆" lane="220105614#11_1" startPos="225.87" endPos="235.87" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_15" name="集翠亭" lane="220105614#14_1" startPos="241.51999999999998" endPos="251.51999999999998" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_16" name="会展九号" lane="220105614#17_1" startPos="88.67999999999995" endPos="98.67999999999995" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_17" name="会展SOHO G座" lane="220105614#18_1" startPos="0" endPos="10" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_18" name="蓉荟印象花园餐厅(观山湖店)" lane="1064429360_1" startPos="0.9200000000000159" endPos="10.920000000000016" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_19" name="金阳餐厅(G210国道店)" lane="1064429357#1_1" startPos="22.379999999999995" endPos="32.379999999999995" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_20" name="中共阳关村支部委员会" lane="1064429357#2_1" startPos="0" endPos="10" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_21" name="贵阳市社会保险收付管理中心" lane="352255223#24_1" startPos="298.58" endPos="308.58" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_22" name="六角冲" lane="352255223#28_1" startPos="134.54" endPos="144.54" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_23" name="杨永权毛肚火锅(观山东路店)" lane="352255223#32_1" startPos="217.97000000000003" endPos="227.97000000000003" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_24" name="阳关大道" lane="167994424#3_1" startPos="239.01" endPos="249.01" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_25" name="咏聴亭" lane="609517173#14_1" startPos="245.05" endPos="255.05" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_26" name="鹿冲关森林公园文澜院" lane="99322661#2_1" startPos="94.59" endPos="104.59" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_27" name="中心环线" lane="99322642_1" startPos="35.41999999999999" endPos="45.41999999999999" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_28" name="贵州省财政干部培训中心" lane="99322618#3_1" startPos="169.69" endPos="179.69" friendlyPos="True" lines="378" personCapacity="50"/>
+	<busStop id="378_1_29" name="双湖玉园" lane="673190199_1" startPos="199.92000000000002" endPos="209.92000000000002" friendlyPos="True" lines="378" personCapacity="50"/>
+</addition>

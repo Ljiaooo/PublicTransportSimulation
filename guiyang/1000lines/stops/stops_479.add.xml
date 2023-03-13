@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="479_0_00" name="阳关隧道" lane="504345249#0_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_01" name="诚根教育" lane="529549138_1" startPos="152.06" endPos="162.06" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_02" name="恒大帝景" lane="529545584_1" startPos="354.5" endPos="364.5" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_03" name="贵阳云岩馨悦烟酒店" lane="609510617#0_1" startPos="337.51" endPos="347.51" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_04" name="贵阳·黔灵山体育公园" lane="609510633_1" startPos="297.95" endPos="307.95" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_05" name="圣童幼儿园" lane="167994524_1" startPos="429.69" endPos="439.69" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_06" name="小帅雄奶茶店" lane="167994488_1" startPos="217.49" endPos="227.49" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_07" name="贵阳吉盛宾馆" lane="167994399_1" startPos="478.45" endPos="488.45" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_08" name="红馆STORY KTV(数博店)" lane="167994415_1" startPos="785.68" endPos="795.68" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_09" name="贵阳枫叶酒店" lane="167994455#0_1" startPos="437.17" endPos="447.17" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_10" name="虾王一绝" lane="167994455#3_1" startPos="464.03" endPos="474.03" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_11" name="圣马钛诺一艺术成长中心" lane="167994411#4_1" startPos="389.12" endPos="399.12" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_12" name="慕昔提咖啡(贵阳世纪城龙泽苑南区店)" lane="167994459#1_1" startPos="393.01" endPos="403.01" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_13" name="金阳南路" lane="167994459#5_1" startPos="195.36" endPos="205.36" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_14" name="花溪清汤鹅(中铁逸都店)" lane="823903432_1" startPos="590.29" endPos="600.29" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_15" name="绝味鸭脖(中铁逸都店)" lane="823903427#0_1" startPos="649.84" endPos="659.84" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_16" name="130县道" lane="823903427#5_1" startPos="430.86" endPos="440.86" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_17" name="贵阳西南国际商贸城1号广场" lane="541388363_1" startPos="357.1" endPos="367.1" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_18" name="中电建路桥集团有限公司贵阳交通枢纽项目" lane="609746143#0_1" startPos="361.97" endPos="371.97" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_19" name="治安岗亭101" lane="816610606#17_1" startPos="159.27" endPos="169.27" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_20" name="商城东路" lane="513403275_1" startPos="442.1" endPos="452.1" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_21" name="特色黑豆花" lane="593486799_1" startPos="187.12" endPos="197.12" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_22" name="中铁四局集团有限公司第八工程分工司" lane="513403272_1" startPos="400.06" endPos="410.06" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_23" name="金茂达物流(贵阳至浙江台州路阳物流)" lane="593486809_1" startPos="430.79" endPos="440.79" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_24" name="湖南电工三冠电瓶经销商" lane="459810937#0_1" startPos="1567.57" endPos="1577.57" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_25" name="贵阳银行贵阳宾阳大道支行" lane="459810937#1_1" startPos="593.98" endPos="603.98" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_26" name="贵阳悦城智慧物流园C区" lane="459810937#4_1" startPos="117.39" endPos="127.39" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_27" name="蒿芝塘" lane="459810937#8_1" startPos="537.4" endPos="547.4" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_28" name="林东小学" lane="542256132_1" startPos="844.27" endPos="854.27" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_29" name="贵阳电子职业学校(林东校区)" lane="542256133_1" startPos="862.22" endPos="872.22" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_0_30" name="贵阳悦城智慧物流园D区" lane="459810932#1_1" startPos="857.62" endPos="867.62" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_00" name="贵阳悦城智慧物流园D区" lane="-459810933#7_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_01" name="贵阳电子职业学校(林东校区)" lane="459810932#3_1" startPos="474.32000000000016" endPos="484.32000000000016" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_02" name="林东小学" lane="513403278_1" startPos="0" endPos="10" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_03" name="蒿芝塘" lane="513403274_1" startPos="28.560000000000002" endPos="38.56" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_04" name="贵阳悦城智慧物流园C区" lane="513403270_1" startPos="473.59000000000003" endPos="483.59000000000003" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_05" name="贵阳银行贵阳宾阳大道支行" lane="-541388360#1_1" startPos="193.79999999999995" endPos="203.79999999999995" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_06" name="湖南电工三冠电瓶经销商" lane="609746145_1" startPos="0" endPos="10" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_07" name="金茂达物流(贵阳至浙江台州路阳物流)" lane="385774306#4_1" startPos="28.54" endPos="38.54" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_08" name="中铁四局集团有限公司第八工程分工司" lane="385774306#7_1" startPos="342.20000000000005" endPos="352.20000000000005" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_09" name="特色黑豆花" lane="385774306#8_1" startPos="192.92000000000002" endPos="202.92000000000002" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_10" name="商城东路" lane="823903434_1" startPos="195.58000000000004" endPos="205.58000000000004" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_11" name="治安岗亭101" lane="823903430_1" startPos="0" endPos="10" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_12" name="中电建路桥集团有限公司贵阳交通枢纽项目" lane="823903429#3_1" startPos="37.73000000000002" endPos="47.73000000000002" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_13" name="贵阳西南国际商贸城1号广场" lane="823903429#4_1" startPos="112.49000000000001" endPos="122.49000000000001" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_14" name="130县道" lane="167994417#1_1" startPos="221.37" endPos="231.37" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_15" name="绝味鸭脖(中铁逸都店)" lane="670968935#1_1" startPos="132.26" endPos="142.26" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_16" name="花溪清汤鹅(中铁逸都店)" lane="211701764#12_1" startPos="242.70999999999998" endPos="252.70999999999998" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_17" name="金阳南路" lane="1064429357#7_1" startPos="272.09000000000003" endPos="282.09000000000003" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_18" name="慕昔提咖啡(贵阳世纪城龙泽苑南区店)" lane="1064429357#8_1" startPos="0" endPos="10" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_19" name="圣马钛诺一艺术成长中心" lane="609517174#0_1" startPos="191.13" endPos="201.13" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_20" name="虾王一绝" lane="609517174#3_1" startPos="119.75" endPos="129.75" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_21" name="贵阳枫叶酒店" lane="220105618_1" startPos="28.799999999999955" endPos="38.799999999999955" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_22" name="红馆STORY KTV(数博店)" lane="220105633_1" startPos="0" endPos="10" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_23" name="贵阳吉盛宾馆" lane="306468086_1" startPos="443.70000000000005" endPos="453.70000000000005" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_24" name="小帅雄奶茶店" lane="504270396#1_1" startPos="6.910000000000025" endPos="16.910000000000025" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_25" name="圣童幼儿园" lane="504270396#2_1" startPos="85.29" endPos="95.29" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_26" name="贵阳·黔灵山体育公园" lane="609515559#0_1" startPos="29.46" endPos="39.46" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_27" name="贵阳云岩馨悦烟酒店" lane="529542947_1" startPos="62.569999999999936" endPos="72.56999999999994" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_28" name="恒大帝景" lane="529542943_1" startPos="0" endPos="10" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_29" name="诚根教育" lane="529542934_1" startPos="0" endPos="10" friendlyPos="True" lines="479" personCapacity="50"/>
+	<busStop id="479_1_30" name="阳关隧道" lane="504345249#0_1" startPos="0" endPos="10" friendlyPos="True" lines="479" personCapacity="50"/>
+</addition>

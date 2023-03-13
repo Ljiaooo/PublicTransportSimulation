@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="781_0_00" name="贵阳铁路工程学校&amp;贵阳铁路高级技工学校实习工厂" lane="-593486785_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_01" name="龙源宾馆" lane="-593486785_1" startPos="705.34" endPos="715.34" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_02" name="中国石油三桥加油站(黔城美景东南)" lane="593486785_1" startPos="698.73" endPos="708.73" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_03" name="SOHO" lane="-504937615#0_1" startPos="409.24" endPos="419.24" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_04" name="三桥金山黑山羊肉粉" lane="504939367#1_1" startPos="103.77" endPos="113.77" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_05" name="圣泉酒店(三桥店)" lane="609521466#1_1" startPos="355.92" endPos="365.92" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_06" name="中国建设银行(三桥支行)" lane="609521466#2_1" startPos="511.20000000000005" endPos="521.2" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_07" name="中山中路" lane="505047009_1" startPos="1311.78" endPos="1321.78" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_08" name="合众七月螺蛳粉" lane="315753867#2_1" startPos="109.77" endPos="119.77" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_09" name="马妹餐馆" lane="315753867#4_1" startPos="358.75" endPos="368.75" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_10" name="金竹路" lane="200886891_1" startPos="610.4" endPos="620.4" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_11" name="云上小座 (屋顶花园烧烤)" lane="200886892_1" startPos="229.45" endPos="239.45" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_12" name="贵阳市渣土管理处" lane="200886893_1" startPos="503.09000000000003" endPos="513.09" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_13" name="上坝" lane="200886889#0_1" startPos="2109.46" endPos="2119.46" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_14" name="稻香路" lane="200886889#2_1" startPos="1187.28" endPos="1197.28" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_15" name="贵州省农科院研究生公寓" lane="824309278#0_1" startPos="100.92" endPos="110.92" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_16" name="旺民路" lane="588160561#2_1" startPos="1512.86" endPos="1522.86" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_17" name="龙湖·景粼天著·印月阑" lane="460189431#0_1" startPos="197.08" endPos="207.08" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_18" name="湖山原著" lane="460189431#1_1" startPos="854.28" endPos="864.28" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_19" name="大职路立交(公交站)" lane="460189431#3_1" startPos="422.5" endPos="432.5" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_20" name="武汉佳诚汇然建材有限公司花溪分公司" lane="281528786#0_1" startPos="597.67" endPos="607.67" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_21" name="贵州大学扩建二期安置房(建设中)" lane="720182334#0_1" startPos="264.86" endPos="274.86" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_22" name="贵州大学计算机辅助普通话水平测试点" lane="720182334#2_1" startPos="39.33" endPos="49.33" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_23" name="春风东路" lane="609725239_1" startPos="213.9" endPos="223.9" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_24" name="机械工程学院实验楼" lane="609725241#0_1" startPos="484.53" endPos="494.53" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_25" name="贵州省职工医院发热门诊" lane="593434695#1_1" startPos="368.27" endPos="378.27" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_26" name="劲道·重庆小面" lane="593434695#2_1" startPos="569.63" endPos="579.63" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_27" name="贵大螺蛳粉(贵大总店)" lane="284604202#1_1" startPos="417.57" endPos="427.57" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_28" name="花溪国家城市湿地公园" lane="284604202#2_1" startPos="632.87" endPos="642.87" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_0_29" name="贵州大学-乐器培训中心" lane="-284604202#2_1" startPos="636.53" endPos="646.53" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_00" name="贵州大学-乐器培训中心" lane="284604202#1_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_01" name="花溪国家城市湿地公园" lane="284604202#2_1" startPos="604.87" endPos="614.87" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_02" name="贵大螺蛳粉(贵大总店)" lane="-284604202#2_1" startPos="562.53" endPos="572.53" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_03" name="劲道·重庆小面" lane="593434692#0_1" startPos="0.5" endPos="10.5" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_04" name="贵州省职工医院发热门诊" lane="593434728#2_1" startPos="26.30000000000001" endPos="36.30000000000001" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_05" name="机械工程学院实验楼" lane="588154882#2_1" startPos="80.51999999999998" endPos="90.51999999999998" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_06" name="春风东路" lane="588154887#1_1" startPos="250.36" endPos="260.36" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_07" name="贵州大学计算机辅助普通话水平测试点" lane="609725240_1" startPos="134.22" endPos="144.22" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_08" name="贵州大学扩建二期安置房(建设中)" lane="609725238#1_1" startPos="85.74000000000001" endPos="95.74000000000001" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_09" name="武汉佳诚汇然建材有限公司花溪分公司" lane="609725238#2_1" startPos="125.30000000000001" endPos="135.3" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_10" name="大职路立交(公交站)" lane="720182332#1_1" startPos="261.29" endPos="271.29" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_11" name="湖山原著" lane="281528792#0_1" startPos="112.95999999999998" endPos="122.95999999999998" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_12" name="龙湖·景粼天著·印月阑" lane="281528792#2_1" startPos="115.34000000000003" endPos="125.34000000000003" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_13" name="旺民路" lane="281528792#3_1" startPos="72.24000000000001" endPos="82.24000000000001" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_14" name="贵州省农科院研究生公寓" lane="460189432#1_1" startPos="1395.17" endPos="1405.17" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_15" name="稻香路" lane="588160564#0_1" startPos="12.340000000000003" endPos="22.340000000000003" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_16" name="上坝" lane="824309276#1_1" startPos="713.74" endPos="723.74" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_17" name="贵阳市渣土管理处" lane="824309276#2_1" startPos="1169.16" endPos="1179.16" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_18" name="云上小座 (屋顶花园烧烤)" lane="749300753_1" startPos="0" endPos="10" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_19" name="金竹路" lane="824309283_1" startPos="0" endPos="10" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_20" name="马妹餐馆" lane="200886886_1" startPos="76.39999999999998" endPos="86.39999999999998" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_21" name="合众七月螺蛳粉" lane="200886887_1" startPos="213.62" endPos="223.62" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_22" name="中山中路" lane="200886894#0_1" startPos="53.77999999999997" endPos="63.77999999999997" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_23" name="中国建设银行(三桥支行)" lane="315753901#2_1" startPos="171.77999999999997" endPos="181.77999999999997" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_24" name="圣泉酒店(三桥店)" lane="100463950#0_1" startPos="0" endPos="10" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_25" name="三桥金山黑山羊肉粉" lane="100463950#1_1" startPos="0" endPos="10" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_26" name="SOHO" lane="100463941#1_1" startPos="227.58999999999997" endPos="237.58999999999997" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_27" name="中国石油三桥加油站(黔城美景东南)" lane="100463941#3_1" startPos="214.97000000000003" endPos="224.97000000000003" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_28" name="龙源宾馆" lane="100463941#4_1" startPos="580.07" endPos="590.07" friendlyPos="True" lines="781" personCapacity="50"/>
+	<busStop id="781_1_29" name="贵阳铁路工程学校&amp;贵阳铁路高级技工学校实习工厂" lane="504937611#1_1" startPos="63.5" endPos="73.5" friendlyPos="True" lines="781" personCapacity="50"/>
+</addition>

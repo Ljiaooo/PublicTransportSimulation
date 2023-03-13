@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="466_0_00" name="软哨豆米火锅" lane="-749270114_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_01" name="贵佳粽子" lane="749270150#1_1" startPos="186.68" endPos="196.68" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_02" name="回春堂理疗康复中心" lane="100463941#4_1" startPos="753.07" endPos="763.07" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_03" name="金源通风设备经营部" lane="99322579_1" startPos="163.76" endPos="173.76" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_04" name="马王街" lane="99322604#4_1" startPos="636.19" endPos="646.19" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_05" name="民间中草药专治疑难杂症" lane="99322604#5_1" startPos="533.12" endPos="543.12" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_06" name="金关巷" lane="99322604#7_1" startPos="351.65" endPos="361.65" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_07" name="贵阳市龙港春晖学校家长学校" lane="99322604#11_1" startPos="125.27000000000001" endPos="135.27" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_08" name="金源街" lane="220105643#0_1" startPos="763.78" endPos="773.78" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_09" name="ZMAX HOTELS(贵阳世纪城店)" lane="220105643#4_1" startPos="416.94" endPos="426.94" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_10" name="老伍烧烤" lane="220105643#5_1" startPos="449.55" endPos="459.55" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_11" name="野鸭" lane="220105643#6_1" startPos="392.84" endPos="402.84" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_12" name="龙阁惠文化传播有限公司" lane="220105643#8_1" startPos="760.54" endPos="770.54" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_13" name="苗香一锅牛(中铁·逸都国际店)" lane="220105643#9_1" startPos="522.19" endPos="532.19" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_14" name="贵州开放大学(新校区)" lane="823903427#0_1" startPos="649.84" endPos="659.84" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_15" name="中国石化贵阳白云小箐加油站" lane="823903427#5_1" startPos="430.86" endPos="440.86" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_16" name="常寿堂" lane="823903427#7_1" startPos="325.03" endPos="335.03" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_17" name="北京西路" lane="385774340_1" startPos="251.07999999999998" endPos="261.08" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_18" name="豆腐皮火锅" lane="183172156_1" startPos="428.38" endPos="438.38" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_19" name="商城西路" lane="230718075#0_1" startPos="270.68" endPos="280.68" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_20" name="金阳客车站(进站口)" lane="183172135#0_1" startPos="97.81" endPos="107.81" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_21" name="绘艺源书画中心" lane="183172135#2_1" startPos="88.48" endPos="98.48" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_22" name="摆岗坡隧道" lane="183172133_1" startPos="283.45" endPos="293.45" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_23" name="心邻小屋-何官小学心理服务站" lane="183172129_1" startPos="715.71" endPos="725.71" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_24" name="观山湖区上枧安置房" lane="750753093_1" startPos="771.77" endPos="781.77" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_25" name="贵阳市观山湖区第十小学" lane="230719986_1" startPos="441.19" endPos="451.19" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_26" name="温馨家园" lane="230719976_1" startPos="169.15" endPos="179.15" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_27" name="眸明视力调理养护中心(林东店)" lane="230719979_1" startPos="214.32" endPos="224.32" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_28" name="蒿芝村" lane="230719960#0_1" startPos="402.93" endPos="412.93" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_0_29" name="清镇市公安局交通警察大队交通违法处理窗口" lane="230719960#1_1" startPos="530.38" endPos="540.38" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_00" name="清镇市公安局交通警察大队交通违法处理窗口" lane="948687066_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_01" name="蒿芝村" lane="230719988_1" startPos="228.62" endPos="238.62" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_02" name="眸明视力调理养护中心(林东店)" lane="230719961_1" startPos="666.29" endPos="676.29" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_03" name="温馨家园" lane="673660921_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_04" name="贵阳市观山湖区第十小学" lane="673660920_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_05" name="观山湖区上枧安置房" lane="215575122#1_1" startPos="19.519999999999982" endPos="29.519999999999982" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_06" name="心邻小屋-何官小学心理服务站" lane="215575120_1" startPos="582.6" endPos="592.6" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_07" name="摆岗坡隧道" lane="673660919_1" startPos="903.0500000000002" endPos="913.0500000000002" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_08" name="绘艺源书画中心" lane="230719982_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_09" name="金阳客车站(进站口)" lane="230719959#0_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_10" name="商城西路" lane="230719959#1_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_11" name="豆腐皮火锅" lane="230719959#2_1" startPos="173.99" endPos="183.99" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_12" name="北京西路" lane="230719984_1" startPos="18.04000000000002" endPos="28.04000000000002" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_13" name="常寿堂" lane="230719981_1" startPos="410.81" endPos="420.81" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_14" name="中国石化贵阳白云小箐加油站" lane="230719958_1" startPos="750.01" endPos="760.01" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_15" name="贵州开放大学(新校区)" lane="948686999_1" startPos="715.82" endPos="725.82" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_16" name="苗香一锅牛(中铁·逸都国际店)" lane="230718081#0_1" startPos="27.440000000000055" endPos="37.440000000000055" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_17" name="龙阁惠文化传播有限公司" lane="183172279#0_1" startPos="32.139999999999986" endPos="42.139999999999986" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_18" name="野鸭" lane="183172284#2_1" startPos="79.20999999999998" endPos="89.20999999999998" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_19" name="老伍烧烤" lane="178859719_1" startPos="11.520000000000437" endPos="21.520000000000437" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_20" name="ZMAX HOTELS(贵阳世纪城店)" lane="671324048_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_21" name="金源街" lane="671324047_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_22" name="贵阳市龙港春晖学校家长学校" lane="406644759#0_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_23" name="金关巷" lane="406644759#1_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_24" name="民间中草药专治疑难杂症" lane="406644761_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_25" name="马王街" lane="385774284#0_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_26" name="金源通风设备经营部" lane="99821268#0_1" startPos="267.20000000000005" endPos="277.20000000000005" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_27" name="回春堂理疗康复中心" lane="100463968_1" startPos="0" endPos="10" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_28" name="贵佳粽子" lane="749270114_1" startPos="37.489999999999995" endPos="47.489999999999995" friendlyPos="True" lines="466" personCapacity="50"/>
+	<busStop id="466_1_29" name="软哨豆米火锅" lane="749270149_1" startPos="702.93" endPos="712.93" friendlyPos="True" lines="466" personCapacity="50"/>
+</addition>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addition>
+	<busStop id="581_0_00" name="龙泉村" lane="670968934#1_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_01" name="观山小区12号" lane="670968934#2_1" startPos="193.2" endPos="203.2" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_02" name="兴义路" lane="262115009#1_1" startPos="122.16" endPos="132.16" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_03" name="恩喜整形医院" lane="504658997#0_1" startPos="218.09" endPos="228.09" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_04" name="中关村贵阳科技园" lane="211701764#18_1" startPos="419.05" endPos="429.05" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_05" name="贵州龙(会展城店)" lane="211701764#21_1" startPos="1039.95" endPos="1049.95" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_06" name="蓉荟印象花园餐厅(观山湖店)" lane="593486828#4_1" startPos="300.26" endPos="310.26" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_07" name="京榜北京烤鸭(美的林城店)" lane="99303170#1_1" startPos="126.28999999999999" endPos="136.29" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_08" name="长岭街道社区卫生服务中心新冠疫苗接种点" lane="99301362_1" startPos="178.25" endPos="188.25" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_09" name="腾云画室" lane="99301333#2_1" startPos="105.65" endPos="115.65" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_10" name="韵Live show" lane="183196947_1" startPos="541.16" endPos="551.16" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_11" name="尚客优精选酒店(贵阳观山湖会展城金融城店)" lane="542263935#0_1" startPos="732.03" endPos="742.03" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_12" name="刘幺嬢清水烫麻辣烫(金融城店)" lane="459628530#2_1" startPos="112.79" endPos="122.79" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_13" name="白云区气象局" lane="230721060_1" startPos="1092.23" endPos="1102.23" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_14" name="贵阳白云占杰机械配件厂" lane="948591836#0_1" startPos="875.54" endPos="885.54" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_15" name="七笼饺" lane="230721074_1" startPos="2005.51" endPos="2015.51" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_16" name="黔坤文化" lane="230721043_1" startPos="614.03" endPos="624.03" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_17" name="中共冷水村支部委员会" lane="99160997_1" startPos="635.47" endPos="645.47" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_18" name="G6002贵阳绕城高速" lane="503904778_1" startPos="936.93" endPos="946.93" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_19" name="都新派出所铁路警务室" lane="503904776_1" startPos="646.33" endPos="656.33" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_20" name="都拉幼儿园校园警务室" lane="503904768#1_1" startPos="632.59" endPos="642.59" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_21" name="保税区出口(G6002贵阳绕城高速东向)" lane="503904768#2_1" startPos="629.16" endPos="639.16" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_22" name="车辆厂幼儿园" lane="542437394_1" startPos="630.66" endPos="640.66" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_23" name="伴山别院餐厅" lane="459619807_1" startPos="352.72" endPos="362.72" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_24" name="火石坡" lane="548975975_1" startPos="688.22" endPos="698.22" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_25" name="保利·公园央玺组团" lane="816466208_1" startPos="369.37" endPos="379.37" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_26" name="G6002贵阳绕城高速入口(凯里方向)" lane="503745905#0_1" startPos="398.4" endPos="408.4" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_27" name="G6002贵阳绕城高速入口(安顺方向)" lane="503745905#2_1" startPos="26.090000000000003" endPos="36.09" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_28" name="东盟营造公司" lane="609749769_1" startPos="351.55" endPos="361.55" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_0_29" name="友联精机产业园" lane="609749775#2_1" startPos="2515.86" endPos="2525.86" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_00" name="友联精机产业园" lane="720166163_1" startPos="0.0" endPos="10.0" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_01" name="东盟营造公司" lane="609749743#1_1" startPos="2116.71" endPos="2126.71" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_02" name="G6002贵阳绕城高速入口(安顺方向)" lane="609749770_1" startPos="0" endPos="10" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_03" name="G6002贵阳绕城高速入口(凯里方向)" lane="609749767#1_1" startPos="329.63" endPos="339.63" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_04" name="保利·公园央玺组团" lane="548975974_1" startPos="77.75" endPos="87.75" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_05" name="火石坡" lane="609749778_1" startPos="0" endPos="10" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_06" name="伴山别院餐厅" lane="816466205_1" startPos="161.84000000000003" endPos="171.84000000000003" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_07" name="车辆厂幼儿园" lane="503745909_1" startPos="112.13" endPos="122.13" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_08" name="保税区出口(G6002贵阳绕城高速东向)" lane="542437395_1" startPos="408.30999999999995" endPos="418.30999999999995" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_09" name="都拉幼儿园校园警务室" lane="99160921#0_1" startPos="564.78" endPos="574.78" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_10" name="都新派出所铁路警务室" lane="99160921#1_1" startPos="351.33" endPos="361.33" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_11" name="G6002贵阳绕城高速" lane="672832974_1" startPos="280.28" endPos="290.28" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_12" name="中共冷水村支部委员会" lane="672832972_1" startPos="830.02" endPos="840.02" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_13" name="黔坤文化" lane="672832970_1" startPos="368.57" endPos="378.57" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_14" name="七笼饺" lane="167939705#1_1" startPos="64.44" endPos="74.44" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_15" name="贵阳白云占杰机械配件厂" lane="230721072_1" startPos="1567.01" endPos="1577.01" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_16" name="白云区气象局" lane="948591837#1_1" startPos="196.37" endPos="206.37" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_17" name="刘幺嬢清水烫麻辣烫(金融城店)" lane="230721062_1" startPos="440.1400000000001" endPos="450.1400000000001" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_18" name="尚客优精选酒店(贵阳观山湖会展城金融城店)" lane="230721065_1" startPos="0" endPos="10" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_19" name="韵Live show" lane="542263934#1_1" startPos="172.14" endPos="182.14" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_20" name="腾云画室" lane="230721058_1" startPos="39.49000000000001" endPos="49.49000000000001" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_21" name="长岭街道社区卫生服务中心新冠疫苗接种点" lane="99301388#0_1" startPos="0" endPos="10" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_22" name="京榜北京烤鸭(美的林城店)" lane="99301392#1_1" startPos="7.430000000000007" endPos="17.430000000000007" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_23" name="蓉荟印象花园餐厅(观山湖店)" lane="99303173#2_1" startPos="2.5800000000000125" endPos="12.580000000000013" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_24" name="贵州龙(会展城店)" lane="352255223#15_1" startPos="265.45000000000005" endPos="275.45000000000005" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_25" name="中关村贵阳科技园" lane="352255223#18_1" startPos="67.13999999999999" endPos="77.13999999999999" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_26" name="恩喜整形医院" lane="352255223#20_1" startPos="119.27999999999997" endPos="129.27999999999997" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_27" name="兴义路" lane="352255223#24_1" startPos="81.57999999999998" endPos="91.57999999999998" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_28" name="观山小区12号" lane="670965292#3_1" startPos="101.68" endPos="111.68" friendlyPos="True" lines="581" personCapacity="50"/>
+	<busStop id="581_1_29" name="龙泉村" lane="-944254657#1_1" startPos="7.720000000000027" endPos="17.720000000000027" friendlyPos="True" lines="581" personCapacity="50"/>
+</addition>
